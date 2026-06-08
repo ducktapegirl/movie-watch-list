@@ -5,69 +5,21 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import google.auth.transport.requests
-from google.oauth2.credentials import Credentials
 import requests
 from jinja2 import Environment, FileSystemLoader
 
 TMDB_BASE = "https://api.themoviedb.org/3"
 TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p/original"
-KEEP_API = "https://keep.googleapis.com/v1"
-KEEP_NOTE_TITLE = os.environ.get("KEEP_NOTE_TITLE") or "Movies to Watch"
 TMDB_API_KEY = os.environ["TMDB_API_KEY"]
 HULU_ID = 15
 HULU_LIVE_TV_ID = 381
 
 
-def _keep_access_token():
-    creds = Credentials(
-        token=None,
-        refresh_token=os.environ["GOOGLE_REFRESH_TOKEN"],
-        client_id=os.environ["GOOGLE_CLIENT_ID"],
-        client_secret=os.environ["GOOGLE_CLIENT_SECRET"],
-        token_uri="https://oauth2.googleapis.com/token",
-        scopes=["https://www.googleapis.com/auth/keep.readonly"],
-    )
-    creds.refresh(google.auth.transport.requests.Request())
-    return creds.token
-
-
 def fetch_movie_list():
-    token = _keep_access_token()
-    headers = {"Authorization": f"Bearer {token}"}
-
-    page_token = None
-    while True:
-        params = {"pageSize": 100}
-        if page_token:
-            params["pageToken"] = page_token
-        r = requests.get(f"{KEEP_API}/notes", headers=headers, params=params, timeout=10)
-        r.raise_for_status()
-        data = r.json()
-
-        for note in data.get("notes", []):
-            if note.get("trashed"):
-                continue
-            if note.get("title", "").lower() == KEEP_NOTE_TITLE.lower():
-                body = note.get("body", {})
-                if "listContent" in body:
-                    return [
-                        item["text"].strip()
-                        for item in body["listContent"].get("listItems", [])
-                        if not item.get("checked", False) and item.get("text", "").strip()
-                    ]
-                if "text" in body:
-                    return [
-                        line.strip()
-                        for line in body["text"].get("text", "").splitlines()
-                        if line.strip()
-                    ]
-
-        page_token = data.get("nextPageToken")
-        if not page_token:
-            break
-
-    sys.exit(f"Keep note '{KEEP_NOTE_TITLE}' not found.")
+    url = os.environ["GIST_URL"]
+    r = requests.get(url, timeout=10)
+    r.raise_for_status()
+    return [line.strip() for line in r.text.splitlines() if line.strip()]
 
 
 def tmdb_search(title):
@@ -122,7 +74,7 @@ def build_data(movies):
 
 
 def main():
-    print(f"Reading Keep note: '{KEEP_NOTE_TITLE}'")
+    print("Fetching movie list from Gist...")
     movies = fetch_movie_list()
     print(f"Found {len(movies)} movies. Fetching streaming data...")
 
@@ -140,7 +92,7 @@ def main():
     template = env.get_template("template.html")
     (out_dir / "index.html").write_text(template.render(movies=data, updated_at=updated_at))
 
-    print(f"Done → docs/index.html ({len(data)} movies)")
+    print(f"Done - docs/index.html ({len(data)} movies)")
 
 
 if __name__ == "__main__":
