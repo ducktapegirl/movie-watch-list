@@ -19,7 +19,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: uv pip install -r scripts/requirements.txt --system
+        run: uv sync
 
       - name: Generate streaming data
         env:
@@ -28,7 +28,7 @@ jobs:
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
           KEEP_NOTE_TITLE: ${{ vars.KEEP_NOTE_TITLE }}
-        run: python scripts/generate.py
+        run: uv run python scripts/generate.py
 
       - name: Commit and push
         run: |
