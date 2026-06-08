@@ -47,6 +47,13 @@ Actions will be forced to run with Node.js 24 by default starting June 16th, 202
 
 ---
 
+## UI tweaks wanted
+
+- Alternating row colors on the table
+- New page title (user to specify what they want it changed to)
+
+---
+
 ## Open questions / things to explore next
 
 ### 1. Movie list data source
