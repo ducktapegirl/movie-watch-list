@@ -4,7 +4,7 @@ Reads your Google Keep movie watchlist, checks which streaming services have eac
 
 ## How It Works
 
-1. GitHub Actions reads your Keep checklist using [gkeepapi](https://github.com/kiwiz/gkeepapi)
+1. GitHub Actions reads your Keep checklist using the [official Google Keep API](https://developers.google.com/workspace/keep/api/reference/rest)
 2. For each movie it queries [TMDB](https://www.themoviedb.org) for US streaming availability (data from JustWatch)
 3. Results are rendered as `docs/index.html` and committed back to the repo
 4. GitHub Pages serves the page
@@ -20,14 +20,31 @@ Reads your Google Keep movie watchlist, checks which streaming services have eac
 3. Select **Developer**, fill out the short form
 4. Copy the **API Key (v3 auth)** — it looks like a short alphanumeric string
 
-### 2. Get a Google App Password
+### 2. Set up Google Keep API access
 
-gkeepapi signs in with your Google account. If you have 2-Step Verification (you should), you need an App Password instead of your regular password.
+#### a. Create a Google Cloud project and enable the Keep API
 
-1. Go to [myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords)
-2. Sign in if prompted, then enable 2-Step Verification if not already on
-3. Under **App name**, type `Movie Watchlist` and click **Create**
-4. Copy the 16-character password shown (no spaces)
+1. Go to [console.cloud.google.com](https://console.cloud.google.com) and create a new project (or select an existing one)
+2. Go to **APIs & Services → Library**, search for **Google Keep API**, and click **Enable**
+
+#### b. Create OAuth 2.0 credentials
+
+1. Go to **APIs & Services → Credentials → Create Credentials → OAuth client ID**
+2. If prompted, configure the OAuth consent screen first:
+   - User type: **External**; fill in app name and your email; no scopes needed on this screen
+3. Application type: **Desktop app** → name it anything → **Create**
+4. Click **Download JSON** on the newly created credential — save it as `credentials.json`
+
+#### c. Run the one-time auth script locally
+
+You need Python 3.10+ and the dependencies installed:
+
+```bash
+pip install google-auth-oauthlib
+python scripts/auth_keep.py
+```
+
+A browser window will open. Sign in with your Google account and grant access. The script prints three values — copy them.
 
 ### 3. Add GitHub Secrets
 
@@ -36,8 +53,9 @@ In your GitHub repo: **Settings → Secrets and variables → Actions → New re
 | Secret name | Value |
 |---|---|
 | `TMDB_API_KEY` | Your TMDB API Key (v3 auth) |
-| `GOOGLE_EMAIL` | Your Gmail address |
-| `GOOGLE_APP_PASSWORD` | The 16-character App Password from step 2 |
+| `GOOGLE_CLIENT_ID` | Printed by `auth_keep.py` |
+| `GOOGLE_CLIENT_SECRET` | Printed by `auth_keep.py` |
+| `GOOGLE_REFRESH_TOKEN` | Printed by `auth_keep.py` |
 
 ### 4. Set your Keep note title (if needed)
 

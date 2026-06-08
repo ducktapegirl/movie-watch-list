@@ -24,10 +24,10 @@ jobs:
       - name: Generate streaming data
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-          GOOGLE_EMAIL: ${{ secrets.GOOGLE_EMAIL }}
-          GOOGLE_APP_PASSWORD: ${{ secrets.GOOGLE_APP_PASSWORD }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
           KEEP_NOTE_TITLE: ${{ vars.KEEP_NOTE_TITLE }}
-          PYTHON_KEYRING_BACKEND: keyring.backends.null.Keyring
         run: python scripts/generate.py
 
       - name: Commit and push
