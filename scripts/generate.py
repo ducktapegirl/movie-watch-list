@@ -5,43 +5,69 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import gkeepapi
+import google.auth.transport.requests
+from google.oauth2.credentials import Credentials
 import requests
 from jinja2 import Environment, FileSystemLoader
 
 TMDB_BASE = "https://api.themoviedb.org/3"
 TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p/original"
+KEEP_API = "https://keep.googleapis.com/v1"
 KEEP_NOTE_TITLE = os.environ.get("KEEP_NOTE_TITLE") or "Movies to Watch"
 TMDB_API_KEY = os.environ["TMDB_API_KEY"]
 HULU_ID = 15
 HULU_LIVE_TV_ID = 381
 
 
+def _keep_access_token():
+    creds = Credentials(
+        token=None,
+        refresh_token=os.environ["GOOGLE_REFRESH_TOKEN"],
+        client_id=os.environ["GOOGLE_CLIENT_ID"],
+        client_secret=os.environ["GOOGLE_CLIENT_SECRET"],
+        token_uri="https://oauth2.googleapis.com/token",
+        scopes=["https://www.googleapis.com/auth/keep.readonly"],
+    )
+    creds.refresh(google.auth.transport.requests.Request())
+    return creds.token
+
+
 def fetch_movie_list():
-    keep = gkeepapi.Keep()
-    email = os.environ["GOOGLE_EMAIL"]
-    password = os.environ["GOOGLE_APP_PASSWORD"]
+    token = _keep_access_token()
+    headers = {"Authorization": f"Bearer {token}"}
 
-    try:
-        keep.login(email, password)
-    except Exception as e:
-        sys.exit(f"Google Keep login failed: {e}")
+    page_token = None
+    while True:
+        params = {"pageSize": 100}
+        if page_token:
+            params["pageToken"] = page_token
+        r = requests.get(f"{KEEP_API}/notes", headers=headers, params=params, timeout=10)
+        r.raise_for_status()
+        data = r.json()
 
-    for note in keep.all():
-        if note.archived or note.trashed:
-            continue
-        if note.title.lower() == KEEP_NOTE_TITLE.lower():
-            if hasattr(note, "items"):
-                return [
-                    item.text.strip()
-                    for item in note.items
-                    if not item.checked and item.text.strip()
-                ]
-            else:
-                return [line.strip() for line in note.text.splitlines() if line.strip()]
+        for note in data.get("notes", []):
+            if note.get("trashed"):
+                continue
+            if note.get("title", "").lower() == KEEP_NOTE_TITLE.lower():
+                body = note.get("body", {})
+                if "listContent" in body:
+                    return [
+                        item["text"].strip()
+                        for item in body["listContent"].get("listItems", [])
+                        if not item.get("checked", False) and item.get("text", "").strip()
+                    ]
+                if "text" in body:
+                    return [
+                        line.strip()
+                        for line in body["text"].get("text", "").splitlines()
+                        if line.strip()
+                    ]
 
-    available = [n.title for n in keep.all() if n.title and not n.archived and not n.trashed]
-    sys.exit(f"Keep note '{KEEP_NOTE_TITLE}' not found.\nAvailable note titles: {available}")
+        page_token = data.get("nextPageToken")
+        if not page_token:
+            break
+
+    sys.exit(f"Keep note '{KEEP_NOTE_TITLE}' not found.")
 
 
 def tmdb_search(title):
