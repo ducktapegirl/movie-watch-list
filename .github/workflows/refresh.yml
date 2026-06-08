@@ -1,0 +1,39 @@
+name: Refresh Streaming Data
+
+on:
+  schedule:
+    - cron: '0 4 * * *'  # daily at 4am UTC (midnight ET)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Generate streaming data
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          GOOGLE_EMAIL: ${{ secrets.GOOGLE_EMAIL }}
+          GOOGLE_APP_PASSWORD: ${{ secrets.GOOGLE_APP_PASSWORD }}
+          KEEP_NOTE_TITLE: ${{ vars.KEEP_NOTE_TITLE }}
+          PYTHON_KEYRING_BACKEND: keyring.backends.null.Keyring
+        run: python scripts/generate.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git diff --cached --quiet || git commit -m "chore: refresh streaming data"
+          git push
