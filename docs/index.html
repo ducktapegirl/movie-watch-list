@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Movie Watchlist</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px;
+    color: #1a1a1a;
+    background: #f5f5f5;
+    padding: 1rem;
+  }
+  .container { max-width: 600px; margin: 0 auto; }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  h1 { font-size: 1.2rem; font-weight: 700; }
+  .header-right { text-align: right; flex-shrink: 0; }
+  .updated { font-size: 0.75rem; color: #888; }
+  .refresh {
+    display: inline-block;
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+    color: #0066cc;
+    text-decoration: none;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,.08);
+  }
+  th {
+    text-align: left;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    color: #888;
+    background: #f0f0f0;
+    padding: .5rem .75rem;
+  }
+  td {
+    padding: .6rem .75rem;
+    border-top: 1px solid #f0f0f0;
+    vertical-align: middle;
+  }
+  .movie-title { font-size: 0.9rem; font-weight: 500; }
+  .providers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: flex-start;
+  }
+  .provider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+  .provider img {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    display: block;
+  }
+  .provider-note {
+    font-size: 0.58rem;
+    color: #888;
+    text-align: center;
+    line-height: 1.2;
+    max-width: 44px;
+    word-break: break-word;
+  }
+  .none { color: #ccc; font-size: 0.85rem; }
+  footer {
+    margin-top: .75rem;
+    font-size: .7rem;
+    color: #bbb;
+    text-align: center;
+  }
+  footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Movie Watchlist</h1>
+    <div class="header-right">
+      <div class="updated">Updated Jun 8, 2026, 12:00 AM UTC</div>
+      <a class="refresh" href="https://github.com/ducktapegirl/movie-watch-list/actions/workflows/refresh.yml" target="_blank" rel="noopener">↻ Refresh</a>
+    </div>
+  </header>
+  <table>
+    <thead>
+      <tr><th>Movie</th><th>Streaming</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="movie-title">The Dark Knight</td>
+        <td>
+          <div class="providers">
+            <div class="provider">
+              <img src="https://image.tmdb.org/t/p/w92/Ajqyt5aNxNx9wb6BHGBR5kQJmJH.jpg" alt="Max" title="Max">
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="movie-title">Parasite</td>
+        <td>
+          <div class="providers">
+            <div class="provider">
+              <img src="https://image.tmdb.org/t/p/w92/zxrVdFjIjLqkfnwyghnveA7jPC68kh7G3vlqMlqeZYSf.jpg" alt="Hulu" title="Hulu">
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="movie-title">Everything Everywhere All at Once</td>
+        <td><span class="none">—</span></td>
+      </tr>
+      <tr>
+        <td class="movie-title">Past Lives</td>
+        <td>
+          <div class="providers">
+            <div class="provider">
+              <img src="https://image.tmdb.org/t/p/w92/8VCV78prwd9QzZnEm0ReO6bERDa.jpg" alt="Peacock" title="Peacock">
+            </div>
+            <div class="provider">
+              <img src="https://image.tmdb.org/t/p/w92/Ajqyt5aNxNx9wb6BHGBR5kQJmJH.jpg" alt="Max" title="Max">
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="movie-title">Oppenheimer</td>
+        <td>
+          <div class="providers">
+            <div class="provider">
+              <img src="https://image.tmdb.org/t/p/w92/8VCV78prwd9QzZnEm0ReO6bERDa.jpg" alt="Peacock" title="Peacock">
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="movie-title">Poor Things</td>
+        <td>
+          <div class="providers">
+            <div class="provider">
+              <img src="https://image.tmdb.org/t/p/w92/zxrVdFjIjLqkfnwyghnveA7jPC68kh7G3vlqMlqeZYSf.jpg" alt="Hulu" title="Hulu">
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="movie-title">The Holdovers</td>
+        <td>
+          <div class="providers">
+            <div class="provider">
+              <img src="https://image.tmdb.org/t/p/w92/8VCV78prwd9QzZnEm0ReO6bERDa.jpg" alt="Peacock" title="Peacock">
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="movie-title">Dune: Part Two</td>
+        <td>
+          <div class="providers">
+            <div class="provider">
+              <img src="https://image.tmdb.org/t/p/w92/Ajqyt5aNxNx9wb6BHGBR5kQJmJH.jpg" alt="Max" title="Max">
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="movie-title">Challengers</td>
+        <td>
+          <div class="providers">
+            <div class="provider">
+              <img src="https://image.tmdb.org/t/p/w92/emthp39XA2YScoYL1p0sdbAH2WA.jpg" alt="Amazon Prime Video" title="Amazon Prime Video">
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="movie-title">Anora</td>
+        <td>
+          <div class="providers">
+            <div class="provider">
+              <img src="https://image.tmdb.org/t/p/w92/t2yyOv40HZeVlLjYsCsPHnWLk4W.jpg" alt="Netflix" title="Netflix">
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <footer>Streaming data provided by <a href="https://www.justwatch.com" target="_blank" rel="noopener">JustWatch</a> via <a href="https://www.themoviedb.org" target="_blank" rel="noopener">TMDB</a></footer>
+</div>
+</body>
+</html>
