@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08 05:11 UTC",
+  "updated_at": "2026-06-09 07:38 UTC",
   "movies": [
     {
       "title": "Jurassic world",
@@ -517,13 +517,6 @@
           "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
           "priority": 35,
           "note": "rent/buy"
-        },
-        {
-          "id": 332,
-          "name": "Fandango at Home Free",
-          "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
-          "priority": 38,
-          "note": null
         }
       ]
     },
@@ -1363,7 +1356,7 @@
           "id": 2285,
           "name": "JustWatch TV",
           "logo": "https://image.tmdb.org/t/p/original/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
-          "priority": 43,
+          "priority": 42,
           "note": "rent/buy"
         },
         {
