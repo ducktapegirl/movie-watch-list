@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10 08:01 UTC",
+  "updated_at": "2026-06-11 08:28 UTC",
   "movies": [
     {
       "title": "Jurassic world",
@@ -1782,13 +1782,6 @@
           "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
           "priority": 18,
           "note": "rent/buy"
-        },
-        {
-          "id": 191,
-          "name": "Kanopy",
-          "logo": "https://image.tmdb.org/t/p/original/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
-          "priority": 33,
-          "note": null
         },
         {
           "id": 7,
