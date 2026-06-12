@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-11 08:28 UTC",
+  "updated_at": "2026-06-12 08:17 UTC",
   "movies": [
     {
       "title": "Jurassic world",
@@ -510,13 +510,6 @@
           "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
           "priority": 18,
           "note": "rent/buy"
-        },
-        {
-          "id": 7,
-          "name": "Fandango At Home",
-          "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
-          "priority": 35,
-          "note": "rent/buy"
         }
       ]
     },
@@ -633,13 +626,6 @@
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
           "priority": 126,
-          "note": null
-        },
-        {
-          "id": 2077,
-          "name": "Plex Channel",
-          "logo": "https://image.tmdb.org/t/p/original/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
-          "priority": 129,
           "note": null
         },
         {
@@ -1073,13 +1059,6 @@
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
           "priority": 126,
-          "note": null
-        },
-        {
-          "id": 2077,
-          "name": "Plex Channel",
-          "logo": "https://image.tmdb.org/t/p/original/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
-          "priority": 129,
           "note": null
         },
         {
@@ -1730,13 +1709,6 @@
           "note": null
         },
         {
-          "id": 2077,
-          "name": "Plex Channel",
-          "logo": "https://image.tmdb.org/t/p/original/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
-          "priority": 129,
-          "note": null
-        },
-        {
           "id": 1794,
           "name": "Starz Amazon Channel",
           "logo": "https://image.tmdb.org/t/p/original/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg",
@@ -1863,13 +1835,6 @@
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
           "priority": 126,
-          "note": null
-        },
-        {
-          "id": 2077,
-          "name": "Plex Channel",
-          "logo": "https://image.tmdb.org/t/p/original/27WMfRN7pQE3j5Khm8fPM7vYyLV.jpg",
-          "priority": 129,
           "note": null
         },
         {
