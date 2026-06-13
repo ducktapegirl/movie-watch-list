@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-12 08:17 UTC",
+  "updated_at": "2026-06-13 07:40 UTC",
   "movies": [
     {
       "title": "Jurassic world",
@@ -1006,13 +1006,6 @@
           "note": "rent/buy"
         },
         {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 9,
-          "note": null
-        },
-        {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
@@ -1342,7 +1335,7 @@
           "id": 2285,
           "name": "JustWatch TV",
           "logo": "https://image.tmdb.org/t/p/original/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
-          "priority": 42,
+          "priority": 43,
           "note": "rent/buy"
         },
         {
