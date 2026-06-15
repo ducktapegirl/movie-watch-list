@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14 08:09 UTC",
+  "updated_at": "2026-06-15 09:52 UTC",
   "movies": [
     {
       "title": "Jurassic world",
@@ -924,13 +924,6 @@
           "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
           "priority": 35,
           "note": "rent/buy"
-        },
-        {
-          "id": 2528,
-          "name": "YouTube TV",
-          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 36,
-          "note": null
         },
         {
           "id": 486,
