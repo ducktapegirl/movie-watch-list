@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15 09:52 UTC",
+  "updated_at": "2026-06-16 09:18 UTC",
   "movies": [
     {
       "title": "Jurassic world",
@@ -8,7 +8,7 @@
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-          "priority": 2,
+          "priority": 1,
           "note": null
         },
         {
@@ -62,7 +62,7 @@
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-          "priority": 2,
+          "priority": 1,
           "note": null
         },
         {
@@ -141,6 +141,13 @@
           "note": "rent/buy"
         },
         {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+          "priority": 10,
+          "note": null
+        },
+        {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
@@ -186,6 +193,13 @@
           "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
           "priority": 8,
           "note": "rent/buy"
+        },
+        {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+          "priority": 10,
+          "note": null
         },
         {
           "id": 3,
@@ -238,7 +252,7 @@
           "id": 257,
           "name": "fuboTV",
           "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 9,
+          "priority": 10,
           "note": null
         },
         {
@@ -496,7 +510,7 @@
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-          "priority": 2,
+          "priority": 1,
           "note": null
         },
         {
@@ -690,7 +704,7 @@
           "id": 257,
           "name": "fuboTV",
           "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 9,
+          "priority": 10,
           "note": null
         },
         {
@@ -875,7 +889,7 @@
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-          "priority": 2,
+          "priority": 1,
           "note": null
         },
         {
@@ -1349,7 +1363,7 @@
           "id": 2285,
           "name": "JustWatch TV",
           "logo": "https://image.tmdb.org/t/p/original/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg",
-          "priority": 43,
+          "priority": 42,
           "note": "rent/buy"
         },
         {
@@ -2192,7 +2206,7 @@
           "id": 257,
           "name": "fuboTV",
           "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 9,
+          "priority": 10,
           "note": null
         },
         {
