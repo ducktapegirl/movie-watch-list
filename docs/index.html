@@ -108,7 +108,7 @@
   <header>
     <h1>Movie Watchlist</h1>
     <div class="header-right">
-      <div class="updated">Updated 2026-06-18 04:40 UTC</div>
+      <div class="updated">Updated 2026-06-18 05:07 UTC</div>
       <button id="refresh-btn" class="refresh" type="button">↻ Refresh</button>
       <span id="refresh-status" class="refresh-status"></span>
     </div>
@@ -2277,15 +2277,29 @@
 <script>
   // Fine-grained PAT scoped to this repo only, with "Actions: Read and write"
   // permission and nothing else. Generate at https://github.com/settings/personal-access-tokens
-  // It is visible to anyone viewing this page's source - that's an accepted
-  // tradeoff for this personal page (worst case: someone spams the workflow).
-  const GITHUB_TOKEN = "REPLACE_WITH_YOUR_PAT";
+  // Never hardcoded here - GitHub's push protection blocks committing real
+  // tokens anyway. Instead it's entered once and kept in this browser's
+  // localStorage, so it's never written to the page source or git history.
   const REPO = "ducktapegirl/movie-watch-list";
   const WORKFLOW = "refresh.yml";
+  const TOKEN_KEY = "movie-watch-list-gh-token";
+
+  function getToken() {
+    let token = localStorage.getItem(TOKEN_KEY);
+    if (!token) {
+      token = window.prompt(
+        "Enter your GitHub fine-grained PAT (Actions: read/write, scoped to this repo):"
+      );
+      if (token) localStorage.setItem(TOKEN_KEY, token);
+    }
+    return token;
+  }
 
   document.getElementById("refresh-btn").addEventListener("click", async () => {
     const btn = document.getElementById("refresh-btn");
     const status = document.getElementById("refresh-status");
+    const token = getToken();
+    if (!token) return;
     btn.disabled = true;
     status.textContent = "Starting refresh…";
     try {
@@ -2294,7 +2308,7 @@
         {
           method: "POST",
           headers: {
-            Authorization: `Bearer ${GITHUB_TOKEN}`,
+            Authorization: `Bearer ${token}`,
             Accept: "application/vnd.github+json",
           },
           body: JSON.stringify({ ref: "main" }),
@@ -2304,6 +2318,9 @@
         status.textContent = "Refreshing… reloading in 60s";
         setTimeout(() => location.reload(), 60000);
       } else {
+        if (res.status === 401 || res.status === 403) {
+          localStorage.removeItem(TOKEN_KEY);
+        }
         status.textContent = `Failed to start (${res.status})`;
         btn.disabled = false;
       }
