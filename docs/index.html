@@ -30,6 +30,18 @@
     font-size: 0.8rem;
     color: #0066cc;
     text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .refresh:disabled { color: #aaa; cursor: default; }
+  .refresh-status {
+    display: block;
+    font-size: 0.7rem;
+    color: #888;
+    margin-top: 0.2rem;
   }
   table {
     width: 100%;
@@ -96,8 +108,9 @@
   <header>
     <h1>Movie Watchlist</h1>
     <div class="header-right">
-      <div class="updated">Updated 2026-06-18 04:33 UTC</div>
-      <a class="refresh" href="https://github.com/ducktapegirl/movie-watch-list/actions/workflows/refresh.yml" target="_blank" rel="noopener">↻ Refresh</a>
+      <div class="updated">Updated 2026-06-18 04:40 UTC</div>
+      <button id="refresh-btn" class="refresh" type="button">↻ Refresh</button>
+      <span id="refresh-status" class="refresh-status"></span>
     </div>
   </header>
   <table>
@@ -2261,5 +2274,44 @@
   </table>
   <footer>Streaming data provided by <a href="https://www.justwatch.com" target="_blank" rel="noopener">JustWatch</a> via <a href="https://www.themoviedb.org" target="_blank" rel="noopener">TMDB</a></footer>
 </div>
+<script>
+  // Fine-grained PAT scoped to this repo only, with "Actions: Read and write"
+  // permission and nothing else. Generate at https://github.com/settings/personal-access-tokens
+  // It is visible to anyone viewing this page's source - that's an accepted
+  // tradeoff for this personal page (worst case: someone spams the workflow).
+  const GITHUB_TOKEN = "REPLACE_WITH_YOUR_PAT";
+  const REPO = "ducktapegirl/movie-watch-list";
+  const WORKFLOW = "refresh.yml";
+
+  document.getElementById("refresh-btn").addEventListener("click", async () => {
+    const btn = document.getElementById("refresh-btn");
+    const status = document.getElementById("refresh-status");
+    btn.disabled = true;
+    status.textContent = "Starting refresh…";
+    try {
+      const res = await fetch(
+        `https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/dispatches`,
+        {
+          method: "POST",
+          headers: {
+            Authorization: `Bearer ${GITHUB_TOKEN}`,
+            Accept: "application/vnd.github+json",
+          },
+          body: JSON.stringify({ ref: "main" }),
+        }
+      );
+      if (res.status === 204) {
+        status.textContent = "Refreshing… reloading in 60s";
+        setTimeout(() => location.reload(), 60000);
+      } else {
+        status.textContent = `Failed to start (${res.status})`;
+        btn.disabled = false;
+      }
+    } catch (e) {
+      status.textContent = "Failed to start - see console";
+      btn.disabled = false;
+    }
+  });
+</script>
 </body>
 </html>
