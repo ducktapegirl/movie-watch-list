@@ -27,6 +27,17 @@ GitHub Gist (movies.txt, one title per line)
 **Gist:** https://gist.github.com/ducktapegirl/f87259c8947e5262b5e47627444c6f65
 (edit at gist.github.com - one movie title per line)
 
+> **Gotcha: `GIST_URL` must NOT include a revision hash.** Gist raw URLs come
+> in two forms:
+> - `.../raw/<filename>` - always serves the latest revision
+> - `.../raw/<revision-sha>/<filename>` - frozen forever to that one revision
+>
+> If you copy the raw URL straight from your browser after viewing a specific
+> revision, GitHub fills in the revision hash and the workflow will keep
+> reading that stale snapshot even after you edit the Gist again. Make sure
+> `GIST_URL` looks like `https://gist.githubusercontent.com/ducktapegirl/f87259c8947e5262b5e47627444c6f65/raw/movies.txt`
+> (no hash segment before `movies.txt`).
+
 ---
 
 ## Two warnings in the last workflow run
