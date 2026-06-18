@@ -27,6 +27,17 @@ GitHub Gist (movies.txt, one title per line)
 **Gist:** https://gist.github.com/ducktapegirl/f87259c8947e5262b5e47627444c6f65
 (edit at gist.github.com - one movie title per line)
 
+> **Gotcha: `GIST_URL` must NOT include a revision hash.** Gist raw URLs come
+> in two forms:
+> - `.../raw/<filename>` - always serves the latest revision
+> - `.../raw/<revision-sha>/<filename>` - frozen forever to that one revision
+>
+> If you copy the raw URL straight from your browser after viewing a specific
+> revision, GitHub fills in the revision hash and the workflow will keep
+> reading that stale snapshot even after you edit the Gist again. Make sure
+> `GIST_URL` looks like `https://gist.githubusercontent.com/ducktapegirl/f87259c8947e5262b5e47627444c6f65/raw/movies.txt`
+> (no hash segment before `movies.txt`).
+
 ---
 
 ## Two warnings in the last workflow run
@@ -70,11 +81,14 @@ Options under consideration:
 - `generate.py` change: swap `requests.get(GIST_URL)` for `requests.get(SHEETS_CSV_URL)` + CSV parsing
 
 **In-page refresh button with GitHub PAT**
-- A button on the live page that triggers the workflow directly
-- Requires a fine-grained PAT with `Actions: write` scope stored in the page JS
+- Implemented in `scripts/template.html` - a `<button>` POSTs to GitHub's
+  `workflow_dispatch` API directly from the browser using a fine-grained PAT
+  (`Actions: read and write`, scoped to this repo only) stored in a JS
+  constant (`GITHUB_TOKEN`) in the template
+- You must generate the PAT yourself and paste it into `GITHUB_TOKEN` in
+  `scripts/template.html` - it ships as a placeholder until then
 - Token is visible in page source - acceptable risk for a personal page since worst case is someone spamming your workflow
 - If token exposure is a concern, a Netlify/Cloudflare Worker proxy (10-15 lines) would hide it server-side
-- Status: discussed but not implemented
 
 **Google Docs**
 - No public API for reading doc content as plain text without OAuth
