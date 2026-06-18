@@ -98,9 +98,9 @@ A plain text note with one movie title per line also works.
 
 Click the **↻ Refresh** button at the top of the watchlist page. It triggers the GitHub Actions workflow directly from the page (no GitHub login needed) and reloads automatically once it's done.
 
-This requires a one-time setup: generate a [fine-grained personal access token](https://github.com/settings/personal-access-tokens) scoped to **this repo only**, with **Actions: Read and write** permission and nothing else. Paste it into the `GITHUB_TOKEN` constant near the bottom of `scripts/template.html`, then let the workflow regenerate the page.
+The first time you click it, you'll be prompted for a [fine-grained personal access token](https://github.com/settings/personal-access-tokens) scoped to **this repo only**, with **Actions: Read and write** permission and nothing else. It's saved in your browser's `localStorage` (never committed to the repo or written into the page source) so you only need to enter it once per browser.
 
-Note: the token is visible to anyone who views the page source. That's an accepted tradeoff for a personal page with an Actions-only token — worst case, someone triggers your refresh workflow. Revoke and regenerate the token any time from the same GitHub settings page.
+If the button ever fails with a 401/403, the saved token is cleared automatically and you'll be re-prompted — handy after rotating the token. Revoke/regenerate it any time from the same GitHub settings page.
 
 The page auto-refreshes every night at midnight ET (4am UTC).
 
