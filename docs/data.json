@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18 04:22 UTC",
+  "updated_at": "2026-06-18 04:33 UTC",
   "movies": [
     {
       "title": "Jurassic world",
@@ -2512,6 +2512,53 @@
           "logo": "https://image.tmdb.org/t/p/original/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
           "priority": 204,
           "note": null
+        }
+      ]
+    },
+    {
+      "title": "Project Hail Mary",
+      "providers": [
+        {
+          "id": 10,
+          "name": "Amazon Video",
+          "logo": "https://image.tmdb.org/t/p/original/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+          "priority": 7,
+          "note": "rent/buy"
+        },
+        {
+          "id": 2,
+          "name": "Apple TV Store",
+          "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+          "priority": 8,
+          "note": "rent/buy"
+        },
+        {
+          "id": 3,
+          "name": "Google Play Movies",
+          "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+          "priority": 17,
+          "note": "rent/buy"
+        },
+        {
+          "id": 192,
+          "name": "YouTube",
+          "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+          "priority": 18,
+          "note": "rent/buy"
+        },
+        {
+          "id": 7,
+          "name": "Fandango At Home",
+          "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+          "priority": 35,
+          "note": "rent/buy"
+        },
+        {
+          "id": 538,
+          "name": "Plex",
+          "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+          "priority": 126,
+          "note": "rent/buy"
         }
       ]
     }
