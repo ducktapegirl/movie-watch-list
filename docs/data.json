@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17 08:54 UTC",
+  "updated_at": "2026-06-18 04:22 UTC",
   "movies": [
     {
       "title": "Jurassic world",
@@ -141,13 +141,6 @@
           "note": "rent/buy"
         },
         {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 9,
-          "note": null
-        },
-        {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
@@ -193,13 +186,6 @@
           "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
           "priority": 8,
           "note": "rent/buy"
-        },
-        {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 9,
-          "note": null
         },
         {
           "id": 3,
@@ -578,6 +564,13 @@
           "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
           "priority": 18,
           "note": "rent/buy"
+        },
+        {
+          "id": 1854,
+          "name": "AMC Plus Apple TV Channel ",
+          "logo": "https://image.tmdb.org/t/p/original/oTQdXIqM9iewlN4MC2nhKB0gHw.jpg",
+          "priority": 21,
+          "note": null
         },
         {
           "id": 528,
@@ -1824,6 +1817,13 @@
           "note": "rent/buy"
         },
         {
+          "id": 207,
+          "name": "The Roku Channel",
+          "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
+          "priority": 26,
+          "note": null
+        },
+        {
           "id": 191,
           "name": "Kanopy",
           "logo": "https://image.tmdb.org/t/p/original/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
@@ -2098,6 +2098,13 @@
           "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
           "priority": 18,
           "note": "rent/buy"
+        },
+        {
+          "id": 1854,
+          "name": "AMC Plus Apple TV Channel ",
+          "logo": "https://image.tmdb.org/t/p/original/oTQdXIqM9iewlN4MC2nhKB0gHw.jpg",
+          "priority": 21,
+          "note": null
         },
         {
           "id": 528,
