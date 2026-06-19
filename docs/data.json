@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18 08:38 UTC",
+  "updated_at": "2026-06-19 09:00 UTC",
   "movies": [
     {
       "title": "Jurassic world",
@@ -2545,6 +2545,13 @@
           "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
           "priority": 18,
           "note": "rent/buy"
+        },
+        {
+          "id": 636,
+          "name": "MGM Plus Roku Premium Channel",
+          "logo": "https://image.tmdb.org/t/p/original/lD7HKUmXDvUya58DceiTA809Zbf.jpg",
+          "priority": 30,
+          "note": null
         },
         {
           "id": 7,
