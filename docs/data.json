@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19 09:00 UTC",
+  "updated_at": "2026-06-20 07:43 UTC",
   "movies": [
     {
       "title": "Jurassic world",
@@ -50,7 +50,7 @@
           "id": 1796,
           "name": "Netflix Standard with Ads",
           "logo": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
-          "priority": 154,
+          "priority": 153,
           "note": null
         }
       ]
@@ -104,14 +104,14 @@
           "id": 486,
           "name": "Spectrum On Demand",
           "logo": "https://image.tmdb.org/t/p/original/aAb9CUHjFe9Y3O57qnrJH0KOF1B.jpg",
-          "priority": 121,
+          "priority": 120,
           "note": "rent/buy"
         },
         {
           "id": 1796,
           "name": "Netflix Standard with Ads",
           "logo": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
-          "priority": 154,
+          "priority": 153,
           "note": null
         }
       ]
@@ -263,13 +263,6 @@
           "note": null
         },
         {
-          "id": 634,
-          "name": "Starz Roku Premium Channel",
-          "logo": "https://image.tmdb.org/t/p/original/9laPF1MAiUxlqM8T98F3Gj0bhzd.jpg",
-          "priority": 27,
-          "note": null
-        },
-        {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
@@ -294,14 +287,14 @@
           "id": 486,
           "name": "Spectrum On Demand",
           "logo": "https://image.tmdb.org/t/p/original/aAb9CUHjFe9Y3O57qnrJH0KOF1B.jpg",
-          "priority": 121,
+          "priority": 120,
           "note": "rent/buy"
         },
         {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 126,
+          "priority": 125,
           "note": "rent/buy"
         }
       ]
@@ -362,7 +355,7 @@
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
-          "priority": 155,
+          "priority": 154,
           "note": null
         }
       ]
@@ -423,28 +416,28 @@
           "id": 486,
           "name": "Spectrum On Demand",
           "logo": "https://image.tmdb.org/t/p/original/aAb9CUHjFe9Y3O57qnrJH0KOF1B.jpg",
-          "priority": 121,
+          "priority": 120,
           "note": "rent/buy"
         },
         {
           "id": 507,
           "name": "tru TV",
           "logo": "https://image.tmdb.org/t/p/original/mMJ6AQUpHDsD5s2Q2dnbpX1NFwp.jpg",
-          "priority": 123,
+          "priority": 122,
           "note": null
         },
         {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 126,
+          "priority": 125,
           "note": "rent/buy"
         },
         {
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
-          "priority": 155,
+          "priority": 154,
           "note": null
         }
       ]
@@ -503,7 +496,7 @@
           "id": 1796,
           "name": "Netflix Standard with Ads",
           "logo": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
-          "priority": 154,
+          "priority": 153,
           "note": null
         }
       ]
@@ -646,14 +639,14 @@
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 126,
+          "priority": 125,
           "note": null
         },
         {
           "id": 2049,
           "name": "Shudder Apple TV Channel",
           "logo": "https://image.tmdb.org/t/p/original/kLfq0I2MwiUFUY9yI1GwOeKxX8f.jpg",
-          "priority": 187,
+          "priority": 186,
           "note": null
         }
       ]
@@ -732,7 +725,7 @@
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 126,
+          "priority": 125,
           "note": "rent/buy"
         }
       ]
@@ -790,13 +783,6 @@
           "note": null
         },
         {
-          "id": 636,
-          "name": "MGM Plus Roku Premium Channel",
-          "logo": "https://image.tmdb.org/t/p/original/lD7HKUmXDvUya58DceiTA809Zbf.jpg",
-          "priority": 30,
-          "note": null
-        },
-        {
           "id": 191,
           "name": "Kanopy",
           "logo": "https://image.tmdb.org/t/p/original/rcBwnERpNfPfWB5DaSTyEMCZbCA.jpg",
@@ -821,42 +807,42 @@
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 126,
+          "priority": 125,
           "note": "rent/buy"
         },
         {
           "id": 613,
           "name": "Amazon Prime Video Free with Ads",
           "logo": "https://image.tmdb.org/t/p/original/gZlCYHPx9a0TRUCEeTvHXBf9ibX.jpg",
-          "priority": 142,
+          "priority": 141,
           "note": null
         },
         {
           "id": 2409,
           "name": "Fawesome",
           "logo": "https://image.tmdb.org/t/p/original/pSUa7lMYLoQAU00ikXoHxmOfTZ9.jpg",
-          "priority": 145,
+          "priority": 144,
           "note": null
         },
         {
           "id": 2100,
           "name": "Amazon Prime Video with Ads",
           "logo": "https://image.tmdb.org/t/p/original/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
-          "priority": 204,
+          "priority": 202,
           "note": null
         },
         {
           "id": 387,
           "name": "Peacock Premium Plus",
           "logo": "https://image.tmdb.org/t/p/original/drPlq5beqXtBaP7MNs8W616YRhm.jpg",
-          "priority": 215,
+          "priority": 213,
           "note": null
         },
         {
           "id": 73,
           "name": "Tubi TV",
           "logo": "https://image.tmdb.org/t/p/original/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
-          "priority": 348,
+          "priority": 346,
           "note": null
         }
       ]
@@ -875,7 +861,7 @@
           "id": 1796,
           "name": "Netflix Standard with Ads",
           "logo": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
-          "priority": 154,
+          "priority": 153,
           "note": null
         }
       ]
@@ -922,7 +908,7 @@
           "id": 486,
           "name": "Spectrum On Demand",
           "logo": "https://image.tmdb.org/t/p/original/aAb9CUHjFe9Y3O57qnrJH0KOF1B.jpg",
-          "priority": 121,
+          "priority": 120,
           "note": "rent/buy"
         }
       ]
@@ -959,13 +945,6 @@
           "note": "rent/buy"
         },
         {
-          "id": 207,
-          "name": "The Roku Channel",
-          "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
-          "priority": 26,
-          "note": null
-        },
-        {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
@@ -983,14 +962,14 @@
           "id": 486,
           "name": "Spectrum On Demand",
           "logo": "https://image.tmdb.org/t/p/original/aAb9CUHjFe9Y3O57qnrJH0KOF1B.jpg",
-          "priority": 121,
+          "priority": 120,
           "note": "rent/buy"
         },
         {
           "id": 73,
           "name": "Tubi TV",
           "logo": "https://image.tmdb.org/t/p/original/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
-          "priority": 348,
+          "priority": 346,
           "note": null
         }
       ]
@@ -1058,28 +1037,28 @@
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 126,
+          "priority": 125,
           "note": null
         },
         {
           "id": 2409,
           "name": "Fawesome",
           "logo": "https://image.tmdb.org/t/p/original/pSUa7lMYLoQAU00ikXoHxmOfTZ9.jpg",
-          "priority": 145,
+          "priority": 144,
           "note": null
         },
         {
           "id": 600,
           "name": "Shout! Factory Amazon Channel",
           "logo": "https://image.tmdb.org/t/p/original/ivRp15loTWoVy3eEHALoYEyXI8J.jpg",
-          "priority": 319,
+          "priority": 317,
           "note": null
         },
         {
           "id": 73,
           "name": "Tubi TV",
           "logo": "https://image.tmdb.org/t/p/original/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
-          "priority": 348,
+          "priority": 346,
           "note": null
         }
       ]
@@ -1173,7 +1152,7 @@
           "id": 486,
           "name": "Spectrum On Demand",
           "logo": "https://image.tmdb.org/t/p/original/aAb9CUHjFe9Y3O57qnrJH0KOF1B.jpg",
-          "priority": 121,
+          "priority": 120,
           "note": "rent/buy"
         }
       ]
@@ -1201,13 +1180,6 @@
           "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
           "priority": 17,
           "note": "rent/buy"
-        },
-        {
-          "id": 636,
-          "name": "MGM Plus Roku Premium Channel",
-          "logo": "https://image.tmdb.org/t/p/original/lD7HKUmXDvUya58DceiTA809Zbf.jpg",
-          "priority": 30,
-          "note": null
         },
         {
           "id": 191,
@@ -1241,7 +1213,7 @@
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 126,
+          "priority": 125,
           "note": "rent/buy"
         }
       ]
@@ -1288,7 +1260,7 @@
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 126,
+          "priority": 125,
           "note": "rent/buy"
         }
       ]
@@ -1349,14 +1321,14 @@
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 126,
+          "priority": 125,
           "note": "rent/buy"
         },
         {
           "id": 2243,
           "name": "Apple TV Amazon Channel",
           "logo": "https://image.tmdb.org/t/p/original/mHrYMgnZIp6lgW2aXg7ix9zGOnA.jpg",
-          "priority": 217,
+          "priority": 215,
           "note": null
         }
       ]
@@ -1468,7 +1440,7 @@
           "id": 2409,
           "name": "Fawesome",
           "logo": "https://image.tmdb.org/t/p/original/pSUa7lMYLoQAU00ikXoHxmOfTZ9.jpg",
-          "priority": 145,
+          "priority": 144,
           "note": null
         }
       ]
@@ -1529,7 +1501,7 @@
           "id": 387,
           "name": "Peacock Premium Plus",
           "logo": "https://image.tmdb.org/t/p/original/drPlq5beqXtBaP7MNs8W616YRhm.jpg",
-          "priority": 215,
+          "priority": 213,
           "note": null
         }
       ]
@@ -1630,7 +1602,7 @@
           "id": 73,
           "name": "Tubi TV",
           "logo": "https://image.tmdb.org/t/p/original/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
-          "priority": 348,
+          "priority": 346,
           "note": null
         }
       ]
@@ -1671,13 +1643,6 @@
           "name": "Starz Apple TV Channel",
           "logo": "https://image.tmdb.org/t/p/original/1C5EVCWyQD798CE1DFfcm6oAbxP.jpg",
           "priority": 20,
-          "note": null
-        },
-        {
-          "id": 634,
-          "name": "Starz Roku Premium Channel",
-          "logo": "https://image.tmdb.org/t/p/original/9laPF1MAiUxlqM8T98F3Gj0bhzd.jpg",
-          "priority": 27,
           "note": null
         },
         {
@@ -1726,21 +1691,21 @@
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 126,
+          "priority": 125,
           "note": null
         },
         {
           "id": 1794,
           "name": "Starz Amazon Channel",
           "logo": "https://image.tmdb.org/t/p/original/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg",
-          "priority": 153,
+          "priority": 152,
           "note": null
         },
         {
           "id": 73,
           "name": "Tubi TV",
           "logo": "https://image.tmdb.org/t/p/original/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
-          "priority": 348,
+          "priority": 346,
           "note": null
         }
       ]
@@ -1855,28 +1820,28 @@
           "id": 486,
           "name": "Spectrum On Demand",
           "logo": "https://image.tmdb.org/t/p/original/aAb9CUHjFe9Y3O57qnrJH0KOF1B.jpg",
-          "priority": 121,
+          "priority": 120,
           "note": "rent/buy"
         },
         {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 126,
+          "priority": 125,
           "note": null
         },
         {
           "id": 1963,
           "name": "Xumo Play",
           "logo": "https://image.tmdb.org/t/p/original/xfKqqWYYIyvjECOFOaYtJdD7gl3.jpg",
-          "priority": 168,
+          "priority": 167,
           "note": null
         },
         {
           "id": 73,
           "name": "Tubi TV",
           "logo": "https://image.tmdb.org/t/p/original/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
-          "priority": 348,
+          "priority": 346,
           "note": null
         }
       ]
@@ -1937,7 +1902,7 @@
           "id": 2100,
           "name": "Amazon Prime Video with Ads",
           "logo": "https://image.tmdb.org/t/p/original/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
-          "priority": 204,
+          "priority": 202,
           "note": null
         }
       ]
@@ -1988,28 +1953,28 @@
           "id": 486,
           "name": "Spectrum On Demand",
           "logo": "https://image.tmdb.org/t/p/original/aAb9CUHjFe9Y3O57qnrJH0KOF1B.jpg",
-          "priority": 121,
+          "priority": 120,
           "note": "rent/buy"
         },
         {
           "id": 613,
           "name": "Amazon Prime Video Free with Ads",
           "logo": "https://image.tmdb.org/t/p/original/gZlCYHPx9a0TRUCEeTvHXBf9ibX.jpg",
-          "priority": 142,
+          "priority": 141,
           "note": null
         },
         {
           "id": 2100,
           "name": "Amazon Prime Video with Ads",
           "logo": "https://image.tmdb.org/t/p/original/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
-          "priority": 204,
+          "priority": 202,
           "note": null
         },
         {
           "id": 73,
           "name": "Tubi TV",
           "logo": "https://image.tmdb.org/t/p/original/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
-          "priority": 348,
+          "priority": 346,
           "note": null
         }
       ]
@@ -2166,7 +2131,7 @@
           "id": 2049,
           "name": "Shudder Apple TV Channel",
           "logo": "https://image.tmdb.org/t/p/original/kLfq0I2MwiUFUY9yI1GwOeKxX8f.jpg",
-          "priority": 187,
+          "priority": 186,
           "note": null
         }
       ]
@@ -2255,7 +2220,7 @@
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 126,
+          "priority": 125,
           "note": "rent/buy"
         }
       ]
@@ -2288,7 +2253,7 @@
           "id": 2308,
           "name": "Darkroom",
           "logo": "https://image.tmdb.org/t/p/original/8G7qvHF7hdmXpfxxqtF1WT9ib68.jpg",
-          "priority": 139,
+          "priority": 138,
           "note": null
         }
       ]
@@ -2349,21 +2314,21 @@
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 126,
+          "priority": 125,
           "note": "rent/buy"
         },
         {
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
-          "priority": 155,
+          "priority": 154,
           "note": null
         },
         {
           "id": 2061,
           "name": "Cinemax Apple TV Channel",
           "logo": "https://image.tmdb.org/t/p/original/zXCdY4pczONheFCU9GkrMbGI1o5.jpg",
-          "priority": 194,
+          "priority": 193,
           "note": null
         }
       ]
@@ -2428,7 +2393,7 @@
           "id": 486,
           "name": "Spectrum On Demand",
           "logo": "https://image.tmdb.org/t/p/original/aAb9CUHjFe9Y3O57qnrJH0KOF1B.jpg",
-          "priority": 121,
+          "priority": 120,
           "note": "rent/buy"
         }
       ]
@@ -2496,21 +2461,21 @@
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 126,
+          "priority": 125,
           "note": "rent/buy"
         },
         {
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
-          "priority": 155,
+          "priority": 154,
           "note": null
         },
         {
           "id": 2100,
           "name": "Amazon Prime Video with Ads",
           "logo": "https://image.tmdb.org/t/p/original/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
-          "priority": 204,
+          "priority": 202,
           "note": null
         }
       ]
@@ -2531,6 +2496,13 @@
           "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
           "priority": 8,
           "note": "rent/buy"
+        },
+        {
+          "id": 583,
+          "name": "MGM+ Amazon Channel",
+          "logo": "https://image.tmdb.org/t/p/original/efu1Cqc63XrPBoreYnf2mn0Nizj.jpg",
+          "priority": 12,
+          "note": null
         },
         {
           "id": 3,
@@ -2561,10 +2533,24 @@
           "note": "rent/buy"
         },
         {
+          "id": 34,
+          "name": "MGM Plus",
+          "logo": "https://image.tmdb.org/t/p/original/ctiRpS16dlaTXQBSsiFncMrgWmh.jpg",
+          "priority": 50,
+          "note": null
+        },
+        {
+          "id": 2383,
+          "name": "Philo",
+          "logo": "https://image.tmdb.org/t/p/original/ptmbGSttkyzawLbxx9MElmxKuVo.jpg",
+          "priority": 52,
+          "note": null
+        },
+        {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 126,
+          "priority": 125,
           "note": "rent/buy"
         }
       ]
