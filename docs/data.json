@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20 07:43 UTC",
+  "updated_at": "2026-06-21 08:21 UTC",
   "movies": [
     {
       "title": "Jurassic world",
@@ -1072,13 +1072,6 @@
           "logo": "https://image.tmdb.org/t/p/original/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
           "priority": 7,
           "note": "rent/buy"
-        },
-        {
-          "id": 2616,
-          "name": "Paramount Plus Essential",
-          "logo": "https://image.tmdb.org/t/p/original/5wym1C0jAvJeGirPdgVpcW0CCuy.jpg",
-          "priority": 15,
-          "note": null
         },
         {
           "id": 3,
@@ -2496,6 +2489,13 @@
           "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
           "priority": 8,
           "note": "rent/buy"
+        },
+        {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+          "priority": 9,
+          "note": null
         },
         {
           "id": 583,
