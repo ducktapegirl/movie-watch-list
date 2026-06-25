@@ -89,7 +89,7 @@ def build_data(movies):
         movie_id, release_date = tmdb_search(title)
         providers = tmdb_providers(movie_id) if movie_id else []
         results.append(
-            {"title": title, "release_date": release_date, "providers": providers}
+            {"title": title.title(), "release_date": release_date, "providers": providers}
         )
     return results
 
