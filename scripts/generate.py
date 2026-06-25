@@ -46,7 +46,10 @@ def tmdb_search(title):
     )
     r.raise_for_status()
     results = r.json().get("results", [])
-    return results[0]["id"] if results else None
+    if not results:
+        return None, None
+    top = results[0]
+    return top["id"], top.get("release_date") or None
 
 
 def tmdb_providers(movie_id):
@@ -83,9 +86,11 @@ def build_data(movies):
     results = []
     for title in movies:
         print(f"  {title}")
-        movie_id = tmdb_search(title)
+        movie_id, release_date = tmdb_search(title)
         providers = tmdb_providers(movie_id) if movie_id else []
-        results.append({"title": title, "providers": providers})
+        results.append(
+            {"title": title, "release_date": release_date, "providers": providers}
+        )
     return results
 
 
