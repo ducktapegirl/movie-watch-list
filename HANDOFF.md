@@ -4,7 +4,9 @@ Last updated: 2026-06-08
 
 ## Current status
 
-The app is working end-to-end. The most recent successful workflow run (run #2, 2026-06-08 05:10 UTC) read 43 movies from the Gist and published live streaming data to GitHub Pages.
+The data source was switched from a GitHub Gist to a published Google Sheets
+CSV, so multiple people can edit the list (including from the Sheets mobile
+app).
 
 **Live page:** https://ducktapegirl.github.io/movie-watch-list/
 
@@ -13,30 +15,24 @@ The app is working end-to-end. The most recent successful workflow run (run #2, 
 ## How it works right now
 
 ```
-GitHub Gist (movies.txt, one title per line)
+Google Sheet (published to web as CSV, one title per row)
     -> GitHub Actions (daily 4am UTC + manual trigger)
-       reads Gist, queries TMDB Watch Providers API per movie
+       reads CSV, queries TMDB Watch Providers API per movie
        commits updated docs/index.html + docs/data.json to main
     -> GitHub Pages serves docs/
 ```
 
 **Configured secrets/variables** (Settings -> Secrets and variables -> Actions):
 - `TMDB_API_KEY` (secret) - TMDB v3 API key
-- `GIST_URL` (variable) - raw URL of the movies.txt Gist
+- `SHEETS_CSV_URL` (variable) - published CSV URL of the Google Sheet
 
-**Gist:** https://gist.github.com/ducktapegirl/f87259c8947e5262b5e47627444c6f65
-(edit at gist.github.com - one movie title per line)
+**Sheet:** published via File -> Share -> Publish to web -> CSV.
+(edit the Sheet directly - one movie title per row in column A; an optional
+header row of "Title" is ignored by `generate.py`)
 
-> **Gotcha: `GIST_URL` must NOT include a revision hash.** Gist raw URLs come
-> in two forms:
-> - `.../raw/<filename>` - always serves the latest revision
-> - `.../raw/<revision-sha>/<filename>` - frozen forever to that one revision
->
-> If you copy the raw URL straight from your browser after viewing a specific
-> revision, GitHub fills in the revision hash and the workflow will keep
-> reading that stale snapshot even after you edit the Gist again. Make sure
-> `GIST_URL` looks like `https://gist.githubusercontent.com/ducktapegirl/f87259c8947e5262b5e47627444c6f65/raw/movies.txt`
-> (no hash segment before `movies.txt`).
+> **Gotcha:** the Sheet must stay published for the workflow to read it -
+> if publishing is turned off (Share -> Publish to web), the CSV URL starts
+> returning an error page instead of CSV data.
 
 ---
 
@@ -68,17 +64,19 @@ Actions will be forced to run with Node.js 24 by default starting June 16th, 202
 ## Open questions / things to explore next
 
 ### 1. Movie list data source
-Currently using a GitHub Gist. Limitations: no collaborative editing (only owner can edit).
+Now using a Google Sheet published to web as CSV (implemented). Was
+previously a GitHub Gist, which didn't support collaborative editing (only
+the owner could edit).
 
-Options under consideration:
-
-**Google Sheets (published as CSV)**
+**Google Sheets (published as CSV)** - implemented
 - Best mobile editing experience (Sheets app)
 - Supports multiple editors
 - No auth needed in workflow - just a plain URL fetch like the Gist
 - One setting to flip: File -> Share -> Publish to web -> CSV
 - Sheet becomes publicly readable (fine for a movie list)
-- `generate.py` change: swap `requests.get(GIST_URL)` for `requests.get(SHEETS_CSV_URL)` + CSV parsing
+- `generate.py` reads `SHEETS_CSV_URL` and parses the response with Python's
+  `csv` module, taking column A of each row and skipping a "Title" header
+  row if present
 
 **In-page refresh button with GitHub PAT**
 - Implemented in `scripts/template.html` - a `<button>` POSTs to GitHub's
@@ -97,9 +95,8 @@ Options under consideration:
 - Not worth pursuing
 
 ### 2. Collaborative editing
-Gists don't support collaborators. If a second person needs to edit the list:
-- Google Sheets (above) is the cleanest solution
-- Alternatively: add the collaborator as a repo contributor and have them edit a `movies.txt` file in the repo via GitHub's web UI
+Solved by the Google Sheets switch (above) - share the Sheet with anyone who
+needs to edit the list.
 
 ---
 
@@ -107,7 +104,7 @@ Gists don't support collaborators. If a second person needs to edit the list:
 
 ```
 .github/workflows/refresh.yml   - Actions workflow (cron + manual trigger)
-scripts/generate.py             - reads Gist, queries TMDB, renders HTML
+scripts/generate.py             - reads Sheets CSV, queries TMDB, renders HTML
 scripts/template.html           - Jinja2 template for the page
 pyproject.toml                  - Python 3.12 + dependencies (requests, jinja2)
 docs/index.html                 - generated output, served by GitHub Pages
@@ -121,7 +118,7 @@ README.md                       - setup instructions
 
 ```bash
 uv sync                         # creates .venv with Python 3.12
-uv run python scripts/generate.py   # requires TMDB_API_KEY and GIST_URL env vars
+uv run python scripts/generate.py   # requires TMDB_API_KEY and SHEETS_CSV_URL env vars
 ```
 
 ---
