@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
+import csv
 import json
 import os
 import sys
 from datetime import datetime, timezone
+from io import StringIO
 from pathlib import Path
 
 import requests
@@ -16,10 +18,18 @@ HULU_LIVE_TV_ID = 381
 
 
 def fetch_movie_list():
-    url = os.environ["GIST_URL"]
+    url = os.environ["SHEETS_CSV_URL"]
     r = requests.get(url, timeout=10)
     r.raise_for_status()
-    return [line.strip() for line in r.text.splitlines() if line.strip()]
+    titles = []
+    for row in csv.reader(StringIO(r.text)):
+        if not row or not row[0].strip():
+            continue
+        title = row[0].strip()
+        if title.lower() == "title":
+            continue
+        titles.append(title)
+    return titles
 
 
 def tmdb_search(title):
@@ -74,7 +84,7 @@ def build_data(movies):
 
 
 def main():
-    print("Fetching movie list from Gist...")
+    print("Fetching movie list from Google Sheet...")
     movies = fetch_movie_list()
     print(f"Found {len(movies)} movies. Fetching streaming data...")
 
