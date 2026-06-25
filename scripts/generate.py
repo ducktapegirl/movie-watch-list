@@ -2,6 +2,7 @@
 import csv
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone
 from io import StringIO
@@ -15,6 +16,15 @@ TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p/original"
 TMDB_API_KEY = os.environ["TMDB_API_KEY"]
 HULU_ID = 15
 HULU_LIVE_TV_ID = 381
+
+_WORD_RE = re.compile(r"[A-Za-z0-9]+(?:['’][A-Za-z]+)*")
+
+
+def to_title_case(text):
+    # str.title() splits words on apostrophes too, so "it's" becomes
+    # "It'S". Treat an apostrophe followed by letters as part of the
+    # same word instead.
+    return _WORD_RE.sub(lambda m: m.group(0)[0].upper() + m.group(0)[1:].lower(), text)
 
 
 def fetch_movie_list():
@@ -89,7 +99,7 @@ def build_data(movies):
         movie_id, release_date = tmdb_search(title)
         providers = tmdb_providers(movie_id) if movie_id else []
         results.append(
-            {"title": title.title(), "release_date": release_date, "providers": providers}
+            {"title": to_title_case(title), "release_date": release_date, "providers": providers}
         )
     return results
 
