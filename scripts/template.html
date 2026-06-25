@@ -94,6 +94,113 @@
     word-break: break-word;
   }
   .none { color: #ccc; font-size: 0.85rem; }
+  .movie-year { display: block; font-size: 0.7rem; color: #888; font-weight: 400; margin-top: 1px; }
+  .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.6rem;
+  }
+  .toolbar input[type="text"],
+  .toolbar select {
+    font-family: inherit;
+    font-size: 0.85rem;
+    padding: 0.4rem 0.6rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fff;
+    color: #1a1a1a;
+  }
+  #search-input { flex: 1 1 140px; min-width: 0; }
+  .sort-group { display: flex; gap: 0.3rem; flex-shrink: 0; }
+  #sort-dir {
+    font-family: inherit;
+    font-size: 0.85rem;
+    padding: 0.4rem 0.55rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fff;
+    color: #1a1a1a;
+    cursor: pointer;
+  }
+  #sort-dir:hover { background: #f5f5f5; }
+  .filter-dropdown { position: relative; flex-shrink: 0; }
+  .filter-dropdown > summary {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.6rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+  .filter-dropdown > summary::-webkit-details-marker { display: none; }
+  .filter-panel {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 4px);
+    z-index: 10;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.12);
+    padding: 0.5rem;
+    max-height: 260px;
+    overflow-y: auto;
+    width: 220px;
+  }
+  .filter-panel label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .filter-panel-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 0.2rem 0.4rem;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 0.3rem;
+  }
+  .filter-panel-actions button {
+    font-family: inherit;
+    font-size: 0.75rem;
+    color: #0066cc;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  #filter-banner {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: #0a5ca8;
+    background: #eaf4ff;
+    border: 1px solid #cfe6fc;
+    border-radius: 6px;
+    padding: 0.45rem 0.7rem;
+    margin-bottom: 0.6rem;
+  }
+  #filter-banner.active { display: flex; }
+  #clear-filter {
+    font-family: inherit;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #0066cc;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
   footer {
     margin-top: .75rem;
     font-size: .7rem;
@@ -113,14 +220,57 @@
       <span id="refresh-status" class="refresh-status"></span>
     </div>
   </header>
+
+  {% set default_providers = ["Netflix", "Apple TV", "Hulu", "Disney Plus"] %}
+  {% set ns = namespace(names=[]) %}
+  {% for movie in movies %}
+    {% for p in movie.providers %}
+      {% if p.name not in ns.names %}{% set ns.names = ns.names + [p.name] %}{% endif %}
+    {% endfor %}
+  {% endfor %}
+  {% set all_providers = ns.names|sort %}
+
+  <div class="toolbar">
+    <input type="text" id="search-input" placeholder="Search movies...">
+    <div class="sort-group">
+      <select id="sort-field">
+        <option value="title">Title</option>
+        <option value="release_date">Release Date</option>
+      </select>
+      <button id="sort-dir" type="button" data-dir="asc" aria-label="Toggle sort direction">↑ Asc</button>
+    </div>
+    <details class="filter-dropdown" id="filter-dropdown">
+      <summary>Filter ▾</summary>
+      <div class="filter-panel">
+        <div class="filter-panel-actions">
+          <button type="button" id="filter-all">Select all</button>
+          <button type="button" id="filter-none">Select none</button>
+        </div>
+        {% for name in all_providers %}
+        <label>
+          <input type="checkbox" class="provider-filter" value="{{ name }}" {% if name in default_providers %}checked{% endif %}>
+          {{ name }}
+        </label>
+        {% endfor %}
+      </div>
+    </details>
+  </div>
+  <div id="filter-banner">
+    <span id="filter-banner-text"></span>
+    <button id="clear-filter" type="button">Show all</button>
+  </div>
+
   <table>
     <thead>
       <tr><th>Movie</th><th>Streaming</th></tr>
     </thead>
     <tbody>
       {% for movie in movies %}
-      <tr>
-        <td class="movie-title">{{ movie.title }}</td>
+      <tr data-title="{{ movie.title|lower }}" data-release-date="{{ movie.release_date or '' }}" data-providers="{{ movie.providers|map(attribute='name')|join('|') }}">
+        <td class="movie-title">
+          {{ movie.title }}
+          {% if movie.release_date %}<span class="movie-year">{{ movie.release_date[:4] }}</span>{% endif %}
+        </td>
         <td>
           {% if movie.providers %}
           <div class="providers">
@@ -141,6 +291,87 @@
   </table>
   <footer>Streaming data provided by <a href="https://www.justwatch.com" target="_blank" rel="noopener">JustWatch</a> via <a href="https://www.themoviedb.org" target="_blank" rel="noopener">TMDB</a></footer>
 </div>
+<script>
+  const searchInput = document.getElementById("search-input");
+  const sortField = document.getElementById("sort-field");
+  const sortDirBtn = document.getElementById("sort-dir");
+  const filterCheckboxes = Array.from(document.querySelectorAll(".provider-filter"));
+  const filterAllBtn = document.getElementById("filter-all");
+  const filterNoneBtn = document.getElementById("filter-none");
+  const clearFilterBtn = document.getElementById("clear-filter");
+  const filterBanner = document.getElementById("filter-banner");
+  const filterBannerText = document.getElementById("filter-banner-text");
+  const tbody = document.querySelector("table tbody");
+  const allRows = Array.from(tbody.querySelectorAll("tr"));
+
+  function selectedProviders() {
+    return new Set(filterCheckboxes.filter((cb) => cb.checked).map((cb) => cb.value));
+  }
+
+  function applyControls() {
+    const term = searchInput.value.trim().toLowerCase();
+    const selected = selectedProviders();
+    const allSelected = selected.size === filterCheckboxes.length;
+
+    let visibleCount = 0;
+    for (const row of allRows) {
+      const titleMatches = !term || row.dataset.title.includes(term);
+      const rowProviders = row.dataset.providers ? row.dataset.providers.split("|") : [];
+      const providerMatches = allSelected || rowProviders.some((p) => selected.has(p));
+      const visible = titleMatches && providerMatches;
+      row.hidden = !visible;
+      if (visible) visibleCount++;
+    }
+
+    const field = sortField.value;
+    const dir = sortDirBtn.dataset.dir === "desc" ? -1 : 1;
+    const sorted = allRows.slice().sort((a, b) => {
+      let av = a.dataset[field === "title" ? "title" : "releaseDate"] || "";
+      let bv = b.dataset[field === "title" ? "title" : "releaseDate"] || "";
+      if (field === "release_date") {
+        if (!av && !bv) return 0;
+        if (!av) return 1;
+        if (!bv) return -1;
+      }
+      return av < bv ? -1 * dir : av > bv ? 1 * dir : 0;
+    });
+    for (const row of sorted) tbody.appendChild(row);
+
+    if (allSelected) {
+      filterBanner.classList.remove("active");
+    } else {
+      filterBanner.classList.add("active");
+      const names = filterCheckboxes.filter((cb) => cb.checked).map((cb) => cb.value);
+      const label = names.length ? names.join(", ") : "nothing";
+      filterBannerText.textContent =
+        `Showing ${visibleCount} of ${allRows.length} — filtered to ${label}`;
+    }
+  }
+
+  searchInput.addEventListener("input", applyControls);
+  sortField.addEventListener("change", applyControls);
+  sortDirBtn.addEventListener("click", () => {
+    const next = sortDirBtn.dataset.dir === "desc" ? "asc" : "desc";
+    sortDirBtn.dataset.dir = next;
+    sortDirBtn.textContent = next === "desc" ? "↓ Desc" : "↑ Asc";
+    applyControls();
+  });
+  for (const cb of filterCheckboxes) cb.addEventListener("change", applyControls);
+  filterAllBtn.addEventListener("click", () => {
+    for (const cb of filterCheckboxes) cb.checked = true;
+    applyControls();
+  });
+  filterNoneBtn.addEventListener("click", () => {
+    for (const cb of filterCheckboxes) cb.checked = false;
+    applyControls();
+  });
+  clearFilterBtn.addEventListener("click", () => {
+    for (const cb of filterCheckboxes) cb.checked = true;
+    applyControls();
+  });
+
+  applyControls();
+</script>
 <script>
   // Fine-grained PAT scoped to this repo only, with "Actions: Read and write"
   // permission and nothing else. Generate at https://github.com/settings/personal-access-tokens
