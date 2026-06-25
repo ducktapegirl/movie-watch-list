@@ -2,7 +2,7 @@ name: Refresh Streaming Data
 
 on:
   schedule:
-    - cron: '0 4 * * *'  # daily at 4am UTC (midnight ET)
+    - cron: '0 4 */3 * *'  # daily at 4am UTC (midnight ET)
   workflow_dispatch:
 
 permissions:
