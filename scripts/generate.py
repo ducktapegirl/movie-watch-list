@@ -19,8 +19,14 @@ HULU_LIVE_TV_ID = 381
 
 def fetch_movie_list():
     url = os.environ["SHEETS_CSV_URL"]
-    r = requests.get(url, timeout=10)
+    r = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
     r.raise_for_status()
+    if r.text.lstrip().lower().startswith(("<!doctype", "<html")):
+        raise RuntimeError(
+            "SHEETS_CSV_URL did not return CSV (got an HTML page instead). "
+            "Check that the sheet is still published (File > Share > Publish "
+            "to web) and that the URL ends with output=csv."
+        )
     titles = []
     for row in csv.reader(StringIO(r.text)):
         if not row or not row[0].strip():
