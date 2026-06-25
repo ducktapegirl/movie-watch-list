@@ -79,6 +79,7 @@
     align-items: center;
     gap: 2px;
   }
+  .provider[hidden] { display: none; }
   .provider img {
     width: 32px;
     height: 32px;
@@ -275,7 +276,7 @@
           {% if movie.providers %}
           <div class="providers">
             {% for p in movie.providers %}
-            <div class="provider">
+            <div class="provider" data-provider="{{ p.name }}">
               <img src="{{ p.logo }}" alt="{{ p.name }}" title="{{ p.name }}">
               {% if p.note %}<span class="provider-note">({{ p.note }})</span>{% endif %}
             </div>
@@ -321,6 +322,10 @@
       const visible = titleMatches && providerMatches;
       row.hidden = !visible;
       if (visible) visibleCount++;
+
+      for (const icon of row.querySelectorAll(".provider")) {
+        icon.hidden = !allSelected && !selected.has(icon.dataset.provider);
+      }
     }
 
     const field = sortField.value;
