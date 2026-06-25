@@ -209,6 +209,88 @@
     text-align: center;
   }
   footer a { color: #bbb; }
+
+  #filter-done, #filter-backdrop { display: none; }
+
+  @keyframes slide-up {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+  }
+
+  @media (max-width: 640px) {
+    body { padding: 0.75rem; }
+
+    #search-input { flex: 1 1 100%; min-height: 44px; }
+    .sort-group { flex: 1; }
+    #sort-field { flex: 1; }
+    .filter-dropdown { flex: 1; }
+    .toolbar select,
+    #sort-dir,
+    .filter-dropdown > summary {
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .filter-panel {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: auto;
+      width: 100%;
+      max-width: 100%;
+      max-height: 75vh;
+      overflow-y: auto;
+      border-radius: 14px 14px 0 0;
+      box-shadow: 0 -4px 16px rgba(0,0,0,.18);
+      z-index: 1000;
+      padding: 1.25rem 1rem calc(0.75rem + env(safe-area-inset-bottom));
+      animation: slide-up .2s ease;
+    }
+    .filter-panel::before {
+      content: "";
+      position: absolute;
+      top: 0.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 36px;
+      height: 4px;
+      border-radius: 2px;
+      background: #ddd;
+    }
+    .filter-panel label {
+      font-size: 0.95rem;
+      padding: 0.8rem 0.2rem;
+    }
+    .provider-filter { width: 20px; height: 20px; flex-shrink: 0; }
+    .filter-panel-actions button { font-size: 0.85rem; padding: 0.3rem 0; min-height: 44px; }
+
+    #filter-done {
+      display: block;
+      width: 100%;
+      margin-top: 0.5rem;
+      padding: 0.7rem;
+      font-family: inherit;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #fff;
+      background: #0066cc;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    #filter-dropdown[open] ~ #filter-backdrop {
+      display: block;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.4);
+      border: none;
+      z-index: 999;
+    }
+  }
 </style>
 </head>
 <body>
@@ -253,8 +335,10 @@
           {{ name }}
         </label>
         {% endfor %}
+        <button type="button" id="filter-done">Done</button>
       </div>
     </details>
+    <button type="button" id="filter-backdrop" aria-label="Close filters"></button>
   </div>
   <div id="filter-banner">
     <span id="filter-banner-text"></span>
@@ -373,6 +457,14 @@
   clearFilterBtn.addEventListener("click", () => {
     for (const cb of filterCheckboxes) cb.checked = true;
     applyControls();
+  });
+
+  const filterDropdown = document.getElementById("filter-dropdown");
+  const closeFilter = () => { filterDropdown.open = false; };
+  document.getElementById("filter-backdrop").addEventListener("click", closeFilter);
+  document.getElementById("filter-done").addEventListener("click", closeFilter);
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && filterDropdown.open) closeFilter();
   });
 
   applyControls();
