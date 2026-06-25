@@ -1,12 +1,12 @@
-# Movie Streaming Tracker
+# Movie Streaming Display
 
 Reads your Google Sheets movie watchlist, checks which streaming services have each film, and publishes the results as a static webpage via GitHub Pages. Updates automatically every night; you can also trigger a refresh manually from the page.
 
 ## How It Works
 
-1. GitHub Actions reads a published CSV version of your Google Sheets movie list.
+1. GitHub Actions reads a published CSV version of your Google Sheets movie list. (Runs every 3 days.)
 2. For each movie it queries [TMDB](https://www.themoviedb.org) for US streaming availability (data from JustWatch).
-3. Results are rendered as `docs/index.html` and committed back to the repo
+3. Results are rendered from `scripts/generate.py` and `scripts/template.html` as `docs/index.html` and committed back to the repo
 4. GitHub Pages serves the page
 
 ---
@@ -31,7 +31,7 @@ Reads your Google Sheets movie watchlist, checks which streaming services have e
 2. Under **Source**, choose **Deploy from a branch**
 3. Select **main** branch, **/docs** folder → Save
 
-Your page will be at: `https://ducktapegirl.github.io/movie-watch-list/`
+Your page will be at: [https://ducktapegirl.github.io/movie-watch-list/](https://ducktapegirl.github.io/movie-watch-list/)
 
 ### 3. Manually run actions if necessary
 
