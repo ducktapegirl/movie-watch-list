@@ -17,6 +17,30 @@ TMDB_API_KEY = os.environ["TMDB_API_KEY"]
 HULU_ID = 15
 HULU_LIVE_TV_ID = 381
 
+ALLOWED_PROVIDERS = {
+    "Netflix",
+    "Amazon Prime Video",
+    "Amazon Video",
+    "Apple TV",
+    "Apple TV Store",
+    "Disney Plus",
+    "Hulu",
+    "HBO Max",
+    "Peacock Premium",
+    "Fandango At Home",
+    "FlixFling",
+    "Google Play Movies",
+    "Hoopla",
+    "Plex",
+    "Pluto TV",
+    "The Roku Channel",
+    "Tubi TV",
+    "Xumo Play",
+    "YouTube",
+    "YouTube TV",
+    "fuboTV",
+}
+
 _WORD_RE = re.compile(r"[A-Za-z0-9]+(?:['’][A-Za-z]+)*")
 
 
@@ -89,7 +113,8 @@ def tmdb_providers(movie_id):
     if HULU_LIVE_TV_ID in seen and HULU_ID not in seen:
         seen[HULU_LIVE_TV_ID]["note"] = "Live TV tier"
 
-    return sorted(seen.values(), key=lambda x: x["priority"])
+    kept = [p for p in seen.values() if p["name"] in ALLOWED_PROVIDERS]
+    return sorted(kept, key=lambda x: x["priority"])
 
 
 def build_data(movies):
