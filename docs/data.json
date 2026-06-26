@@ -521,13 +521,6 @@
           "note": null
         },
         {
-          "id": 331,
-          "name": "FlixFling",
-          "logo": "https://image.tmdb.org/t/p/original/yFGu4sSzwUMfhwmSsZgez8QhaVl.jpg",
-          "priority": 96,
-          "note": "rent/buy"
-        },
-        {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
