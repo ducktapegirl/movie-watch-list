@@ -28,7 +28,6 @@ ALLOWED_PROVIDERS = {
     "HBO Max",
     "Peacock Premium",
     "Fandango At Home",
-    "FlixFling",
     "Google Play Movies",
     "Hoopla",
     "Plex",
