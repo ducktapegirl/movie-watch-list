@@ -314,9 +314,9 @@
   {% set all_providers = ns.names|sort %}
 
   <div class="toolbar">
-    <input type="text" id="search-input" placeholder="Search movies...">
+    <input type="text" id="search-input" placeholder="Search movies..." autocomplete="off">
     <div class="sort-group">
-      <select id="sort-field">
+      <select id="sort-field" autocomplete="off">
         <option value="title">Title</option>
         <option value="release_date">Release Date</option>
       </select>
@@ -331,7 +331,7 @@
         </div>
         {% for name in all_providers %}
         <label>
-          <input type="checkbox" class="provider-filter" value="{{ name }}" {% if name in default_providers %}checked{% endif %}>
+          <input type="checkbox" class="provider-filter" value="{{ name }}" autocomplete="off" {% if name in default_providers %}checked{% endif %}>
           {{ name }}
         </label>
         {% endfor %}
@@ -468,6 +468,11 @@
   });
 
   applyControls();
+  // The browser may restore prior checkbox/select state after this initial
+  // applyControls() run (autocomplete or back-forward cache) without firing
+  // change events, leaving the rendered rows out of sync with the controls.
+  // Re-sync on every page show so changing the sort never appears to reset filters.
+  window.addEventListener("pageshow", applyControls);
 </script>
 <script>
   // Fine-grained PAT scoped to this repo only, with "Actions: Read and write"

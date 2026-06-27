@@ -912,9 +912,9 @@
   
 
   <div class="toolbar">
-    <input type="text" id="search-input" placeholder="Search movies...">
+    <input type="text" id="search-input" placeholder="Search movies..." autocomplete="off">
     <div class="sort-group">
-      <select id="sort-field">
+      <select id="sort-field" autocomplete="off">
         <option value="title">Title</option>
         <option value="release_date">Release Date</option>
       </select>
@@ -929,102 +929,102 @@
         </div>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="Amazon Prime Video" >
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="Amazon Prime Video" >
           Amazon Prime Video
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="Amazon Video" >
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="Amazon Video" >
           Amazon Video
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="Apple TV" checked>
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="Apple TV" checked>
           Apple TV
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="Apple TV Store" >
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="Apple TV Store" >
           Apple TV Store
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="Disney Plus" checked>
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="Disney Plus" checked>
           Disney Plus
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="Fandango At Home" >
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="Fandango At Home" >
           Fandango At Home
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="fuboTV" >
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="fuboTV" >
           fuboTV
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="Google Play Movies" >
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="Google Play Movies" >
           Google Play Movies
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="HBO Max" >
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="HBO Max" >
           HBO Max
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="Hoopla" >
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="Hoopla" >
           Hoopla
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="Hulu" checked>
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="Hulu" checked>
           Hulu
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="Netflix" checked>
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="Netflix" checked>
           Netflix
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="Peacock Premium" >
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="Peacock Premium" >
           Peacock Premium
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="Plex" >
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="Plex" >
           Plex
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="Pluto TV" >
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="Pluto TV" >
           Pluto TV
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="The Roku Channel" >
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="The Roku Channel" >
           The Roku Channel
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="Tubi TV" >
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="Tubi TV" >
           Tubi TV
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="Xumo Play" >
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="Xumo Play" >
           Xumo Play
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="YouTube" >
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="YouTube" >
           YouTube
         </label>
         
         <label>
-          <input type="checkbox" class="provider-filter" value="YouTube TV" >
+          <input type="checkbox" class="provider-filter" autocomplete="off" value="YouTube TV" >
           YouTube TV
         </label>
         
@@ -3033,6 +3033,11 @@
   });
 
   applyControls();
+  // The browser may restore prior checkbox/select state after this initial
+  // applyControls() run (autocomplete or back-forward cache) without firing
+  // change events, leaving the rendered rows out of sync with the controls.
+  // Re-sync on every page show so changing the sort never appears to reset filters.
+  window.addEventListener("pageshow", applyControls);
 </script>
 <script>
   // Fine-grained PAT scoped to this repo only, with "Actions: Read and write"
