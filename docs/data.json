@@ -1,14 +1,15 @@
 {
-  "updated_at": "2026-06-25 17:50 UTC",
+  "updated_at": "2026-06-28 07:47 UTC",
   "movies": [
     {
       "title": "Jurassic World",
+      "release_date": "2025-06-23",
       "providers": [
         {
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-          "priority": 2,
+          "priority": 1,
           "note": null
         },
         {
@@ -50,12 +51,13 @@
     },
     {
       "title": "The Green Knight",
+      "release_date": "2021-07-29",
       "providers": [
         {
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-          "priority": 2,
+          "priority": 1,
           "note": null
         },
         {
@@ -97,6 +99,7 @@
     },
     {
       "title": "Luca",
+      "release_date": "2021-06-17",
       "providers": [
         {
           "id": 337,
@@ -144,6 +147,7 @@
     },
     {
       "title": "Raya",
+      "release_date": "2021-03-03",
       "providers": [
         {
           "id": 337,
@@ -191,6 +195,7 @@
     },
     {
       "title": "Spider-Man: No Way Home",
+      "release_date": "2021-12-15",
       "providers": [
         {
           "id": 337,
@@ -259,6 +264,7 @@
     },
     {
       "title": "The Lighthouse",
+      "release_date": "2019-10-18",
       "providers": [
         {
           "id": 10,
@@ -313,6 +319,7 @@
     },
     {
       "title": "Super Troopers 2",
+      "release_date": "2018-04-19",
       "providers": [
         {
           "id": 10,
@@ -353,18 +360,20 @@
     },
     {
       "title": "Power Of The Dog",
+      "release_date": "2021-10-25",
       "providers": [
         {
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-          "priority": 2,
+          "priority": 1,
           "note": null
         }
       ]
     },
     {
       "title": "Pig",
+      "release_date": "2021-07-16",
       "providers": [
         {
           "id": 2,
@@ -377,20 +386,21 @@
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
-          "priority": 17,
+          "priority": 18,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
-          "priority": 18,
+          "priority": 19,
           "note": "rent/buy"
         }
       ]
     },
     {
       "title": "Mandy",
+      "release_date": "2018-09-13",
       "providers": [
         {
           "id": 10,
@@ -466,10 +476,12 @@
     },
     {
       "title": "From Beijing With Love",
+      "release_date": "1994-10-13",
       "providers": []
     },
     {
       "title": "Once Upon A Time In Hollywood",
+      "release_date": "2019-07-24",
       "providers": [
         {
           "id": 10,
@@ -531,6 +543,7 @@
     },
     {
       "title": "The Birdcage",
+      "release_date": "1996-03-03",
       "providers": [
         {
           "id": 9,
@@ -613,18 +626,20 @@
     },
     {
       "title": "Rrr",
+      "release_date": "2022-03-24",
       "providers": [
         {
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-          "priority": 2,
+          "priority": 1,
           "note": null
         }
       ]
     },
     {
       "title": "Love And Basketball",
+      "release_date": "2000-04-21",
       "providers": [
         {
           "id": 10,
@@ -644,27 +659,28 @@
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
-          "priority": 17,
+          "priority": 18,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
-          "priority": 18,
+          "priority": 19,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
-          "priority": 35,
+          "priority": 36,
           "note": "rent/buy"
         }
       ]
     },
     {
       "title": "It Happened One Night",
+      "release_date": "1934-02-22",
       "providers": [
         {
           "id": 10,
@@ -712,6 +728,7 @@
     },
     {
       "title": "The Host",
+      "release_date": "2013-03-22",
       "providers": [
         {
           "id": 10,
@@ -726,13 +743,6 @@
           "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
           "priority": 8,
           "note": "rent/buy"
-        },
-        {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 9,
-          "note": null
         },
         {
           "id": 3,
@@ -780,6 +790,7 @@
     },
     {
       "title": "Memories Of Murder",
+      "release_date": "2003-04-25",
       "providers": [
         {
           "id": 10,
@@ -813,6 +824,7 @@
     },
     {
       "title": "Sicario",
+      "release_date": "2015-09-17",
       "providers": [
         {
           "id": 15,
@@ -860,6 +872,7 @@
     },
     {
       "title": "Clue",
+      "release_date": "1985-12-13",
       "providers": [
         {
           "id": 10,
@@ -914,6 +927,7 @@
     },
     {
       "title": "Tenet",
+      "release_date": "2020-08-22",
       "providers": [
         {
           "id": 10,
@@ -961,6 +975,7 @@
     },
     {
       "title": "Killers Of The Flower Moon",
+      "release_date": "2023-10-18",
       "providers": [
         {
           "id": 350,
@@ -1015,6 +1030,7 @@
     },
     {
       "title": "The Sting",
+      "release_date": "1973-12-25",
       "providers": [
         {
           "id": 10,
@@ -1062,10 +1078,12 @@
     },
     {
       "title": "The Unknown",
+      "release_date": "2021-10-16",
       "providers": []
     },
     {
       "title": "Next Three Days",
+      "release_date": "2010-11-18",
       "providers": [
         {
           "id": 10,
@@ -1113,6 +1131,7 @@
     },
     {
       "title": "News Of The World",
+      "release_date": "2020-12-25",
       "providers": [
         {
           "id": 10,
@@ -1167,6 +1186,7 @@
     },
     {
       "title": "True Crime",
+      "release_date": "1999-03-19",
       "providers": [
         {
           "id": 10,
@@ -1207,6 +1227,7 @@
     },
     {
       "title": "The Missing",
+      "release_date": "2003-11-26",
       "providers": [
         {
           "id": 10,
@@ -1261,6 +1282,7 @@
     },
     {
       "title": "Outcast",
+      "release_date": "2014-09-26",
       "providers": [
         {
           "id": 10,
@@ -1329,6 +1351,7 @@
     },
     {
       "title": "Hereditary",
+      "release_date": "2018-06-07",
       "providers": [
         {
           "id": 10,
@@ -1369,6 +1392,7 @@
     },
     {
       "title": "I Saw The Tv Glow",
+      "release_date": "2024-05-03",
       "providers": [
         {
           "id": 10,
@@ -1444,6 +1468,7 @@
     },
     {
       "title": "Black Rain",
+      "release_date": "1989-09-22",
       "providers": [
         {
           "id": 9,
@@ -1498,10 +1523,12 @@
     },
     {
       "title": "Ghost Dog",
+      "release_date": "2021-10-12",
       "providers": []
     },
     {
       "title": "Night Of The Hunter",
+      "release_date": "1955-07-26",
       "providers": [
         {
           "id": 9,
@@ -1549,6 +1576,7 @@
     },
     {
       "title": "Philadelphia",
+      "release_date": "1993-12-22",
       "providers": [
         {
           "id": 15,
@@ -1596,6 +1624,7 @@
     },
     {
       "title": "Get Away",
+      "release_date": "2024-12-06",
       "providers": [
         {
           "id": 15,
@@ -1650,6 +1679,7 @@
     },
     {
       "title": "Nacho Libre",
+      "release_date": "2006-06-16",
       "providers": [
         {
           "id": 10,
@@ -1676,48 +1706,49 @@
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
-          "priority": 17,
+          "priority": 18,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
-          "priority": 18,
+          "priority": 19,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
-          "priority": 35,
+          "priority": 36,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 36,
+          "priority": 37,
           "note": null
         },
         {
           "id": 300,
           "name": "Pluto TV",
           "logo": "https://image.tmdb.org/t/p/original/dB8G41Q6tSL5NBisrIeqByfepBc.jpg",
-          "priority": 74,
+          "priority": 75,
           "note": null
         },
         {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 125,
+          "priority": 126,
           "note": "rent/buy"
         }
       ]
     },
     {
       "title": "Watch Out We\u2019re Mad",
+      "release_date": "1974-03-29",
       "providers": [
         {
           "id": 10,
@@ -1737,6 +1768,7 @@
     },
     {
       "title": "Mickey 17",
+      "release_date": "2025-02-28",
       "providers": [
         {
           "id": 2,
@@ -1791,10 +1823,12 @@
     },
     {
       "title": "Before The Devil Knows Your Dead",
+      "release_date": null,
       "providers": []
     },
     {
       "title": "Weird: Al Yankovic Story",
+      "release_date": "2022-09-08",
       "providers": [
         {
           "id": 10,
@@ -1842,6 +1876,7 @@
     },
     {
       "title": "One Battle After Another",
+      "release_date": "2025-09-23",
       "providers": [
         {
           "id": 9,
@@ -1910,6 +1945,7 @@
     },
     {
       "title": "The Station Agent",
+      "release_date": "2003-12-05",
       "providers": [
         {
           "id": 9,
@@ -1964,6 +2000,7 @@
     },
     {
       "title": "Project Hail Mary",
+      "release_date": "2026-03-15",
       "providers": [
         {
           "id": 10,
@@ -1990,29 +2027,84 @@
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
-          "priority": 17,
+          "priority": 18,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
-          "priority": 18,
+          "priority": 19,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
-          "priority": 35,
+          "priority": 36,
           "note": "rent/buy"
         },
         {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 125,
+          "priority": 126,
           "note": "rent/buy"
+        }
+      ]
+    },
+    {
+      "title": "My Cousin Vinny",
+      "release_date": "1992-03-13",
+      "providers": [
+        {
+          "id": 10,
+          "name": "Amazon Video",
+          "logo": "https://image.tmdb.org/t/p/original/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+          "priority": 7,
+          "note": "rent/buy"
+        },
+        {
+          "id": 2,
+          "name": "Apple TV Store",
+          "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+          "priority": 8,
+          "note": "rent/buy"
+        },
+        {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+          "priority": 9,
+          "note": null
+        },
+        {
+          "id": 3,
+          "name": "Google Play Movies",
+          "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+          "priority": 18,
+          "note": "rent/buy"
+        },
+        {
+          "id": 192,
+          "name": "YouTube",
+          "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+          "priority": 19,
+          "note": "rent/buy"
+        },
+        {
+          "id": 7,
+          "name": "Fandango At Home",
+          "logo": "https://image.tmdb.org/t/p/original/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+          "priority": 36,
+          "note": "rent/buy"
+        },
+        {
+          "id": 2528,
+          "name": "YouTube TV",
+          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
+          "priority": 37,
+          "note": null
         }
       ]
     }
