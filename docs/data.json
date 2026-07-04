@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01 08:07 UTC",
+  "updated_at": "2026-07-04 06:44 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -9,7 +9,7 @@
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-          "priority": 0,
+          "priority": 1,
           "note": null
         },
         {
@@ -57,7 +57,7 @@
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-          "priority": 0,
+          "priority": 1,
           "note": null
         },
         {
@@ -89,11 +89,46 @@
           "note": "rent/buy"
         },
         {
+          "id": 207,
+          "name": "The Roku Channel",
+          "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
+          "priority": 28,
+          "note": null
+        },
+        {
+          "id": 212,
+          "name": "Hoopla",
+          "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
+          "priority": 36,
+          "note": null
+        },
+        {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
+        },
+        {
+          "id": 538,
+          "name": "Plex",
+          "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
+          "priority": 126,
+          "note": null
+        },
+        {
+          "id": 1963,
+          "name": "Xumo Play",
+          "logo": "https://image.tmdb.org/t/p/original/xfKqqWYYIyvjECOFOaYtJdD7gl3.jpg",
+          "priority": 168,
+          "note": null
+        },
+        {
+          "id": 73,
+          "name": "Tubi TV",
+          "logo": "https://image.tmdb.org/t/p/original/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+          "priority": 347,
+          "note": null
         }
       ]
     },
@@ -121,13 +156,6 @@
           "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
           "priority": 9,
           "note": "rent/buy"
-        },
-        {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 10,
-          "note": null
         },
         {
           "id": 3,
@@ -362,6 +390,13 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
+        },
+        {
+          "id": 1899,
+          "name": "HBO Max",
+          "logo": "https://image.tmdb.org/t/p/original/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+          "priority": 155,
+          "note": null
         }
       ]
     },
@@ -373,7 +408,7 @@
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-          "priority": 0,
+          "priority": 1,
           "note": null
         }
       ]
@@ -574,13 +609,6 @@
           "note": "rent/buy"
         },
         {
-          "id": 386,
-          "name": "Peacock Premium",
-          "logo": "https://image.tmdb.org/t/p/original/2aGrp1xw3qhwCYvNGAJZPdjfeeX.jpg",
-          "priority": 17,
-          "note": null
-        },
-        {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
@@ -599,6 +627,13 @@
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
           "priority": 28,
+          "note": null
+        },
+        {
+          "id": 212,
+          "name": "Hoopla",
+          "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
+          "priority": 36,
           "note": null
         },
         {
@@ -632,7 +667,7 @@
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-          "priority": 0,
+          "priority": 1,
           "note": null
         }
       ]
@@ -711,18 +746,18 @@
           "note": "rent/buy"
         },
         {
+          "id": 207,
+          "name": "The Roku Channel",
+          "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
+          "priority": 28,
+          "note": null
+        },
+        {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
-        },
-        {
-          "id": 73,
-          "name": "Tubi TV",
-          "logo": "https://image.tmdb.org/t/p/original/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
-          "priority": 347,
-          "note": null
         }
       ]
     },
@@ -1086,6 +1121,13 @@
       "release_date": "2010-11-18",
       "providers": [
         {
+          "id": 9,
+          "name": "Amazon Prime Video",
+          "logo": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+          "priority": 3,
+          "note": null
+        },
+        {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
@@ -1112,6 +1154,20 @@
           "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
           "priority": 20,
           "note": "rent/buy"
+        },
+        {
+          "id": 207,
+          "name": "The Roku Channel",
+          "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
+          "priority": 28,
+          "note": null
+        },
+        {
+          "id": 212,
+          "name": "Hoopla",
+          "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
+          "priority": 36,
+          "note": null
         },
         {
           "id": 7,
@@ -1263,13 +1319,6 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
-        },
-        {
-          "id": 73,
-          "name": "Tubi TV",
-          "logo": "https://image.tmdb.org/t/p/original/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
-          "priority": 347,
-          "note": null
         }
       ]
     },
@@ -1292,13 +1341,6 @@
           "note": "rent/buy"
         },
         {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 10,
-          "note": null
-        },
-        {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
@@ -1311,6 +1353,13 @@
           "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
           "priority": 20,
           "note": "rent/buy"
+        },
+        {
+          "id": 207,
+          "name": "The Roku Channel",
+          "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
+          "priority": 28,
+          "note": null
         },
         {
           "id": 212,
@@ -1387,6 +1436,13 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
+        },
+        {
+          "id": 1899,
+          "name": "HBO Max",
+          "logo": "https://image.tmdb.org/t/p/original/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+          "priority": 155,
+          "note": null
         }
       ]
     },
@@ -1423,39 +1479,11 @@
           "note": "rent/buy"
         },
         {
-          "id": 207,
-          "name": "The Roku Channel",
-          "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
-          "priority": 28,
-          "note": null
-        },
-        {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
-        },
-        {
-          "id": 538,
-          "name": "Plex",
-          "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 126,
-          "note": null
-        },
-        {
-          "id": 1963,
-          "name": "Xumo Play",
-          "logo": "https://image.tmdb.org/t/p/original/xfKqqWYYIyvjECOFOaYtJdD7gl3.jpg",
-          "priority": 168,
-          "note": null
-        },
-        {
-          "id": 73,
-          "name": "Tubi TV",
-          "logo": "https://image.tmdb.org/t/p/original/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
-          "priority": 347,
-          "note": null
         }
       ]
     },
@@ -1463,13 +1491,6 @@
       "title": "Black Rain",
       "release_date": "1989-09-22",
       "providers": [
-        {
-          "id": 9,
-          "name": "Amazon Prime Video",
-          "logo": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
-          "priority": 3,
-          "note": null
-        },
         {
           "id": 10,
           "name": "Amazon Video",
@@ -2070,13 +2091,6 @@
           "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
           "priority": 9,
           "note": "rent/buy"
-        },
-        {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 10,
-          "note": null
         },
         {
           "id": 3,
