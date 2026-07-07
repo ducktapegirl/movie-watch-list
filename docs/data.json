@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04 06:44 UTC",
+  "updated_at": "2026-07-07 07:34 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -758,6 +758,13 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
+        },
+        {
+          "id": 73,
+          "name": "Tubi TV",
+          "logo": "https://image.tmdb.org/t/p/original/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+          "priority": 347,
+          "note": null
         }
       ]
     },
@@ -1319,6 +1326,13 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
+        },
+        {
+          "id": 73,
+          "name": "Tubi TV",
+          "logo": "https://image.tmdb.org/t/p/original/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+          "priority": 347,
+          "note": null
         }
       ]
     },
@@ -1380,13 +1394,6 @@
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
           "priority": 38,
-          "note": null
-        },
-        {
-          "id": 538,
-          "name": "Plex",
-          "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 126,
           "note": null
         },
         {
@@ -1969,13 +1976,6 @@
       "release_date": "2003-12-05",
       "providers": [
         {
-          "id": 9,
-          "name": "Amazon Prime Video",
-          "logo": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
-          "priority": 3,
-          "note": null
-        },
-        {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
@@ -2023,6 +2023,13 @@
       "title": "Project Hail Mary",
       "release_date": "2026-03-15",
       "providers": [
+        {
+          "id": 9,
+          "name": "Amazon Prime Video",
+          "logo": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+          "priority": 3,
+          "note": null
+        },
         {
           "id": 10,
           "name": "Amazon Video",
