@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07 07:34 UTC",
+  "updated_at": "2026-07-10 07:31 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -44,7 +44,7 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         }
       ]
@@ -92,21 +92,21 @@
           "id": 207,
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
-          "priority": 28,
+          "priority": 29,
           "note": null
         },
         {
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
-          "priority": 36,
+          "priority": 37,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
@@ -175,7 +175,7 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         }
       ]
@@ -223,7 +223,7 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         }
       ]
@@ -278,14 +278,14 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
+          "priority": 39,
           "note": null
         },
         {
@@ -333,14 +333,14 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
+          "priority": 39,
           "note": null
         },
         {
@@ -388,7 +388,7 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
@@ -476,28 +476,28 @@
           "id": 207,
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
-          "priority": 28,
+          "priority": 29,
           "note": null
         },
         {
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
-          "priority": 36,
+          "priority": 37,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
+          "priority": 39,
           "note": null
         },
         {
@@ -564,14 +564,14 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
+          "priority": 39,
           "note": null
         },
         {
@@ -626,21 +626,21 @@
           "id": 207,
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
-          "priority": 28,
+          "priority": 29,
           "note": null
         },
         {
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
-          "priority": 36,
+          "priority": 37,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
@@ -708,7 +708,7 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         }
       ]
@@ -749,14 +749,14 @@
           "id": 207,
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
-          "priority": 28,
+          "priority": 29,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
@@ -804,14 +804,14 @@
           "id": 207,
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
-          "priority": 28,
+          "priority": 29,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
@@ -859,7 +859,7 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         }
       ]
@@ -907,7 +907,7 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         }
       ]
@@ -941,14 +941,14 @@
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
-          "priority": 36,
+          "priority": 37,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
@@ -1003,7 +1003,7 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
@@ -1058,7 +1058,7 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
@@ -1106,14 +1106,14 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
+          "priority": 39,
           "note": null
         }
       ]
@@ -1149,6 +1149,13 @@
           "note": "rent/buy"
         },
         {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+          "priority": 10,
+          "note": null
+        },
+        {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
@@ -1166,21 +1173,21 @@
           "id": 207,
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
-          "priority": 28,
+          "priority": 29,
           "note": null
         },
         {
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
-          "priority": 36,
+          "priority": 37,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         }
       ]
@@ -1207,7 +1214,7 @@
           "id": 386,
           "name": "Peacock Premium",
           "logo": "https://image.tmdb.org/t/p/original/2aGrp1xw3qhwCYvNGAJZPdjfeeX.jpg",
-          "priority": 17,
+          "priority": 16,
           "note": null
         },
         {
@@ -1228,14 +1235,14 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
+          "priority": 39,
           "note": null
         }
       ]
@@ -1276,7 +1283,7 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         }
       ]
@@ -1317,14 +1324,14 @@
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
-          "priority": 36,
+          "priority": 37,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
@@ -1372,28 +1379,28 @@
           "id": 207,
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
-          "priority": 28,
+          "priority": 29,
           "note": null
         },
         {
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
-          "priority": 36,
+          "priority": 37,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
+          "priority": 39,
           "note": null
         },
         {
@@ -1441,7 +1448,7 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
@@ -1489,7 +1496,7 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         }
       ]
@@ -1530,14 +1537,14 @@
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
-          "priority": 36,
+          "priority": 37,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         }
       ]
@@ -1583,7 +1590,7 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
@@ -1638,7 +1645,7 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         }
       ]
@@ -1686,14 +1693,14 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
+          "priority": 39,
           "note": null
         }
       ]
@@ -1741,14 +1748,14 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
+          "priority": 39,
           "note": null
         },
         {
@@ -1782,7 +1789,7 @@
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
-          "priority": 36,
+          "priority": 37,
           "note": null
         }
       ]
@@ -1823,14 +1830,14 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
+          "priority": 39,
           "note": null
         },
         {
@@ -1890,14 +1897,14 @@
           "id": 207,
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
-          "priority": 28,
+          "priority": 29,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         }
       ]
@@ -1945,14 +1952,14 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
+          "priority": 39,
           "note": null
         },
         {
@@ -2007,14 +2014,14 @@
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
-          "priority": 36,
+          "priority": 37,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         }
       ]
@@ -2069,7 +2076,7 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
@@ -2117,14 +2124,14 @@
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
+          "priority": 38,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
+          "priority": 39,
           "note": null
         }
       ]
