@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19 06:26 UTC",
+  "updated_at": "2026-07-22 06:24 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -888,13 +888,6 @@
           "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
           "priority": 9,
           "note": "rent/buy"
-        },
-        {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 10,
-          "note": null
         },
         {
           "id": 3,
