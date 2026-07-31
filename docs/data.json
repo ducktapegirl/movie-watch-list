@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28 06:22 UTC",
+  "updated_at": "2026-07-31 06:40 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -669,13 +669,6 @@
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
           "priority": 1,
           "note": null
-        },
-        {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 10,
-          "note": null
         }
       ]
     },
@@ -792,6 +785,13 @@
           "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
           "priority": 9,
           "note": "rent/buy"
+        },
+        {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+          "priority": 10,
+          "note": null
         },
         {
           "id": 3,
@@ -1161,13 +1161,6 @@
           "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
           "priority": 9,
           "note": "rent/buy"
-        },
-        {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 10,
-          "note": null
         },
         {
           "id": 3,
@@ -1565,8 +1558,58 @@
     },
     {
       "title": "Ghost Dog",
-      "release_date": "2021-10-12",
-      "providers": []
+      "release_date": "1999-10-06",
+      "providers": [
+        {
+          "id": 10,
+          "name": "Amazon Video",
+          "logo": "https://image.tmdb.org/t/p/original/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+          "priority": 8,
+          "note": "rent/buy"
+        },
+        {
+          "id": 2,
+          "name": "Apple TV Store",
+          "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+          "priority": 9,
+          "note": "rent/buy"
+        },
+        {
+          "id": 3,
+          "name": "Google Play Movies",
+          "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+          "priority": 20,
+          "note": "rent/buy"
+        },
+        {
+          "id": 192,
+          "name": "YouTube",
+          "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+          "priority": 21,
+          "note": "rent/buy"
+        },
+        {
+          "id": 7,
+          "name": "Fandango At Home",
+          "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
+          "priority": 39,
+          "note": "rent/buy"
+        },
+        {
+          "id": 2528,
+          "name": "YouTube TV",
+          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
+          "priority": 40,
+          "note": null
+        },
+        {
+          "id": 1899,
+          "name": "HBO Max",
+          "logo": "https://image.tmdb.org/t/p/original/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
+          "priority": 155,
+          "note": null
+        }
+      ]
     },
     {
       "title": "Night Of The Hunter",
