@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31 06:40 UTC",
+  "updated_at": "2026-08-01 06:24 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -93,13 +93,6 @@
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
           "priority": 30,
-          "note": null
-        },
-        {
-          "id": 212,
-          "name": "Hoopla",
-          "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
-          "priority": 38,
           "note": null
         },
         {
@@ -787,13 +780,6 @@
           "note": "rent/buy"
         },
         {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 10,
-          "note": null
-        },
-        {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
@@ -957,13 +943,6 @@
           "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
           "priority": 20,
           "note": "rent/buy"
-        },
-        {
-          "id": 212,
-          "name": "Hoopla",
-          "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
-          "priority": 38,
-          "note": null
         },
         {
           "id": 7,
