@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07 05:37 UTC",
+  "updated_at": "2026-08-10 05:21 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -676,13 +676,6 @@
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
           "priority": 2,
           "note": null
-        },
-        {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 10,
-          "note": null
         }
       ]
     },
@@ -882,13 +875,6 @@
       "title": "Sicario",
       "release_date": "2015-09-17",
       "providers": [
-        {
-          "id": 15,
-          "name": "Hulu",
-          "logo": "https://image.tmdb.org/t/p/original/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg",
-          "priority": 6,
-          "note": null
-        },
         {
           "id": 10,
           "name": "Amazon Video",
@@ -1671,13 +1657,6 @@
       "release_date": "1993-12-22",
       "providers": [
         {
-          "id": 15,
-          "name": "Hulu",
-          "logo": "https://image.tmdb.org/t/p/original/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg",
-          "priority": 6,
-          "note": null
-        },
-        {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
@@ -1841,6 +1820,13 @@
           "logo": "https://image.tmdb.org/t/p/original/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
           "priority": 8,
           "note": "rent/buy"
+        },
+        {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+          "priority": 10,
+          "note": null
         },
         {
           "id": 212,
