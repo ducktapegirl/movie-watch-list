@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10 05:21 UTC",
+  "updated_at": "2026-08-13 05:37 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -140,7 +140,7 @@
           "id": 337,
           "name": "Disney Plus",
           "logo": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
-          "priority": 5,
+          "priority": 3,
           "note": null
         },
         {
@@ -188,7 +188,7 @@
           "id": 337,
           "name": "Disney Plus",
           "logo": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
-          "priority": 5,
+          "priority": 3,
           "note": null
         },
         {
@@ -236,7 +236,7 @@
           "id": 337,
           "name": "Disney Plus",
           "logo": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
-          "priority": 5,
+          "priority": 3,
           "note": null
         },
         {
@@ -280,13 +280,6 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
-        },
-        {
-          "id": 2528,
-          "name": "YouTube TV",
-          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
-          "note": null
         },
         {
           "id": 538,
@@ -335,13 +328,6 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
-        },
-        {
-          "id": 2528,
-          "name": "YouTube TV",
-          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
-          "note": null
         },
         {
           "id": 1899,
@@ -425,13 +411,6 @@
       "release_date": "2021-07-16",
       "providers": [
         {
-          "id": 2,
-          "name": "Apple TV Store",
-          "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
-          "priority": 9,
-          "note": "rent/buy"
-        },
-        {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
@@ -499,13 +478,6 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
-        },
-        {
-          "id": 2528,
-          "name": "YouTube TV",
-          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
-          "note": null
         },
         {
           "id": 300,
@@ -580,13 +552,6 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
-        },
-        {
-          "id": 2528,
-          "name": "YouTube TV",
-          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
-          "note": null
         },
         {
           "id": 538,
@@ -1023,7 +988,7 @@
           "id": 350,
           "name": "Apple TV",
           "logo": "https://image.tmdb.org/t/p/original/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg",
-          "priority": 3,
+          "priority": 5,
           "note": null
         },
         {
@@ -1108,13 +1073,6 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
-        },
-        {
-          "id": 2528,
-          "name": "YouTube TV",
-          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
-          "note": null
         }
       ]
     },
@@ -1147,6 +1105,13 @@
           "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
           "priority": 9,
           "note": "rent/buy"
+        },
+        {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+          "priority": 10,
+          "note": null
         },
         {
           "id": 3,
@@ -1237,13 +1202,6 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
-        },
-        {
-          "id": 2528,
-          "name": "YouTube TV",
-          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
-          "note": null
         }
       ]
     },
@@ -1395,13 +1353,6 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
-        },
-        {
-          "id": 2528,
-          "name": "YouTube TV",
-          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
-          "note": null
         },
         {
           "id": 73,
@@ -1589,13 +1540,6 @@
           "note": "rent/buy"
         },
         {
-          "id": 2528,
-          "name": "YouTube TV",
-          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
-          "note": null
-        },
-        {
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/jbe4gVSfRlbPTdESXhEKpornsfu.jpg",
@@ -1738,13 +1682,6 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
-        },
-        {
-          "id": 2528,
-          "name": "YouTube TV",
-          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
-          "note": null
         }
       ]
     },
@@ -1788,13 +1725,6 @@
           "note": "rent/buy"
         },
         {
-          "id": 2528,
-          "name": "YouTube TV",
-          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
-          "note": null
-        },
-        {
           "id": 300,
           "name": "Pluto TV",
           "logo": "https://image.tmdb.org/t/p/original/dB8G41Q6tSL5NBisrIeqByfepBc.jpg",
@@ -1820,13 +1750,6 @@
           "logo": "https://image.tmdb.org/t/p/original/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
           "priority": 8,
           "note": "rent/buy"
-        },
-        {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 10,
-          "note": null
         },
         {
           "id": 212,
@@ -1882,13 +1805,6 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
-        },
-        {
-          "id": 2528,
-          "name": "YouTube TV",
-          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
-          "note": null
         },
         {
           "id": 538,
@@ -2004,13 +1920,6 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
-        },
-        {
-          "id": 2528,
-          "name": "YouTube TV",
-          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
-          "note": null
         },
         {
           "id": 538,
@@ -2176,13 +2085,6 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
-        },
-        {
-          "id": 2528,
-          "name": "YouTube TV",
-          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "priority": 38,
-          "note": null
         }
       ]
     }
