@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13 05:37 UTC",
+  "updated_at": "2026-08-16 04:31 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -282,6 +282,13 @@
           "note": "rent/buy"
         },
         {
+          "id": 2528,
+          "name": "YouTube TV",
+          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
+          "priority": 38,
+          "note": null
+        },
+        {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
@@ -552,6 +559,13 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
+        },
+        {
+          "id": 2528,
+          "name": "YouTube TV",
+          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
+          "priority": 38,
+          "note": null
         },
         {
           "id": 538,
@@ -1073,6 +1087,13 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
+        },
+        {
+          "id": 2528,
+          "name": "YouTube TV",
+          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
+          "priority": 38,
+          "note": null
         }
       ]
     },
@@ -1105,13 +1126,6 @@
           "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
           "priority": 9,
           "note": "rent/buy"
-        },
-        {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 10,
-          "note": null
         },
         {
           "id": 3,
@@ -1202,6 +1216,13 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
+        },
+        {
+          "id": 2528,
+          "name": "YouTube TV",
+          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
+          "priority": 38,
+          "note": null
         }
       ]
     },
@@ -2085,6 +2106,13 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
+        },
+        {
+          "id": 2528,
+          "name": "YouTube TV",
+          "logo": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
+          "priority": 38,
+          "note": null
         }
       ]
     }
