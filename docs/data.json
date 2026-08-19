@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16 04:31 UTC",
+  "updated_at": "2026-08-19 04:31 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -654,6 +654,13 @@
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
           "priority": 2,
+          "note": null
+        },
+        {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+          "priority": 10,
           "note": null
         }
       ]
