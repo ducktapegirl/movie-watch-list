@@ -80,9 +80,21 @@ def tmdb_search(title):
     r.raise_for_status()
     results = r.json().get("results", [])
     if not results:
-        return None, None
+        return None, None, None
     top = results[0]
-    return top["id"], top.get("release_date") or None
+    return top["id"], top.get("release_date") or None, top.get("vote_average") or None
+
+
+def tmdb_details(movie_id):
+    r = requests.get(
+        f"{TMDB_BASE}/movie/{movie_id}",
+        params={"api_key": TMDB_API_KEY, "append_to_response": "external_ids"},
+        timeout=10,
+    )
+    r.raise_for_status()
+    data = r.json()
+    imdb_id = data.get("external_ids", {}).get("imdb_id") or None
+    return data.get("runtime") or None, imdb_id
 
 
 def tmdb_providers(movie_id):
@@ -120,10 +132,21 @@ def build_data(movies):
     results = []
     for title in movies:
         print(f"  {title}")
-        movie_id, release_date = tmdb_search(title)
-        providers = tmdb_providers(movie_id) if movie_id else []
+        movie_id, release_date, vote_average = tmdb_search(title)
+        if movie_id:
+            providers = tmdb_providers(movie_id)
+            runtime, imdb_id = tmdb_details(movie_id)
+        else:
+            providers, runtime, imdb_id = [], None, None
         results.append(
-            {"title": to_title_case(title), "release_date": release_date, "providers": providers}
+            {
+                "title": to_title_case(title),
+                "release_date": release_date,
+                "providers": providers,
+                "runtime": runtime,
+                "rating": round(vote_average, 1) if vote_average else None,
+                "imdb_url": f"https://www.imdb.com/title/{imdb_id}/" if imdb_id else None,
+            }
         )
     return results
 
