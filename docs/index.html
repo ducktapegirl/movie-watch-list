@@ -67,6 +67,8 @@
     vertical-align: middle;
   }
   .movie-title { font-size: 0.9rem; font-weight: 500; }
+  .movie-title a { color: inherit; text-decoration: none; }
+  .movie-title a:hover { text-decoration: underline; }
   .providers {
     display: flex;
     flex-wrap: wrap;
@@ -96,6 +98,7 @@
   }
   .none { color: #ccc; font-size: 0.85rem; }
   .movie-year { display: block; font-size: 0.7rem; color: #888; font-weight: 400; margin-top: 1px; }
+  .movie-meta { display: block; font-size: 0.7rem; color: #888; font-weight: 400; margin-top: 1px; }
   .toolbar {
     display: flex;
     flex-wrap: wrap;
@@ -298,7 +301,7 @@
   <header>
     <h1>Movie Watchlist</h1>
     <div class="header-right">
-      <div class="updated">Updated 2026-08-19 04:31 UTC</div>
+      <div class="updated">Updated 2026-08-22 03:04 UTC</div>
       <button id="refresh-btn" class="refresh" type="button">↻ Refresh</button>
       <span id="refresh-status" class="refresh-status"></span>
     </div>
@@ -498,8 +501,6 @@
     
       
     
-      
-    
   
     
       
@@ -828,8 +829,6 @@
     
       
     
-      
-    
   
     
       
@@ -915,6 +914,18 @@
   
     
       
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
     
       
     
@@ -1064,8 +1075,11 @@
       
       <tr data-title="jurassic world" data-release-date="2025-06-23" data-providers="Netflix|Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home">
         <td class="movie-title">
-          Jurassic World
+          <a href="https://www.imdb.com/title/tt31036941/" target="_blank" rel="noopener">Jurassic World</a>
           <span class="movie-year">2025</span>
+          
+          <span class="movie-meta">134 min · TMDB 6.3</span>
+          
         </td>
         <td>
           
@@ -1108,8 +1122,11 @@
       
       <tr data-title="the green knight" data-release-date="2021-07-29" data-providers="Netflix|Amazon Video|Apple TV Store|Google Play Movies|YouTube|The Roku Channel|Hoopla|Fandango At Home|Plex|Xumo Play|Tubi TV">
         <td class="movie-title">
-          The Green Knight
+          <a href="https://www.imdb.com/title/tt9243804/" target="_blank" rel="noopener">The Green Knight</a>
           <span class="movie-year">2021</span>
+          
+          <span class="movie-meta">130 min · TMDB 6.6</span>
+          
         </td>
         <td>
           
@@ -1177,8 +1194,11 @@
       
       <tr data-title="luca" data-release-date="2021-06-17" data-providers="Disney Plus|Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home">
         <td class="movie-title">
-          Luca
+          <a href="https://www.imdb.com/title/tt12801262/" target="_blank" rel="noopener">Luca</a>
           <span class="movie-year">2021</span>
+          
+          <span class="movie-meta">95 min · TMDB 7.8</span>
+          
         </td>
         <td>
           
@@ -1221,8 +1241,11 @@
       
       <tr data-title="raya" data-release-date="2021-03-03" data-providers="Disney Plus|Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home">
         <td class="movie-title">
-          Raya
+          <a href="https://www.imdb.com/title/tt5109280/" target="_blank" rel="noopener">Raya</a>
           <span class="movie-year">2021</span>
+          
+          <span class="movie-meta">107 min · TMDB 7.8</span>
+          
         </td>
         <td>
           
@@ -1265,8 +1288,11 @@
       
       <tr data-title="spider-man: no way home" data-release-date="2021-12-15" data-providers="Disney Plus|Amazon Video|Apple TV Store|fuboTV|Google Play Movies|YouTube|Fandango At Home|YouTube TV|Plex">
         <td class="movie-title">
-          Spider-Man: No Way Home
+          <a href="https://www.imdb.com/title/tt10872600/" target="_blank" rel="noopener">Spider-Man: No Way Home</a>
           <span class="movie-year">2021</span>
+          
+          <span class="movie-meta">148 min · TMDB 7.9</span>
+          
         </td>
         <td>
           
@@ -1324,8 +1350,11 @@
       
       <tr data-title="the lighthouse" data-release-date="2019-10-18" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home|HBO Max">
         <td class="movie-title">
-          The Lighthouse
+          <a href="https://www.imdb.com/title/tt7984734/" target="_blank" rel="noopener">The Lighthouse</a>
           <span class="movie-year">2019</span>
+          
+          <span class="movie-meta">109 min · TMDB 7.5</span>
+          
         </td>
         <td>
           
@@ -1368,8 +1397,11 @@
       
       <tr data-title="super troopers 2" data-release-date="2018-04-19" data-providers="Hulu|Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home|HBO Max">
         <td class="movie-title">
-          Super Troopers 2
+          <a href="https://www.imdb.com/title/tt0859635/" target="_blank" rel="noopener">Super Troopers 2</a>
           <span class="movie-year">2018</span>
+          
+          <span class="movie-meta">99 min · TMDB 5.9</span>
+          
         </td>
         <td>
           
@@ -1417,8 +1449,11 @@
       
       <tr data-title="power of the dog" data-release-date="2021-10-25" data-providers="Netflix">
         <td class="movie-title">
-          Power Of The Dog
+          <a href="https://www.imdb.com/title/tt10293406/" target="_blank" rel="noopener">Power Of The Dog</a>
           <span class="movie-year">2021</span>
+          
+          <span class="movie-meta">127 min · TMDB 6.7</span>
+          
         </td>
         <td>
           
@@ -1436,8 +1471,11 @@
       
       <tr data-title="pig" data-release-date="2021-07-16" data-providers="Google Play Movies|YouTube">
         <td class="movie-title">
-          Pig
+          <a href="https://www.imdb.com/title/tt11003218/" target="_blank" rel="noopener">Pig</a>
           <span class="movie-year">2021</span>
+          
+          <span class="movie-meta">92 min · TMDB 6.6</span>
+          
         </td>
         <td>
           
@@ -1460,8 +1498,11 @@
       
       <tr data-title="mandy" data-release-date="2018-09-13" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|The Roku Channel|Hoopla|Fandango At Home|Pluto TV|Plex">
         <td class="movie-title">
-          Mandy
+          <a href="https://www.imdb.com/title/tt6998518/" target="_blank" rel="noopener">Mandy</a>
           <span class="movie-year">2018</span>
+          
+          <span class="movie-meta">122 min · TMDB 6.2</span>
+          
         </td>
         <td>
           
@@ -1519,8 +1560,11 @@
       
       <tr data-title="from beijing with love" data-release-date="1994-10-13" data-providers="">
         <td class="movie-title">
-          From Beijing With Love
+          <a href="https://www.imdb.com/title/tt0109962/" target="_blank" rel="noopener">From Beijing With Love</a>
           <span class="movie-year">1994</span>
+          
+          <span class="movie-meta">84 min · TMDB 7.0</span>
+          
         </td>
         <td>
           
@@ -1531,8 +1575,11 @@
       
       <tr data-title="once upon a time in hollywood" data-release-date="2019-07-24" data-providers="Hulu|Amazon Video|Apple TV Store|fuboTV|Google Play Movies|YouTube|Fandango At Home|YouTube TV|Plex">
         <td class="movie-title">
-          Once Upon A Time In Hollywood
+          <a href="https://www.imdb.com/title/tt7131622/" target="_blank" rel="noopener">Once Upon A Time In Hollywood</a>
           <span class="movie-year">2019</span>
+          
+          <span class="movie-meta">162 min · TMDB 7.4</span>
+          
         </td>
         <td>
           
@@ -1590,8 +1637,11 @@
       
       <tr data-title="the birdcage" data-release-date="1996-03-03" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|The Roku Channel|Hoopla|Fandango At Home|Plex|Tubi TV">
         <td class="movie-title">
-          The Birdcage
+          <a href="https://www.imdb.com/title/tt0115685/" target="_blank" rel="noopener">The Birdcage</a>
           <span class="movie-year">1996</span>
+          
+          <span class="movie-meta">119 min · TMDB 7.0</span>
+          
         </td>
         <td>
           
@@ -1647,10 +1697,13 @@
         </td>
       </tr>
       
-      <tr data-title="rrr" data-release-date="2022-03-24" data-providers="Netflix|fuboTV">
+      <tr data-title="rrr" data-release-date="2022-03-24" data-providers="Netflix">
         <td class="movie-title">
-          Rrr
+          <a href="https://www.imdb.com/title/tt8178634/" target="_blank" rel="noopener">Rrr</a>
           <span class="movie-year">2022</span>
+          
+          <span class="movie-meta">187 min · TMDB 7.7</span>
+          
         </td>
         <td>
           
@@ -1661,11 +1714,6 @@
               
             </div>
             
-            <div class="provider" data-provider="fuboTV">
-              <img src="https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg" alt="fuboTV" title="fuboTV">
-              
-            </div>
-            
           </div>
           
         </td>
@@ -1673,8 +1721,11 @@
       
       <tr data-title="love and basketball" data-release-date="2000-04-21" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home">
         <td class="movie-title">
-          Love And Basketball
+          <a href="https://www.imdb.com/title/tt0199725/" target="_blank" rel="noopener">Love And Basketball</a>
           <span class="movie-year">2000</span>
+          
+          <span class="movie-meta">125 min · TMDB 7.4</span>
+          
         </td>
         <td>
           
@@ -1712,8 +1763,11 @@
       
       <tr data-title="it happened one night" data-release-date="1934-02-22" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|The Roku Channel|Fandango At Home|Tubi TV">
         <td class="movie-title">
-          It Happened One Night
+          <a href="https://www.imdb.com/title/tt0025316/" target="_blank" rel="noopener">It Happened One Night</a>
           <span class="movie-year">1934</span>
+          
+          <span class="movie-meta">105 min · TMDB 7.8</span>
+          
         </td>
         <td>
           
@@ -1761,8 +1815,11 @@
       
       <tr data-title="the host" data-release-date="2013-03-22" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|The Roku Channel|Fandango At Home|Plex|Tubi TV">
         <td class="movie-title">
-          The Host
+          <a href="https://www.imdb.com/title/tt1517260/" target="_blank" rel="noopener">The Host</a>
           <span class="movie-year">2013</span>
+          
+          <span class="movie-meta">126 min · TMDB 6.3</span>
+          
         </td>
         <td>
           
@@ -1815,8 +1872,11 @@
       
       <tr data-title="memories of murder" data-release-date="2003-04-25" data-providers="Amazon Video|Google Play Movies|YouTube|Fandango At Home">
         <td class="movie-title">
-          Memories Of Murder
+          <a href="https://www.imdb.com/title/tt0353969/" target="_blank" rel="noopener">Memories Of Murder</a>
           <span class="movie-year">2003</span>
+          
+          <span class="movie-meta">131 min · TMDB 8.1</span>
+          
         </td>
         <td>
           
@@ -1849,8 +1909,11 @@
       
       <tr data-title="sicario" data-release-date="2015-09-17" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home|HBO Max">
         <td class="movie-title">
-          Sicario
+          <a href="https://www.imdb.com/title/tt3397884/" target="_blank" rel="noopener">Sicario</a>
           <span class="movie-year">2015</span>
+          
+          <span class="movie-meta">122 min · TMDB 7.4</span>
+          
         </td>
         <td>
           
@@ -1893,8 +1956,11 @@
       
       <tr data-title="clue" data-release-date="1985-12-13" data-providers="Amazon Video|Apple TV Store|fuboTV|Google Play Movies|Fandango At Home|Plex">
         <td class="movie-title">
-          Clue
+          <a href="https://www.imdb.com/title/tt0088930/" target="_blank" rel="noopener">Clue</a>
           <span class="movie-year">1985</span>
+          
+          <span class="movie-meta">94 min · TMDB 7.2</span>
+          
         </td>
         <td>
           
@@ -1937,8 +2003,11 @@
       
       <tr data-title="tenet" data-release-date="2020-08-22" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home|Plex">
         <td class="movie-title">
-          Tenet
+          <a href="https://www.imdb.com/title/tt6723592/" target="_blank" rel="noopener">Tenet</a>
           <span class="movie-year">2020</span>
+          
+          <span class="movie-meta">150 min · TMDB 7.2</span>
+          
         </td>
         <td>
           
@@ -1981,8 +2050,11 @@
       
       <tr data-title="killers of the flower moon" data-release-date="2023-10-18" data-providers="Apple TV|Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home|Plex">
         <td class="movie-title">
-          Killers Of The Flower Moon
+          <a href="https://www.imdb.com/title/tt5537002/" target="_blank" rel="noopener">Killers Of The Flower Moon</a>
           <span class="movie-year">2023</span>
+          
+          <span class="movie-meta">206 min · TMDB 7.4</span>
+          
         </td>
         <td>
           
@@ -2030,8 +2102,11 @@
       
       <tr data-title="the sting" data-release-date="1973-12-25" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home|YouTube TV">
         <td class="movie-title">
-          The Sting
+          <a href="https://www.imdb.com/title/tt0070735/" target="_blank" rel="noopener">The Sting</a>
           <span class="movie-year">1973</span>
+          
+          <span class="movie-meta">129 min · TMDB 8.0</span>
+          
         </td>
         <td>
           
@@ -2074,8 +2149,11 @@
       
       <tr data-title="the unknown" data-release-date="2021-10-16" data-providers="">
         <td class="movie-title">
-          The Unknown
+          <a href="https://www.imdb.com/title/tt16288638/" target="_blank" rel="noopener">The Unknown</a>
           <span class="movie-year">2021</span>
+          
+          <span class="movie-meta">23 min · TMDB 7.8</span>
+          
         </td>
         <td>
           
@@ -2086,8 +2164,11 @@
       
       <tr data-title="next three days" data-release-date="2010-11-18" data-providers="Amazon Prime Video|Amazon Video|Apple TV Store|Google Play Movies|YouTube|The Roku Channel|Hoopla|Fandango At Home|Plex">
         <td class="movie-title">
-          Next Three Days
+          <a href="https://www.imdb.com/title/tt1458175/" target="_blank" rel="noopener">Next Three Days</a>
           <span class="movie-year">2010</span>
+          
+          <span class="movie-meta">133 min · TMDB 7.1</span>
+          
         </td>
         <td>
           
@@ -2145,8 +2226,11 @@
       
       <tr data-title="news of the world" data-release-date="2020-12-25" data-providers="Amazon Video|Apple TV Store|Peacock Premium|Google Play Movies|YouTube|Fandango At Home|YouTube TV">
         <td class="movie-title">
-          News Of The World
+          <a href="https://www.imdb.com/title/tt6878306/" target="_blank" rel="noopener">News Of The World</a>
           <span class="movie-year">2020</span>
+          
+          <span class="movie-meta">118 min · TMDB 6.9</span>
+          
         </td>
         <td>
           
@@ -2194,8 +2278,11 @@
       
       <tr data-title="true crime" data-release-date="1999-03-19" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home">
         <td class="movie-title">
-          True Crime
+          <a href="https://www.imdb.com/title/tt0139668/" target="_blank" rel="noopener">True Crime</a>
           <span class="movie-year">1999</span>
+          
+          <span class="movie-meta">127 min · TMDB 6.5</span>
+          
         </td>
         <td>
           
@@ -2233,8 +2320,11 @@
       
       <tr data-title="the missing" data-release-date="2003-11-26" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|Hoopla|Fandango At Home|Tubi TV">
         <td class="movie-title">
-          The Missing
+          <a href="https://www.imdb.com/title/tt0338188/" target="_blank" rel="noopener">The Missing</a>
           <span class="movie-year">2003</span>
+          
+          <span class="movie-meta">135 min · TMDB 6.3</span>
+          
         </td>
         <td>
           
@@ -2282,8 +2372,11 @@
       
       <tr data-title="outcast" data-release-date="2014-09-26" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|The Roku Channel|Hoopla|Fandango At Home|Tubi TV">
         <td class="movie-title">
-          Outcast
+          <a href="https://www.imdb.com/title/tt1552224/" target="_blank" rel="noopener">Outcast</a>
           <span class="movie-year">2014</span>
+          
+          <span class="movie-meta">98 min · TMDB 5.1</span>
+          
         </td>
         <td>
           
@@ -2336,8 +2429,11 @@
       
       <tr data-title="hereditary" data-release-date="2018-06-07" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home|HBO Max">
         <td class="movie-title">
-          Hereditary
+          <a href="https://www.imdb.com/title/tt7784604/" target="_blank" rel="noopener">Hereditary</a>
           <span class="movie-year">2018</span>
+          
+          <span class="movie-meta">128 min · TMDB 7.3</span>
+          
         </td>
         <td>
           
@@ -2380,8 +2476,11 @@
       
       <tr data-title="i saw the tv glow" data-release-date="2024-05-03" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home">
         <td class="movie-title">
-          I Saw The Tv Glow
+          <a href="https://www.imdb.com/title/tt15574270/" target="_blank" rel="noopener">I Saw The Tv Glow</a>
           <span class="movie-year">2024</span>
+          
+          <span class="movie-meta">100 min · TMDB 6.2</span>
+          
         </td>
         <td>
           
@@ -2419,8 +2518,11 @@
       
       <tr data-title="black rain" data-release-date="1989-09-22" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|Hoopla|Fandango At Home">
         <td class="movie-title">
-          Black Rain
+          <a href="https://www.imdb.com/title/tt0096933/" target="_blank" rel="noopener">Black Rain</a>
           <span class="movie-year">1989</span>
+          
+          <span class="movie-meta">125 min · TMDB 6.6</span>
+          
         </td>
         <td>
           
@@ -2463,8 +2565,11 @@
       
       <tr data-title="ghost dog" data-release-date="1999-10-06" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home|HBO Max">
         <td class="movie-title">
-          Ghost Dog
+          <a href="https://www.imdb.com/title/tt0165798/" target="_blank" rel="noopener">Ghost Dog</a>
           <span class="movie-year">1999</span>
+          
+          <span class="movie-meta">117 min · TMDB 7.3</span>
+          
         </td>
         <td>
           
@@ -2507,8 +2612,11 @@
       
       <tr data-title="night of the hunter" data-release-date="1955-07-26" data-providers="Apple TV Store|fuboTV|Google Play Movies|YouTube|Fandango At Home|Tubi TV">
         <td class="movie-title">
-          Night Of The Hunter
+          <a href="https://www.imdb.com/title/tt0048424/" target="_blank" rel="noopener">Night Of The Hunter</a>
           <span class="movie-year">1955</span>
+          
+          <span class="movie-meta">93 min · TMDB 7.9</span>
+          
         </td>
         <td>
           
@@ -2551,8 +2659,11 @@
       
       <tr data-title="philadelphia" data-release-date="1993-12-22" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home">
         <td class="movie-title">
-          Philadelphia
+          <a href="https://www.imdb.com/title/tt0107818/" target="_blank" rel="noopener">Philadelphia</a>
           <span class="movie-year">1993</span>
+          
+          <span class="movie-meta">126 min · TMDB 7.7</span>
+          
         </td>
         <td>
           
@@ -2590,8 +2701,11 @@
       
       <tr data-title="get away" data-release-date="2024-12-06" data-providers="Hulu|Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home">
         <td class="movie-title">
-          Get Away
+          <a href="https://www.imdb.com/title/tt10449276/" target="_blank" rel="noopener">Get Away</a>
           <span class="movie-year">2024</span>
+          
+          <span class="movie-meta">86 min · TMDB 5.2</span>
+          
         </td>
         <td>
           
@@ -2634,8 +2748,11 @@
       
       <tr data-title="nacho libre" data-release-date="2006-06-16" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home|Pluto TV|Plex">
         <td class="movie-title">
-          Nacho Libre
+          <a href="https://www.imdb.com/title/tt0457510/" target="_blank" rel="noopener">Nacho Libre</a>
           <span class="movie-year">2006</span>
+          
+          <span class="movie-meta">92 min · TMDB 6.5</span>
+          
         </td>
         <td>
           
@@ -2681,10 +2798,13 @@
         </td>
       </tr>
       
-      <tr data-title="watch out we’re mad" data-release-date="1974-03-29" data-providers="Amazon Video|Hoopla|Plex">
+      <tr data-title="watch out we’re mad" data-release-date="1974-03-29" data-providers="Amazon Video|Hoopla">
         <td class="movie-title">
-          Watch Out We’re Mad
+          <a href="https://www.imdb.com/title/tt0069697/" target="_blank" rel="noopener">Watch Out We’re Mad</a>
           <span class="movie-year">1974</span>
+          
+          <span class="movie-meta">102 min · TMDB 7.5</span>
+          
         </td>
         <td>
           
@@ -2700,11 +2820,6 @@
               
             </div>
             
-            <div class="provider" data-provider="Plex">
-              <img src="https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg" alt="Plex" title="Plex">
-              
-            </div>
-            
           </div>
           
         </td>
@@ -2712,8 +2827,11 @@
       
       <tr data-title="mickey 17" data-release-date="2025-02-28" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home|Plex|HBO Max">
         <td class="movie-title">
-          Mickey 17
+          <a href="https://www.imdb.com/title/tt12299608/" target="_blank" rel="noopener">Mickey 17</a>
           <span class="movie-year">2025</span>
+          
+          <span class="movie-meta">137 min · TMDB 6.8</span>
+          
         </td>
         <td>
           
@@ -2763,6 +2881,7 @@
         <td class="movie-title">
           Before The Devil Knows Your Dead
           
+          
         </td>
         <td>
           
@@ -2773,8 +2892,11 @@
       
       <tr data-title="weird: al yankovic story" data-release-date="2022-09-08" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|The Roku Channel|Fandango At Home">
         <td class="movie-title">
-          Weird: Al Yankovic Story
+          <a href="https://www.imdb.com/title/tt17076046/" target="_blank" rel="noopener">Weird: Al Yankovic Story</a>
           <span class="movie-year">2022</span>
+          
+          <span class="movie-meta">108 min · TMDB 6.7</span>
+          
         </td>
         <td>
           
@@ -2817,8 +2939,11 @@
       
       <tr data-title="one battle after another" data-release-date="2025-09-23" data-providers="Amazon Prime Video|Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home|Plex|HBO Max">
         <td class="movie-title">
-          One Battle After Another
+          <a href="https://www.imdb.com/title/tt30144839/" target="_blank" rel="noopener">One Battle After Another</a>
           <span class="movie-year">2025</span>
+          
+          <span class="movie-meta">162 min · TMDB 7.3</span>
+          
         </td>
         <td>
           
@@ -2871,8 +2996,11 @@
       
       <tr data-title="the station agent" data-release-date="2003-12-05" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|Hoopla|Fandango At Home">
         <td class="movie-title">
-          The Station Agent
+          <a href="https://www.imdb.com/title/tt0340377/" target="_blank" rel="noopener">The Station Agent</a>
           <span class="movie-year">2003</span>
+          
+          <span class="movie-meta">88 min · TMDB 7.3</span>
+          
         </td>
         <td>
           
@@ -2915,8 +3043,11 @@
       
       <tr data-title="project hail mary" data-release-date="2026-03-15" data-providers="Amazon Prime Video|Amazon Video|Apple TV Store|fuboTV|Google Play Movies|YouTube|Fandango At Home|Plex">
         <td class="movie-title">
-          Project Hail Mary
+          <a href="https://www.imdb.com/title/tt12042730/" target="_blank" rel="noopener">Project Hail Mary</a>
           <span class="movie-year">2026</span>
+          
+          <span class="movie-meta">157 min · TMDB 8.6</span>
+          
         </td>
         <td>
           
@@ -2969,8 +3100,11 @@
       
       <tr data-title="my cousin vinny" data-release-date="1992-03-13" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home|YouTube TV">
         <td class="movie-title">
-          My Cousin Vinny
+          <a href="https://www.imdb.com/title/tt0104952/" target="_blank" rel="noopener">My Cousin Vinny</a>
           <span class="movie-year">1992</span>
+          
+          <span class="movie-meta">119 min · TMDB 7.5</span>
+          
         </td>
         <td>
           
@@ -3004,6 +3138,48 @@
             <div class="provider" data-provider="YouTube TV">
               <img src="https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg" alt="YouTube TV" title="YouTube TV">
               
+            </div>
+            
+          </div>
+          
+        </td>
+      </tr>
+      
+      <tr data-title="encino man" data-release-date="1992-05-22" data-providers="Amazon Video|Apple TV Store|Google Play Movies|YouTube|Fandango At Home">
+        <td class="movie-title">
+          <a href="https://www.imdb.com/title/tt0104187/" target="_blank" rel="noopener">Encino Man</a>
+          <span class="movie-year">1992</span>
+          
+          <span class="movie-meta">88 min · TMDB 5.8</span>
+          
+        </td>
+        <td>
+          
+          <div class="providers">
+            
+            <div class="provider" data-provider="Amazon Video">
+              <img src="https://image.tmdb.org/t/p/original/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg" alt="Amazon Video" title="Amazon Video">
+              <span class="provider-note">(rent/buy)</span>
+            </div>
+            
+            <div class="provider" data-provider="Apple TV Store">
+              <img src="https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg" alt="Apple TV Store" title="Apple TV Store">
+              <span class="provider-note">(rent/buy)</span>
+            </div>
+            
+            <div class="provider" data-provider="Google Play Movies">
+              <img src="https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg" alt="Google Play Movies" title="Google Play Movies">
+              <span class="provider-note">(rent/buy)</span>
+            </div>
+            
+            <div class="provider" data-provider="YouTube">
+              <img src="https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg" alt="YouTube" title="YouTube">
+              <span class="provider-note">(rent/buy)</span>
+            </div>
+            
+            <div class="provider" data-provider="Fandango At Home">
+              <img src="https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg" alt="Fandango At Home" title="Fandango At Home">
+              <span class="provider-note">(rent/buy)</span>
             </div>
             
           </div>
