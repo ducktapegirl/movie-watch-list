@@ -286,7 +286,7 @@
     </div>
   </header>
 
-  {% set default_providers = ["Netflix", "Apple TV", "Hulu", "Disney Plus"] %}
+  {% set default_providers = ["Netflix", "Apple TV", "Hulu", "Disney Plus", "Amazon Prime Video"] %}
   {% set ns = namespace(names=[]) %}
   {% for movie in movies %}
     {% for p in movie.providers %}
@@ -301,6 +301,8 @@
       <select id="sort-field" autocomplete="off">
         <option value="title">Title</option>
         <option value="release_date">Release Date</option>
+        <option value="rating">Rating</option>
+        <option value="runtime">Duration</option>
       </select>
       <button id="sort-dir" type="button" data-dir="asc" aria-label="Toggle sort direction">↑ Asc</button>
     </div>
@@ -333,7 +335,7 @@
     </thead>
     <tbody>
       {% for movie in movies %}
-      <tr data-title="{{ movie.title|lower }}" data-release-date="{{ movie.release_date or '' }}" data-providers="{{ movie.providers|map(attribute='name')|join('|') }}">
+      <tr data-title="{{ movie.title|lower }}" data-release-date="{{ movie.release_date or '' }}" data-rating="{{ movie.rating if movie.rating is not none else '' }}" data-runtime="{{ movie.runtime if movie.runtime is not none else '' }}" data-providers="{{ movie.providers|map(attribute='name')|join('|') }}">
         <td class="movie-title">
           {% if movie.imdb_url %}<a href="{{ movie.imdb_url }}" target="_blank" rel="noopener">{{ movie.title }}</a>{% else %}{{ movie.title }}{% endif %}
           {% if movie.release_date %}<span class="movie-year">{{ movie.release_date[:4] }}</span>{% endif %}
@@ -374,6 +376,13 @@
   const tbody = document.querySelector("table tbody");
   const allRows = Array.from(tbody.querySelectorAll("tr"));
 
+  const SORT_FIELDS = {
+    title: { key: "title", numeric: false },
+    release_date: { key: "releaseDate", numeric: false },
+    rating: { key: "rating", numeric: true },
+    runtime: { key: "runtime", numeric: true },
+  };
+
   function selectedProviders() {
     return new Set(filterCheckboxes.filter((cb) => cb.checked).map((cb) => cb.value));
   }
@@ -399,14 +408,14 @@
 
     const field = sortField.value;
     const dir = sortDirBtn.dataset.dir === "desc" ? -1 : 1;
+    const { key, numeric } = SORT_FIELDS[field];
     const sorted = allRows.slice().sort((a, b) => {
-      let av = a.dataset[field === "title" ? "title" : "releaseDate"] || "";
-      let bv = b.dataset[field === "title" ? "title" : "releaseDate"] || "";
-      if (field === "release_date") {
-        if (!av && !bv) return 0;
-        if (!av) return 1;
-        if (!bv) return -1;
-      }
+      const av = a.dataset[key] || "";
+      const bv = b.dataset[key] || "";
+      if (!av && !bv) return 0;
+      if (!av) return 1;
+      if (!bv) return -1;
+      if (numeric) return (parseFloat(av) - parseFloat(bv)) * dir;
       return av < bv ? -1 * dir : av > bv ? 1 * dir : 0;
     });
     for (const row of sorted) tbody.appendChild(row);
