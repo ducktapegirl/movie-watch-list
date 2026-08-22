@@ -78,17 +78,20 @@ the owner could edit).
   `csv` module, taking column A of each row and skipping a "Title" header
   row if present
 
-**In-page refresh button with GitHub PAT**
-- Implemented in `scripts/template.html` - a `<button>` POSTs to GitHub's
+**In-page refresh button with GitHub PAT** - implemented, later removed
+- Implemented in `scripts/template.html` - a `<button>` POSTed to GitHub's
   `workflow_dispatch` API directly from the browser using a fine-grained PAT
   (`Actions: read and write`, scoped to this repo only)
 - Originally tried hardcoding the PAT as a JS constant in the template, but
   GitHub's push protection blocks commits containing recognizable tokens -
   switched to prompting for it on first click and storing it in
-  `localStorage` instead, so it's never written to the page source or git
-- On a 401/403 the stored token is cleared and the user is re-prompted
-  (handles rotation/expiry)
-- If even browser-local storage of the token is a concern, a Netlify/Cloudflare Worker proxy (10-15 lines) would hide it server-side entirely
+  `localStorage` instead, so it was never written to the page source or git
+- On a 401/403 the stored token was cleared and the user re-prompted
+  (handled rotation/expiry)
+- Removed once `refresh.yml` also ran on every push to `main`, since between
+  that and manually running the workflow from the Actions tab, a
+  browser-side trigger (and the PAT-in-localStorage it required) was no
+  longer worth keeping
 
 **Google Docs**
 - No public API for reading doc content as plain text without OAuth

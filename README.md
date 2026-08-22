@@ -1,6 +1,6 @@
 # Movie Streaming Display
 
-Reads your Google Sheets movie watchlist, checks which streaming services have each film, and publishes the results as a static webpage via GitHub Pages. Updates automatically every night; you can also trigger a refresh manually from the page.
+Reads your Google Sheets movie watchlist, checks which streaming services have each film, and publishes the results as a static webpage via GitHub Pages. Updates automatically every night and on every merge to `main`.
 
 ## How It Works
 
