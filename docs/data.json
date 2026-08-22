@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19 04:31 UTC",
+  "updated_at": "2026-08-22 03:04 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -47,7 +47,10 @@
           "priority": 37,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 134,
+      "rating": 6.3,
+      "imdb_url": "https://www.imdb.com/title/tt31036941/"
     },
     {
       "title": "The Green Knight",
@@ -130,7 +133,10 @@
           "priority": 346,
           "note": null
         }
-      ]
+      ],
+      "runtime": 130,
+      "rating": 6.6,
+      "imdb_url": "https://www.imdb.com/title/tt9243804/"
     },
     {
       "title": "Luca",
@@ -178,7 +184,10 @@
           "priority": 37,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 95,
+      "rating": 7.8,
+      "imdb_url": "https://www.imdb.com/title/tt12801262/"
     },
     {
       "title": "Raya",
@@ -226,7 +235,10 @@
           "priority": 37,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 107,
+      "rating": 7.8,
+      "imdb_url": "https://www.imdb.com/title/tt5109280/"
     },
     {
       "title": "Spider-Man: No Way Home",
@@ -295,7 +307,10 @@
           "priority": 124,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 148,
+      "rating": 7.9,
+      "imdb_url": "https://www.imdb.com/title/tt10872600/"
     },
     {
       "title": "The Lighthouse",
@@ -343,7 +358,10 @@
           "priority": 152,
           "note": null
         }
-      ]
+      ],
+      "runtime": 109,
+      "rating": 7.5,
+      "imdb_url": "https://www.imdb.com/title/tt7984734/"
     },
     {
       "title": "Super Troopers 2",
@@ -398,7 +416,10 @@
           "priority": 152,
           "note": null
         }
-      ]
+      ],
+      "runtime": 99,
+      "rating": 5.9,
+      "imdb_url": "https://www.imdb.com/title/tt0859635/"
     },
     {
       "title": "Power Of The Dog",
@@ -411,7 +432,10 @@
           "priority": 2,
           "note": null
         }
-      ]
+      ],
+      "runtime": 127,
+      "rating": 6.7,
+      "imdb_url": "https://www.imdb.com/title/tt10293406/"
     },
     {
       "title": "Pig",
@@ -431,7 +455,10 @@
           "priority": 21,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 92,
+      "rating": 6.6,
+      "imdb_url": "https://www.imdb.com/title/tt11003218/"
     },
     {
       "title": "Mandy",
@@ -500,12 +527,18 @@
           "priority": 124,
           "note": null
         }
-      ]
+      ],
+      "runtime": 122,
+      "rating": 6.2,
+      "imdb_url": "https://www.imdb.com/title/tt6998518/"
     },
     {
       "title": "From Beijing With Love",
       "release_date": "1994-10-13",
-      "providers": []
+      "providers": [],
+      "runtime": 84,
+      "rating": 7.0,
+      "imdb_url": "https://www.imdb.com/title/tt0109962/"
     },
     {
       "title": "Once Upon A Time In Hollywood",
@@ -574,7 +607,10 @@
           "priority": 124,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 162,
+      "rating": 7.4,
+      "imdb_url": "https://www.imdb.com/title/tt7131622/"
     },
     {
       "title": "The Birdcage",
@@ -643,7 +679,10 @@
           "priority": 346,
           "note": null
         }
-      ]
+      ],
+      "runtime": 119,
+      "rating": 7.0,
+      "imdb_url": "https://www.imdb.com/title/tt0115685/"
     },
     {
       "title": "Rrr",
@@ -655,15 +694,11 @@
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
           "priority": 2,
           "note": null
-        },
-        {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 10,
-          "note": null
         }
-      ]
+      ],
+      "runtime": 187,
+      "rating": 7.7,
+      "imdb_url": "https://www.imdb.com/title/tt8178634/"
     },
     {
       "title": "Love And Basketball",
@@ -704,7 +739,10 @@
           "priority": 37,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 125,
+      "rating": 7.4,
+      "imdb_url": "https://www.imdb.com/title/tt0199725/"
     },
     {
       "title": "It Happened One Night",
@@ -759,7 +797,10 @@
           "priority": 346,
           "note": null
         }
-      ]
+      ],
+      "runtime": 105,
+      "rating": 7.8,
+      "imdb_url": "https://www.imdb.com/title/tt0025316/"
     },
     {
       "title": "The Host",
@@ -821,7 +862,10 @@
           "priority": 346,
           "note": null
         }
-      ]
+      ],
+      "runtime": 126,
+      "rating": 6.3,
+      "imdb_url": "https://www.imdb.com/title/tt1517260/"
     },
     {
       "title": "Memories Of Murder",
@@ -855,7 +899,10 @@
           "priority": 37,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 131,
+      "rating": 8.1,
+      "imdb_url": "https://www.imdb.com/title/tt0353969/"
     },
     {
       "title": "Sicario",
@@ -903,7 +950,10 @@
           "priority": 152,
           "note": null
         }
-      ]
+      ],
+      "runtime": 122,
+      "rating": 7.4,
+      "imdb_url": "https://www.imdb.com/title/tt3397884/"
     },
     {
       "title": "Clue",
@@ -951,7 +1001,10 @@
           "priority": 124,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 94,
+      "rating": 7.2,
+      "imdb_url": "https://www.imdb.com/title/tt0088930/"
     },
     {
       "title": "Tenet",
@@ -999,7 +1052,10 @@
           "priority": 124,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 150,
+      "rating": 7.2,
+      "imdb_url": "https://www.imdb.com/title/tt6723592/"
     },
     {
       "title": "Killers Of The Flower Moon",
@@ -1054,7 +1110,10 @@
           "priority": 124,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 206,
+      "rating": 7.4,
+      "imdb_url": "https://www.imdb.com/title/tt5537002/"
     },
     {
       "title": "The Sting",
@@ -1102,12 +1161,18 @@
           "priority": 38,
           "note": null
         }
-      ]
+      ],
+      "runtime": 129,
+      "rating": 8.0,
+      "imdb_url": "https://www.imdb.com/title/tt0070735/"
     },
     {
       "title": "The Unknown",
       "release_date": "2021-10-16",
-      "providers": []
+      "providers": [],
+      "runtime": 23,
+      "rating": 7.8,
+      "imdb_url": "https://www.imdb.com/title/tt16288638/"
     },
     {
       "title": "Next Three Days",
@@ -1176,7 +1241,10 @@
           "priority": 124,
           "note": null
         }
-      ]
+      ],
+      "runtime": 133,
+      "rating": 7.1,
+      "imdb_url": "https://www.imdb.com/title/tt1458175/"
     },
     {
       "title": "News Of The World",
@@ -1231,7 +1299,10 @@
           "priority": 38,
           "note": null
         }
-      ]
+      ],
+      "runtime": 118,
+      "rating": 6.9,
+      "imdb_url": "https://www.imdb.com/title/tt6878306/"
     },
     {
       "title": "True Crime",
@@ -1272,7 +1343,10 @@
           "priority": 37,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 127,
+      "rating": 6.5,
+      "imdb_url": "https://www.imdb.com/title/tt0139668/"
     },
     {
       "title": "The Missing",
@@ -1327,7 +1401,10 @@
           "priority": 346,
           "note": null
         }
-      ]
+      ],
+      "runtime": 135,
+      "rating": 6.3,
+      "imdb_url": "https://www.imdb.com/title/tt0338188/"
     },
     {
       "title": "Outcast",
@@ -1389,7 +1466,10 @@
           "priority": 346,
           "note": null
         }
-      ]
+      ],
+      "runtime": 98,
+      "rating": 5.1,
+      "imdb_url": "https://www.imdb.com/title/tt1552224/"
     },
     {
       "title": "Hereditary",
@@ -1437,7 +1517,10 @@
           "priority": 152,
           "note": null
         }
-      ]
+      ],
+      "runtime": 128,
+      "rating": 7.3,
+      "imdb_url": "https://www.imdb.com/title/tt7784604/"
     },
     {
       "title": "I Saw The Tv Glow",
@@ -1478,7 +1561,10 @@
           "priority": 37,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 100,
+      "rating": 6.2,
+      "imdb_url": "https://www.imdb.com/title/tt15574270/"
     },
     {
       "title": "Black Rain",
@@ -1526,7 +1612,10 @@
           "priority": 37,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 125,
+      "rating": 6.6,
+      "imdb_url": "https://www.imdb.com/title/tt0096933/"
     },
     {
       "title": "Ghost Dog",
@@ -1574,7 +1663,10 @@
           "priority": 152,
           "note": null
         }
-      ]
+      ],
+      "runtime": 117,
+      "rating": 7.3,
+      "imdb_url": "https://www.imdb.com/title/tt0165798/"
     },
     {
       "title": "Night Of The Hunter",
@@ -1622,7 +1714,10 @@
           "priority": 346,
           "note": null
         }
-      ]
+      ],
+      "runtime": 93,
+      "rating": 7.9,
+      "imdb_url": "https://www.imdb.com/title/tt0048424/"
     },
     {
       "title": "Philadelphia",
@@ -1663,7 +1758,10 @@
           "priority": 37,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 126,
+      "rating": 7.7,
+      "imdb_url": "https://www.imdb.com/title/tt0107818/"
     },
     {
       "title": "Get Away",
@@ -1711,7 +1809,10 @@
           "priority": 37,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 86,
+      "rating": 5.2,
+      "imdb_url": "https://www.imdb.com/title/tt10449276/"
     },
     {
       "title": "Nacho Libre",
@@ -1766,7 +1867,10 @@
           "priority": 124,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 92,
+      "rating": 6.5,
+      "imdb_url": "https://www.imdb.com/title/tt0457510/"
     },
     {
       "title": "Watch Out We\u2019re Mad",
@@ -1785,15 +1889,11 @@
           "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
           "priority": 36,
           "note": null
-        },
-        {
-          "id": 538,
-          "name": "Plex",
-          "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 124,
-          "note": null
         }
-      ]
+      ],
+      "runtime": 102,
+      "rating": 7.5,
+      "imdb_url": "https://www.imdb.com/title/tt0069697/"
     },
     {
       "title": "Mickey 17",
@@ -1848,12 +1948,18 @@
           "priority": 152,
           "note": null
         }
-      ]
+      ],
+      "runtime": 137,
+      "rating": 6.8,
+      "imdb_url": "https://www.imdb.com/title/tt12299608/"
     },
     {
       "title": "Before The Devil Knows Your Dead",
       "release_date": null,
-      "providers": []
+      "providers": [],
+      "runtime": null,
+      "rating": null,
+      "imdb_url": null
     },
     {
       "title": "Weird: Al Yankovic Story",
@@ -1901,7 +2007,10 @@
           "priority": 37,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 108,
+      "rating": 6.7,
+      "imdb_url": "https://www.imdb.com/title/tt17076046/"
     },
     {
       "title": "One Battle After Another",
@@ -1963,7 +2072,10 @@
           "priority": 152,
           "note": null
         }
-      ]
+      ],
+      "runtime": 162,
+      "rating": 7.3,
+      "imdb_url": "https://www.imdb.com/title/tt30144839/"
     },
     {
       "title": "The Station Agent",
@@ -2011,7 +2123,10 @@
           "priority": 37,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 88,
+      "rating": 7.3,
+      "imdb_url": "https://www.imdb.com/title/tt0340377/"
     },
     {
       "title": "Project Hail Mary",
@@ -2073,7 +2188,10 @@
           "priority": 124,
           "note": "rent/buy"
         }
-      ]
+      ],
+      "runtime": 157,
+      "rating": 8.6,
+      "imdb_url": "https://www.imdb.com/title/tt12042730/"
     },
     {
       "title": "My Cousin Vinny",
@@ -2121,7 +2239,54 @@
           "priority": 38,
           "note": null
         }
-      ]
+      ],
+      "runtime": 119,
+      "rating": 7.5,
+      "imdb_url": "https://www.imdb.com/title/tt0104952/"
+    },
+    {
+      "title": "Encino Man",
+      "release_date": "1992-05-22",
+      "providers": [
+        {
+          "id": 10,
+          "name": "Amazon Video",
+          "logo": "https://image.tmdb.org/t/p/original/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+          "priority": 8,
+          "note": "rent/buy"
+        },
+        {
+          "id": 2,
+          "name": "Apple TV Store",
+          "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+          "priority": 9,
+          "note": "rent/buy"
+        },
+        {
+          "id": 3,
+          "name": "Google Play Movies",
+          "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+          "priority": 20,
+          "note": "rent/buy"
+        },
+        {
+          "id": 192,
+          "name": "YouTube",
+          "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+          "priority": 21,
+          "note": "rent/buy"
+        },
+        {
+          "id": 7,
+          "name": "Fandango At Home",
+          "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
+          "priority": 37,
+          "note": "rent/buy"
+        }
+      ],
+      "runtime": 88,
+      "rating": 5.8,
+      "imdb_url": "https://www.imdb.com/title/tt0104187/"
     }
   ]
 }
