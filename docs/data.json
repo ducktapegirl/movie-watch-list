@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25 04:33 UTC",
+  "updated_at": "2026-08-28 15:52 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -146,58 +146,7 @@
           "id": 337,
           "name": "Disney Plus",
           "logo": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
-          "priority": 3,
-          "note": null
-        },
-        {
-          "id": 10,
-          "name": "Amazon Video",
-          "logo": "https://image.tmdb.org/t/p/original/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
-          "priority": 8,
-          "note": "rent/buy"
-        },
-        {
-          "id": 2,
-          "name": "Apple TV Store",
-          "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
-          "priority": 9,
-          "note": "rent/buy"
-        },
-        {
-          "id": 3,
-          "name": "Google Play Movies",
-          "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
-          "priority": 20,
-          "note": "rent/buy"
-        },
-        {
-          "id": 192,
-          "name": "YouTube",
-          "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
-          "priority": 21,
-          "note": "rent/buy"
-        },
-        {
-          "id": 7,
-          "name": "Fandango At Home",
-          "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
-          "note": "rent/buy"
-        }
-      ],
-      "runtime": 95,
-      "rating": 7.8,
-      "imdb_url": "https://www.imdb.com/title/tt12801262/"
-    },
-    {
-      "title": "Raya",
-      "release_date": "2021-03-03",
-      "providers": [
-        {
-          "id": 337,
-          "name": "Disney Plus",
-          "logo": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
-          "priority": 3,
+          "priority": 5,
           "note": null
         },
         {
@@ -243,6 +192,57 @@
           "note": "rent/buy"
         }
       ],
+      "runtime": 95,
+      "rating": 7.8,
+      "imdb_url": "https://www.imdb.com/title/tt12801262/"
+    },
+    {
+      "title": "Raya",
+      "release_date": "2021-03-03",
+      "providers": [
+        {
+          "id": 337,
+          "name": "Disney Plus",
+          "logo": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
+          "priority": 5,
+          "note": null
+        },
+        {
+          "id": 10,
+          "name": "Amazon Video",
+          "logo": "https://image.tmdb.org/t/p/original/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
+          "priority": 8,
+          "note": "rent/buy"
+        },
+        {
+          "id": 2,
+          "name": "Apple TV Store",
+          "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
+          "priority": 9,
+          "note": "rent/buy"
+        },
+        {
+          "id": 3,
+          "name": "Google Play Movies",
+          "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+          "priority": 20,
+          "note": "rent/buy"
+        },
+        {
+          "id": 192,
+          "name": "YouTube",
+          "logo": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+          "priority": 21,
+          "note": "rent/buy"
+        },
+        {
+          "id": 7,
+          "name": "Fandango At Home",
+          "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
+          "priority": 37,
+          "note": "rent/buy"
+        }
+      ],
       "runtime": 107,
       "rating": 7.8,
       "imdb_url": "https://www.imdb.com/title/tt5109280/"
@@ -255,7 +255,7 @@
           "id": 337,
           "name": "Disney Plus",
           "logo": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
-          "priority": 3,
+          "priority": 5,
           "note": null
         },
         {
@@ -1072,7 +1072,7 @@
           "id": 350,
           "name": "Apple TV",
           "logo": "https://image.tmdb.org/t/p/original/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg",
-          "priority": 5,
+          "priority": 4,
           "note": null
         },
         {
@@ -1189,7 +1189,7 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
-          "priority": 4,
+          "priority": 3,
           "note": null
         },
         {
@@ -2027,7 +2027,7 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
-          "priority": 4,
+          "priority": 3,
           "note": null
         },
         {
@@ -2143,7 +2143,7 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
-          "priority": 4,
+          "priority": 3,
           "note": null
         },
         {
@@ -2303,7 +2303,7 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
-          "priority": 4,
+          "priority": 3,
           "note": null
         },
         {
