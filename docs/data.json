@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28 15:52 UTC",
+  "updated_at": "2026-08-31 10:25 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -162,13 +162,6 @@
           "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
           "priority": 9,
           "note": "rent/buy"
-        },
-        {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 10,
-          "note": null
         },
         {
           "id": 3,
@@ -1205,6 +1198,13 @@
           "logo": "https://image.tmdb.org/t/p/original/SPnB1qiCkYfirS2it3hZORwGVn.jpg",
           "priority": 9,
           "note": "rent/buy"
+        },
+        {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+          "priority": 10,
+          "note": null
         },
         {
           "id": 3,
@@ -2352,6 +2352,22 @@
       "runtime": 97,
       "rating": 6.8,
       "imdb_url": "https://www.imdb.com/title/tt27543578/"
+    },
+    {
+      "title": "Coyote Vs Acme",
+      "release_date": "2026-08-20",
+      "providers": [
+        {
+          "id": 7,
+          "name": "Fandango At Home",
+          "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
+          "priority": 37,
+          "note": "rent/buy"
+        }
+      ],
+      "runtime": 103,
+      "rating": 7.9,
+      "imdb_url": "https://www.imdb.com/title/tt1756855/"
     }
   ]
 }
