@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31 10:25 UTC",
+  "updated_at": "2026-09-01 09:06 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -96,13 +96,6 @@
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
           "priority": 29,
-          "note": null
-        },
-        {
-          "id": 212,
-          "name": "Hoopla",
-          "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
-          "priority": 36,
           "note": null
         },
         {
@@ -681,7 +674,7 @@
         }
       ],
       "runtime": 119,
-      "rating": 7.0,
+      "rating": 7.1,
       "imdb_url": "https://www.imdb.com/title/tt0115685/"
     },
     {
