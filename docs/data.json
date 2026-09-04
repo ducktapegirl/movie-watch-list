@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01 09:06 UTC",
+  "updated_at": "2026-09-04 08:25 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -9,7 +9,7 @@
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-          "priority": 2,
+          "priority": 1,
           "note": null
         },
         {
@@ -60,7 +60,7 @@
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-          "priority": 2,
+          "priority": 1,
           "note": null
         },
         {
@@ -117,13 +117,6 @@
           "name": "Xumo Play",
           "logo": "https://image.tmdb.org/t/p/original/xfKqqWYYIyvjECOFOaYtJdD7gl3.jpg",
           "priority": 166,
-          "note": null
-        },
-        {
-          "id": 73,
-          "name": "Tubi TV",
-          "logo": "https://image.tmdb.org/t/p/original/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
-          "priority": 346,
           "note": null
         }
       ],
@@ -422,7 +415,7 @@
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-          "priority": 2,
+          "priority": 1,
           "note": null
         }
       ],
@@ -685,7 +678,14 @@
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-          "priority": 2,
+          "priority": 1,
+          "note": null
+        },
+        {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+          "priority": 10,
           "note": null
         }
       ],
@@ -1193,13 +1193,6 @@
           "note": "rent/buy"
         },
         {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "priority": 10,
-          "note": null
-        },
-        {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
@@ -1233,13 +1226,6 @@
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
           "priority": 37,
           "note": "rent/buy"
-        },
-        {
-          "id": 538,
-          "name": "Plex",
-          "logo": "https://image.tmdb.org/t/p/original/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg",
-          "priority": 124,
-          "note": null
         }
       ],
       "runtime": 133,
@@ -1847,6 +1833,13 @@
           "note": "rent/buy"
         },
         {
+          "id": 212,
+          "name": "Hoopla",
+          "logo": "https://image.tmdb.org/t/p/original/j7D006Uy3UWwZ6G0xH6BMgIWTzH.jpg",
+          "priority": 36,
+          "note": null
+        },
+        {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
@@ -2212,6 +2205,13 @@
           "note": "rent/buy"
         },
         {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
+          "priority": 10,
+          "note": null
+        },
+        {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
@@ -2349,17 +2349,9 @@
     {
       "title": "Coyote Vs Acme",
       "release_date": "2026-08-20",
-      "providers": [
-        {
-          "id": 7,
-          "name": "Fandango At Home",
-          "logo": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "priority": 37,
-          "note": "rent/buy"
-        }
-      ],
+      "providers": [],
       "runtime": 103,
-      "rating": 7.9,
+      "rating": 7.8,
       "imdb_url": "https://www.imdb.com/title/tt1756855/"
     }
   ]
