@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07 08:51 UTC",
+  "updated_at": "2026-09-10 08:36 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -85,32 +85,11 @@
           "note": "rent/buy"
         },
         {
-          "id": 207,
-          "name": "The Roku Channel",
-          "logo": "https://image.tmdb.org/t/p/original/b7uhrYJtAe7b1ieJGg705vTbwrX.png",
-          "priority": 29,
-          "note": null
-        },
-        {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
           "priority": 37,
           "note": "rent/buy"
-        },
-        {
-          "id": 538,
-          "name": "Plex",
-          "logo": "https://image.tmdb.org/t/p/original/blAEhvx3XX8sV0fFVFk88FFjubs.png",
-          "priority": 124,
-          "note": null
-        },
-        {
-          "id": 1963,
-          "name": "Xumo Play",
-          "logo": "https://image.tmdb.org/t/p/original/n6E9OeoQicCDd43PnLsMpVIVYFK.png",
-          "priority": 167,
-          "note": null
         }
       ],
       "runtime": 130,
@@ -660,7 +639,7 @@
         }
       ],
       "runtime": 119,
-      "rating": 7.1,
+      "rating": 7.0,
       "imdb_url": "https://www.imdb.com/title/tt0115685/"
     },
     {
@@ -696,13 +675,6 @@
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
           "priority": 9,
           "note": "rent/buy"
-        },
-        {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
-          "priority": 10,
-          "note": null
         },
         {
           "id": 3,
@@ -805,13 +777,6 @@
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
           "priority": 9,
           "note": "rent/buy"
-        },
-        {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
-          "priority": 10,
-          "note": null
         },
         {
           "id": 3,
@@ -1409,6 +1374,13 @@
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
           "priority": 9,
           "note": "rent/buy"
+        },
+        {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
+          "priority": 10,
+          "note": null
         },
         {
           "id": 3,
@@ -2351,8 +2323,16 @@
       "release_date": "2026-08-20",
       "providers": [],
       "runtime": 103,
-      "rating": 7.6,
+      "rating": 7.7,
       "imdb_url": "https://www.imdb.com/title/tt1756855/"
+    },
+    {
+      "title": "You Can See Everything",
+      "release_date": "2026-09-06",
+      "providers": [],
+      "runtime": 174,
+      "rating": 9.0,
+      "imdb_url": "https://www.imdb.com/title/tt45368240/"
     }
   ]
 }
