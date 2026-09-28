@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25 09:18 UTC",
+  "updated_at": "2026-09-28 10:27 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -531,6 +531,13 @@
           "note": null
         },
         {
+          "id": 9,
+          "name": "Amazon Prime Video",
+          "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+          "priority": 4,
+          "note": null
+        },
+        {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
@@ -543,13 +550,6 @@
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
           "priority": 9,
           "note": "rent/buy"
-        },
-        {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
-          "priority": 10,
-          "note": null
         },
         {
           "id": 3,
@@ -2334,10 +2334,10 @@
     },
     {
       "title": "Coyote Vs Acme",
-      "release_date": "2026-08-20",
+      "release_date": "2026-08-17",
       "providers": [],
       "runtime": 103,
-      "rating": 7.5,
+      "rating": 7.6,
       "imdb_url": "https://www.imdb.com/title/tt1756855/"
     },
     {
