@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28 10:27 UTC",
+  "updated_at": "2026-10-01 10:40 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -60,7 +60,7 @@
           "id": 15,
           "name": "Hulu",
           "logo": "https://image.tmdb.org/t/p/original/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
-          "priority": 1,
+          "priority": 2,
           "note": null
         },
         {
@@ -127,6 +127,13 @@
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
           "priority": 9,
           "note": "rent/buy"
+        },
+        {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
+          "priority": 10,
+          "note": null
         },
         {
           "id": 3,
@@ -320,7 +327,7 @@
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/skypuy7SXuugIQeYg0IglmzoKaS.png",
-          "priority": 152,
+          "priority": 151,
           "note": null
         }
       ],
@@ -336,7 +343,7 @@
           "id": 15,
           "name": "Hulu",
           "logo": "https://image.tmdb.org/t/p/original/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
-          "priority": 1,
+          "priority": 2,
           "note": null
         },
         {
@@ -378,7 +385,7 @@
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/skypuy7SXuugIQeYg0IglmzoKaS.png",
-          "priority": 152,
+          "priority": 151,
           "note": null
         }
       ],
@@ -527,7 +534,7 @@
           "id": 15,
           "name": "Hulu",
           "logo": "https://image.tmdb.org/t/p/original/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
-          "priority": 1,
+          "priority": 2,
           "note": null
         },
         {
@@ -631,13 +638,6 @@
           "note": null
         },
         {
-          "id": 212,
-          "name": "Hoopla",
-          "logo": "https://image.tmdb.org/t/p/original/gtjNBzAoGgUtYzt0UKXmwG34WWL.png",
-          "priority": 36,
-          "note": null
-        },
-        {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
@@ -655,7 +655,7 @@
           "id": 73,
           "name": "Tubi TV",
           "logo": "https://image.tmdb.org/t/p/original/9dEuvA8wg5TSeFBZlPxSVxFdimJ.png",
-          "priority": 347,
+          "priority": 346,
           "note": null
         }
       ],
@@ -773,7 +773,7 @@
           "id": 73,
           "name": "Tubi TV",
           "logo": "https://image.tmdb.org/t/p/original/9dEuvA8wg5TSeFBZlPxSVxFdimJ.png",
-          "priority": 347,
+          "priority": 346,
           "note": null
         }
       ],
@@ -798,6 +798,13 @@
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
           "priority": 9,
           "note": "rent/buy"
+        },
+        {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
+          "priority": 10,
+          "note": null
         },
         {
           "id": 3,
@@ -838,7 +845,7 @@
           "id": 73,
           "name": "Tubi TV",
           "logo": "https://image.tmdb.org/t/p/original/9dEuvA8wg5TSeFBZlPxSVxFdimJ.png",
-          "priority": 347,
+          "priority": 346,
           "note": null
         }
       ],
@@ -926,7 +933,7 @@
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/skypuy7SXuugIQeYg0IglmzoKaS.png",
-          "priority": 152,
+          "priority": 151,
           "note": null
         }
       ],
@@ -1200,13 +1207,6 @@
           "note": null
         },
         {
-          "id": 212,
-          "name": "Hoopla",
-          "logo": "https://image.tmdb.org/t/p/original/gtjNBzAoGgUtYzt0UKXmwG34WWL.png",
-          "priority": 36,
-          "note": null
-        },
-        {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
@@ -1370,7 +1370,7 @@
           "id": 73,
           "name": "Tubi TV",
           "logo": "https://image.tmdb.org/t/p/original/9dEuvA8wg5TSeFBZlPxSVxFdimJ.png",
-          "priority": 347,
+          "priority": 346,
           "note": null
         }
       ],
@@ -1395,6 +1395,13 @@
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
           "priority": 9,
           "note": "rent/buy"
+        },
+        {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
+          "priority": 10,
+          "note": null
         },
         {
           "id": 3,
@@ -1435,7 +1442,7 @@
           "id": 73,
           "name": "Tubi TV",
           "logo": "https://image.tmdb.org/t/p/original/9dEuvA8wg5TSeFBZlPxSVxFdimJ.png",
-          "priority": 347,
+          "priority": 346,
           "note": null
         }
       ],
@@ -1486,7 +1493,7 @@
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/skypuy7SXuugIQeYg0IglmzoKaS.png",
-          "priority": 152,
+          "priority": 151,
           "note": null
         }
       ],
@@ -1571,13 +1578,6 @@
           "note": "rent/buy"
         },
         {
-          "id": 212,
-          "name": "Hoopla",
-          "logo": "https://image.tmdb.org/t/p/original/gtjNBzAoGgUtYzt0UKXmwG34WWL.png",
-          "priority": 36,
-          "note": null
-        },
-        {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
@@ -1632,7 +1632,7 @@
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/skypuy7SXuugIQeYg0IglmzoKaS.png",
-          "priority": 152,
+          "priority": 151,
           "note": null
         }
       ],
@@ -1683,7 +1683,7 @@
           "id": 73,
           "name": "Tubi TV",
           "logo": "https://image.tmdb.org/t/p/original/9dEuvA8wg5TSeFBZlPxSVxFdimJ.png",
-          "priority": 347,
+          "priority": 346,
           "note": null
         }
       ],
@@ -1743,7 +1743,7 @@
           "id": 15,
           "name": "Hulu",
           "logo": "https://image.tmdb.org/t/p/original/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
-          "priority": 1,
+          "priority": 2,
           "note": null
         },
         {
@@ -1924,7 +1924,7 @@
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/skypuy7SXuugIQeYg0IglmzoKaS.png",
-          "priority": 152,
+          "priority": 151,
           "note": null
         }
       ],
@@ -2048,7 +2048,7 @@
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/skypuy7SXuugIQeYg0IglmzoKaS.png",
-          "priority": 152,
+          "priority": 151,
           "note": null
         }
       ],
@@ -2335,7 +2335,36 @@
     {
       "title": "Coyote Vs Acme",
       "release_date": "2026-08-17",
-      "providers": [],
+      "providers": [
+        {
+          "id": 10,
+          "name": "Amazon Video",
+          "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+          "priority": 8,
+          "note": "rent/buy"
+        },
+        {
+          "id": 2,
+          "name": "Apple TV Store",
+          "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+          "priority": 9,
+          "note": "rent/buy"
+        },
+        {
+          "id": 7,
+          "name": "Fandango At Home",
+          "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+          "priority": 37,
+          "note": "rent/buy"
+        },
+        {
+          "id": 538,
+          "name": "Plex",
+          "logo": "https://image.tmdb.org/t/p/original/blAEhvx3XX8sV0fFVFk88FFjubs.png",
+          "priority": 124,
+          "note": "rent/buy"
+        }
+      ],
       "runtime": 103,
       "rating": 7.6,
       "imdb_url": "https://www.imdb.com/title/tt1756855/"
