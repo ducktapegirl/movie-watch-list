@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02 22:26 UTC",
+  "updated_at": "2026-10-04 10:22 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -675,6 +675,13 @@
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
           "priority": 9,
           "note": "rent/buy"
+        },
+        {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
+          "priority": 10,
+          "note": null
         },
         {
           "id": 3,
@@ -1571,6 +1578,13 @@
           "note": "rent/buy"
         },
         {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
+          "priority": 10,
+          "note": null
+        },
+        {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
@@ -1797,6 +1811,13 @@
       "title": "Nacho Libre",
       "release_date": "2006-06-16",
       "providers": [
+        {
+          "id": 9,
+          "name": "Amazon Prime Video",
+          "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+          "priority": 4,
+          "note": null
+        },
         {
           "id": 10,
           "name": "Amazon Video",
