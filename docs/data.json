@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04 10:22 UTC",
+  "updated_at": "2026-10-07 10:48 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -9,7 +9,7 @@
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/rK1KljqmbvO9HQa1PBFLILWah72.png",
-          "priority": 3,
+          "priority": 2,
           "note": null
         },
         {
@@ -60,7 +60,7 @@
           "id": 15,
           "name": "Hulu",
           "logo": "https://image.tmdb.org/t/p/original/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
-          "priority": 2,
+          "priority": 6,
           "note": null
         },
         {
@@ -111,7 +111,7 @@
           "id": 337,
           "name": "Disney Plus",
           "logo": "https://image.tmdb.org/t/p/original/5eZ872CghnHFLB1j8grszbrx0dx.png",
-          "priority": 6,
+          "priority": 5,
           "note": null
         },
         {
@@ -162,7 +162,7 @@
           "id": 337,
           "name": "Disney Plus",
           "logo": "https://image.tmdb.org/t/p/original/5eZ872CghnHFLB1j8grszbrx0dx.png",
-          "priority": 6,
+          "priority": 5,
           "note": null
         },
         {
@@ -213,7 +213,7 @@
           "id": 337,
           "name": "Disney Plus",
           "logo": "https://image.tmdb.org/t/p/original/5eZ872CghnHFLB1j8grszbrx0dx.png",
-          "priority": 6,
+          "priority": 5,
           "note": null
         },
         {
@@ -336,7 +336,7 @@
           "id": 15,
           "name": "Hulu",
           "logo": "https://image.tmdb.org/t/p/original/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
-          "priority": 2,
+          "priority": 6,
           "note": null
         },
         {
@@ -394,7 +394,7 @@
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/rK1KljqmbvO9HQa1PBFLILWah72.png",
-          "priority": 3,
+          "priority": 2,
           "note": null
         }
       ],
@@ -527,7 +527,7 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
-          "priority": 4,
+          "priority": 3,
           "note": null
         },
         {
@@ -650,7 +650,7 @@
           "id": 8,
           "name": "Netflix",
           "logo": "https://image.tmdb.org/t/p/original/rK1KljqmbvO9HQa1PBFLILWah72.png",
-          "priority": 3,
+          "priority": 2,
           "note": null
         }
       ],
@@ -1030,7 +1030,7 @@
           "id": 350,
           "name": "Apple TV",
           "logo": "https://image.tmdb.org/t/p/original/9icYBfYFcwgCbky5VdGUIKJ4C5i.png",
-          "priority": 5,
+          "priority": 4,
           "note": null
         },
         {
@@ -1088,7 +1088,7 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
-          "priority": 4,
+          "priority": 3,
           "note": null
         },
         {
@@ -1154,7 +1154,7 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
-          "priority": 4,
+          "priority": 3,
           "note": null
         },
         {
@@ -1372,7 +1372,7 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
-          "priority": 4,
+          "priority": 3,
           "note": null
         },
         {
@@ -1444,7 +1444,14 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
-          "priority": 4,
+          "priority": 3,
+          "note": null
+        },
+        {
+          "id": 15,
+          "name": "Hulu",
+          "logo": "https://image.tmdb.org/t/p/original/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+          "priority": 6,
           "note": null
         },
         {
@@ -1764,7 +1771,7 @@
           "id": 15,
           "name": "Hulu",
           "logo": "https://image.tmdb.org/t/p/original/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
-          "priority": 2,
+          "priority": 6,
           "note": null
         },
         {
@@ -1815,7 +1822,7 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
-          "priority": 4,
+          "priority": 3,
           "note": null
         },
         {
@@ -1969,7 +1976,7 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
-          "priority": 4,
+          "priority": 3,
           "note": null
         },
         {
@@ -2176,7 +2183,7 @@
         }
       ],
       "runtime": 88,
-      "rating": 5.8,
+      "rating": 5.9,
       "imdb_url": "https://www.imdb.com/title/tt0104187/"
     },
     {
@@ -2187,7 +2194,7 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
-          "priority": 4,
+          "priority": 3,
           "note": null
         },
         {
@@ -2290,7 +2297,7 @@
           "id": 350,
           "name": "Apple TV",
           "logo": "https://image.tmdb.org/t/p/original/9icYBfYFcwgCbky5VdGUIKJ4C5i.png",
-          "priority": 5,
+          "priority": 4,
           "note": null
         },
         {
