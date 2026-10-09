@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07 10:48 UTC",
+  "updated_at": "2026-10-09 16:22 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -769,8 +769,15 @@
     },
     {
       "title": "The Host",
-      "release_date": "2013-03-22",
+      "release_date": "2006-07-27",
       "providers": [
+        {
+          "id": 9,
+          "name": "Amazon Prime Video",
+          "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+          "priority": 3,
+          "note": null
+        },
         {
           "id": 10,
           "name": "Amazon Video",
@@ -800,10 +807,10 @@
           "note": "rent/buy"
         },
         {
-          "id": 207,
-          "name": "The Roku Channel",
-          "logo": "https://image.tmdb.org/t/p/original/b7uhrYJtAe7b1ieJGg705vTbwrX.png",
-          "priority": 29,
+          "id": 212,
+          "name": "Hoopla",
+          "logo": "https://image.tmdb.org/t/p/original/gtjNBzAoGgUtYzt0UKXmwG34WWL.png",
+          "priority": 36,
           "note": null
         },
         {
@@ -814,30 +821,16 @@
           "note": "rent/buy"
         },
         {
-          "id": 538,
-          "name": "Plex",
-          "logo": "https://image.tmdb.org/t/p/original/blAEhvx3XX8sV0fFVFk88FFjubs.png",
-          "priority": 124,
-          "note": null
-        },
-        {
           "id": 1963,
           "name": "Xumo Play",
           "logo": "https://image.tmdb.org/t/p/original/n6E9OeoQicCDd43PnLsMpVIVYFK.png",
           "priority": 166,
           "note": null
-        },
-        {
-          "id": 73,
-          "name": "Tubi TV",
-          "logo": "https://image.tmdb.org/t/p/original/9dEuvA8wg5TSeFBZlPxSVxFdimJ.png",
-          "priority": 346,
-          "note": null
         }
       ],
-      "runtime": 126,
-      "rating": 6.3,
-      "imdb_url": "https://www.imdb.com/title/tt1517260/"
+      "runtime": 120,
+      "rating": 7.0,
+      "imdb_url": "https://www.imdb.com/title/tt0468492/"
     },
     {
       "title": "Memories Of Murder",
@@ -958,6 +951,13 @@
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
           "priority": 37,
           "note": "rent/buy"
+        },
+        {
+          "id": 300,
+          "name": "Pluto TV",
+          "logo": "https://image.tmdb.org/t/p/original/fN4czqaMQNLeF6sSSIjGbAWzvwK.png",
+          "priority": 72,
+          "note": null
         },
         {
           "id": 538,
@@ -1190,6 +1190,13 @@
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/b7uhrYJtAe7b1ieJGg705vTbwrX.png",
           "priority": 29,
+          "note": null
+        },
+        {
+          "id": 212,
+          "name": "Hoopla",
+          "logo": "https://image.tmdb.org/t/p/original/gtjNBzAoGgUtYzt0UKXmwG34WWL.png",
+          "priority": 36,
           "note": null
         },
         {
