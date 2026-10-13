@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-10 10:23 UTC",
+  "updated_at": "2026-10-13 11:21 UTC",
   "movies": [
     {
       "title": "Jurassic World",
-      "release_date": "2025-06-23",
+      "release_date": "2015-06-06",
       "providers": [
         {
-          "id": 8,
-          "name": "Netflix",
-          "logo": "https://image.tmdb.org/t/p/original/rK1KljqmbvO9HQa1PBFLILWah72.png",
-          "priority": 2,
+          "id": 350,
+          "name": "Apple TV",
+          "logo": "https://image.tmdb.org/t/p/original/9icYBfYFcwgCbky5VdGUIKJ4C5i.png",
+          "priority": 4,
           "note": null
         },
         {
@@ -46,11 +46,18 @@
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
           "priority": 37,
           "note": "rent/buy"
+        },
+        {
+          "id": 2528,
+          "name": "YouTube TV",
+          "logo": "https://image.tmdb.org/t/p/original/48bVXEIyCLSL9pZUQ7gB9ToyWto.png",
+          "priority": 38,
+          "note": null
         }
       ],
-      "runtime": 134,
-      "rating": 6.2,
-      "imdb_url": "https://www.imdb.com/title/tt31036941/"
+      "runtime": 124,
+      "rating": 6.7,
+      "imdb_url": "https://www.imdb.com/title/tt0369610/"
     },
     {
       "title": "The Green Knight",
@@ -706,7 +713,7 @@
         }
       ],
       "runtime": 125,
-      "rating": 7.4,
+      "rating": 7.3,
       "imdb_url": "https://www.imdb.com/title/tt0199725/"
     },
     {
@@ -769,15 +776,8 @@
     },
     {
       "title": "The Host",
-      "release_date": "2006-07-27",
+      "release_date": "2013-03-22",
       "providers": [
-        {
-          "id": 9,
-          "name": "Amazon Prime Video",
-          "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
-          "priority": 3,
-          "note": null
-        },
         {
           "id": 10,
           "name": "Amazon Video",
@@ -807,10 +807,10 @@
           "note": "rent/buy"
         },
         {
-          "id": 212,
-          "name": "Hoopla",
-          "logo": "https://image.tmdb.org/t/p/original/gtjNBzAoGgUtYzt0UKXmwG34WWL.png",
-          "priority": 36,
+          "id": 207,
+          "name": "The Roku Channel",
+          "logo": "https://image.tmdb.org/t/p/original/b7uhrYJtAe7b1ieJGg705vTbwrX.png",
+          "priority": 29,
           "note": null
         },
         {
@@ -821,16 +821,30 @@
           "note": "rent/buy"
         },
         {
+          "id": 538,
+          "name": "Plex",
+          "logo": "https://image.tmdb.org/t/p/original/blAEhvx3XX8sV0fFVFk88FFjubs.png",
+          "priority": 124,
+          "note": null
+        },
+        {
           "id": 1963,
           "name": "Xumo Play",
           "logo": "https://image.tmdb.org/t/p/original/n6E9OeoQicCDd43PnLsMpVIVYFK.png",
           "priority": 166,
           "note": null
+        },
+        {
+          "id": 73,
+          "name": "Tubi TV",
+          "logo": "https://image.tmdb.org/t/p/original/9dEuvA8wg5TSeFBZlPxSVxFdimJ.png",
+          "priority": 346,
+          "note": null
         }
       ],
-      "runtime": 120,
-      "rating": 7.0,
-      "imdb_url": "https://www.imdb.com/title/tt0468492/"
+      "runtime": 126,
+      "rating": 6.3,
+      "imdb_url": "https://www.imdb.com/title/tt1517260/"
     },
     {
       "title": "Memories Of Murder",
@@ -1140,11 +1154,11 @@
     },
     {
       "title": "The Unknown",
-      "release_date": "2021-10-16",
+      "release_date": "1941-10-22",
       "providers": [],
-      "runtime": 23,
-      "rating": 7.8,
-      "imdb_url": "https://www.imdb.com/title/tt16288638/"
+      "runtime": 108,
+      "rating": 8.0,
+      "imdb_url": "https://www.imdb.com/title/tt0161609/"
     },
     {
       "title": "Next Three Days",
@@ -1170,6 +1184,13 @@
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
           "priority": 9,
           "note": "rent/buy"
+        },
+        {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
+          "priority": 10,
+          "note": null
         },
         {
           "id": 3,
@@ -2293,7 +2314,7 @@
       "release_date": "2026-10-16",
       "providers": [],
       "runtime": 174,
-      "rating": null,
+      "rating": 1.0,
       "imdb_url": "https://www.imdb.com/title/tt45368240/"
     },
     {
