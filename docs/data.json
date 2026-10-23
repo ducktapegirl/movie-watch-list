@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22 09:06 UTC",
+  "updated_at": "2026-10-23 14:21 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -784,13 +784,6 @@
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
           "priority": 11,
           "note": "rent/buy"
-        },
-        {
-          "id": 257,
-          "name": "fuboTV",
-          "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
-          "priority": 12,
-          "note": null
         },
         {
           "id": 3,
@@ -1832,7 +1825,7 @@
         }
       ],
       "runtime": 86,
-      "rating": 5.2,
+      "rating": 5.3,
       "imdb_url": "https://www.imdb.com/title/tt10449276/"
     },
     {
@@ -2307,7 +2300,7 @@
       "release_date": "2026-10-16",
       "providers": [],
       "runtime": 174,
-      "rating": 9.0,
+      "rating": 8.8,
       "imdb_url": "https://www.imdb.com/title/tt45368240/"
     },
     {
