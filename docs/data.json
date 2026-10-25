@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23 14:21 UTC",
+  "updated_at": "2026-10-25 08:54 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -1825,7 +1825,7 @@
         }
       ],
       "runtime": 86,
-      "rating": 5.3,
+      "rating": 5.2,
       "imdb_url": "https://www.imdb.com/title/tt10449276/"
     },
     {
@@ -2300,7 +2300,7 @@
       "release_date": "2026-10-16",
       "providers": [],
       "runtime": 174,
-      "rating": 8.8,
+      "rating": 9.2,
       "imdb_url": "https://www.imdb.com/title/tt45368240/"
     },
     {
