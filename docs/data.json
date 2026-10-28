@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-25 08:54 UTC",
+  "updated_at": "2026-10-28 10:17 UTC",
   "movies": [
     {
       "title": "Jurassic World",
-      "release_date": "2025-06-23",
+      "release_date": "2015-06-06",
       "providers": [
         {
-          "id": 8,
-          "name": "Netflix",
-          "logo": "https://image.tmdb.org/t/p/original/rK1KljqmbvO9HQa1PBFLILWah72.png",
-          "priority": 0,
+          "id": 350,
+          "name": "Apple TV",
+          "logo": "https://image.tmdb.org/t/p/original/9icYBfYFcwgCbky5VdGUIKJ4C5i.png",
+          "priority": 4,
           "note": null
         },
         {
@@ -46,11 +46,18 @@
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
           "priority": 39,
           "note": "rent/buy"
+        },
+        {
+          "id": 2528,
+          "name": "YouTube TV",
+          "logo": "https://image.tmdb.org/t/p/original/48bVXEIyCLSL9pZUQ7gB9ToyWto.png",
+          "priority": 40,
+          "note": null
         }
       ],
-      "runtime": 134,
-      "rating": 6.2,
-      "imdb_url": "https://www.imdb.com/title/tt31036941/"
+      "runtime": 124,
+      "rating": 6.7,
+      "imdb_url": "https://www.imdb.com/title/tt0369610/"
     },
     {
       "title": "The Green Knight",
@@ -1179,6 +1186,13 @@
           "note": "rent/buy"
         },
         {
+          "id": 257,
+          "name": "fuboTV",
+          "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
+          "priority": 12,
+          "note": null
+        },
+        {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
@@ -2282,13 +2296,6 @@
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
           "priority": 39,
           "note": "rent/buy"
-        },
-        {
-          "id": 538,
-          "name": "Plex",
-          "logo": "https://image.tmdb.org/t/p/original/blAEhvx3XX8sV0fFVFk88FFjubs.png",
-          "priority": 126,
-          "note": "rent/buy"
         }
       ],
       "runtime": 103,
@@ -2300,7 +2307,7 @@
       "release_date": "2026-10-16",
       "providers": [],
       "runtime": 174,
-      "rating": 9.2,
+      "rating": 9.1,
       "imdb_url": "https://www.imdb.com/title/tt45368240/"
     },
     {
