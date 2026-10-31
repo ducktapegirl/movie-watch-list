@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28 10:17 UTC",
+  "updated_at": "2026-10-31 10:08 UTC",
   "movies": [
     {
       "title": "Jurassic World",
@@ -9,49 +9,49 @@
           "id": 350,
           "name": "Apple TV",
           "logo": "https://image.tmdb.org/t/p/original/9icYBfYFcwgCbky5VdGUIKJ4C5i.png",
-          "priority": 4,
+          "priority": 5,
           "note": null
         },
         {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/48bVXEIyCLSL9pZUQ7gB9ToyWto.png",
-          "priority": 40,
+          "priority": 41,
           "note": null
         }
       ],
@@ -67,42 +67,42 @@
           "id": 15,
           "name": "Hulu",
           "logo": "https://image.tmdb.org/t/p/original/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
-          "priority": 6,
+          "priority": 7,
           "note": null
         },
         {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         }
       ],
@@ -118,42 +118,42 @@
           "id": 337,
           "name": "Disney Plus",
           "logo": "https://image.tmdb.org/t/p/original/5eZ872CghnHFLB1j8grszbrx0dx.png",
-          "priority": 5,
+          "priority": 6,
           "note": null
         },
         {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         }
       ],
@@ -169,42 +169,42 @@
           "id": 337,
           "name": "Disney Plus",
           "logo": "https://image.tmdb.org/t/p/original/5eZ872CghnHFLB1j8grszbrx0dx.png",
-          "priority": 5,
+          "priority": 6,
           "note": null
         },
         {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         }
       ],
@@ -220,63 +220,63 @@
           "id": 337,
           "name": "Disney Plus",
           "logo": "https://image.tmdb.org/t/p/original/5eZ872CghnHFLB1j8grszbrx0dx.png",
-          "priority": 5,
+          "priority": 6,
           "note": null
         },
         {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 257,
           "name": "fuboTV",
           "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
-          "priority": 12,
+          "priority": 11,
           "note": null
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/48bVXEIyCLSL9pZUQ7gB9ToyWto.png",
-          "priority": 40,
+          "priority": 41,
           "note": null
         },
         {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/blAEhvx3XX8sV0fFVFk88FFjubs.png",
-          "priority": 126,
+          "priority": 127,
           "note": "rent/buy"
         }
       ],
@@ -292,42 +292,42 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/skypuy7SXuugIQeYg0IglmzoKaS.png",
-          "priority": 153,
+          "priority": 154,
           "note": null
         }
       ],
@@ -343,49 +343,49 @@
           "id": 15,
           "name": "Hulu",
           "logo": "https://image.tmdb.org/t/p/original/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
-          "priority": 6,
+          "priority": 7,
           "note": null
         },
         {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/skypuy7SXuugIQeYg0IglmzoKaS.png",
-          "priority": 153,
+          "priority": 154,
           "note": null
         }
       ],
@@ -417,28 +417,28 @@
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         }
       ],
@@ -454,63 +454,63 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 207,
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/b7uhrYJtAe7b1ieJGg705vTbwrX.png",
-          "priority": 31,
+          "priority": 32,
           "note": null
         },
         {
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/gtjNBzAoGgUtYzt0UKXmwG34WWL.png",
-          "priority": 38,
+          "priority": 39,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 300,
           "name": "Pluto TV",
           "logo": "https://image.tmdb.org/t/p/original/fN4czqaMQNLeF6sSSIjGbAWzvwK.png",
-          "priority": 74,
+          "priority": 75,
           "note": null
         },
         {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/blAEhvx3XX8sV0fFVFk88FFjubs.png",
-          "priority": 126,
+          "priority": 127,
           "note": null
         }
       ],
@@ -534,56 +534,56 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
-          "priority": 3,
+          "priority": 4,
           "note": null
         },
         {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/48bVXEIyCLSL9pZUQ7gB9ToyWto.png",
-          "priority": 40,
+          "priority": 41,
           "note": null
         },
         {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/blAEhvx3XX8sV0fFVFk88FFjubs.png",
-          "priority": 126,
+          "priority": 127,
           "note": "rent/buy"
         }
       ],
@@ -599,49 +599,49 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 207,
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/b7uhrYJtAe7b1ieJGg705vTbwrX.png",
-          "priority": 31,
+          "priority": 32,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/blAEhvx3XX8sV0fFVFk88FFjubs.png",
-          "priority": 126,
+          "priority": 127,
           "note": "rent/buy"
         }
       ],
@@ -673,42 +673,42 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 257,
           "name": "fuboTV",
           "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
-          "priority": 12,
+          "priority": 11,
           "note": null
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         }
       ],
@@ -724,42 +724,42 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 207,
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/b7uhrYJtAe7b1ieJGg705vTbwrX.png",
-          "priority": 31,
+          "priority": 32,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
@@ -782,56 +782,56 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 207,
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/b7uhrYJtAe7b1ieJGg705vTbwrX.png",
-          "priority": 31,
+          "priority": 32,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/blAEhvx3XX8sV0fFVFk88FFjubs.png",
-          "priority": 126,
+          "priority": 127,
           "note": null
         },
         {
           "id": 1963,
           "name": "Xumo Play",
           "logo": "https://image.tmdb.org/t/p/original/n6E9OeoQicCDd43PnLsMpVIVYFK.png",
-          "priority": 168,
+          "priority": 169,
           "note": null
         },
         {
@@ -854,28 +854,28 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         }
       ],
@@ -891,42 +891,42 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/skypuy7SXuugIQeYg0IglmzoKaS.png",
-          "priority": 153,
+          "priority": 154,
           "note": null
         }
       ],
@@ -942,42 +942,42 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 300,
           "name": "Pluto TV",
           "logo": "https://image.tmdb.org/t/p/original/fN4czqaMQNLeF6sSSIjGbAWzvwK.png",
-          "priority": 74,
+          "priority": 75,
           "note": null
         },
         {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/blAEhvx3XX8sV0fFVFk88FFjubs.png",
-          "priority": 126,
+          "priority": 127,
           "note": "rent/buy"
         }
       ],
@@ -993,42 +993,42 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/blAEhvx3XX8sV0fFVFk88FFjubs.png",
-          "priority": 126,
+          "priority": 127,
           "note": "rent/buy"
         }
       ],
@@ -1044,49 +1044,49 @@
           "id": 350,
           "name": "Apple TV",
           "logo": "https://image.tmdb.org/t/p/original/9icYBfYFcwgCbky5VdGUIKJ4C5i.png",
-          "priority": 4,
+          "priority": 5,
           "note": null
         },
         {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/blAEhvx3XX8sV0fFVFk88FFjubs.png",
-          "priority": 126,
+          "priority": 127,
           "note": "rent/buy"
         }
       ],
@@ -1102,49 +1102,49 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
-          "priority": 3,
+          "priority": 4,
           "note": null
         },
         {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/48bVXEIyCLSL9pZUQ7gB9ToyWto.png",
-          "priority": 40,
+          "priority": 41,
           "note": null
         }
       ],
@@ -1168,63 +1168,63 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
-          "priority": 3,
+          "priority": 4,
           "note": null
         },
         {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 257,
           "name": "fuboTV",
           "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
-          "priority": 12,
+          "priority": 11,
           "note": null
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 207,
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/b7uhrYJtAe7b1ieJGg705vTbwrX.png",
-          "priority": 31,
+          "priority": 32,
           "note": null
         },
         {
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/gtjNBzAoGgUtYzt0UKXmwG34WWL.png",
-          "priority": 38,
+          "priority": 39,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         }
       ],
@@ -1240,49 +1240,49 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 386,
           "name": "Peacock Premium",
           "logo": "https://image.tmdb.org/t/p/original/a1UIdq5BrkcAxnxcUhFsNbXnxeu.png",
-          "priority": 18,
+          "priority": 19,
           "note": null
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/48bVXEIyCLSL9pZUQ7gB9ToyWto.png",
-          "priority": 40,
+          "priority": 41,
           "note": null
         }
       ],
@@ -1298,35 +1298,35 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         }
       ],
@@ -1342,42 +1342,42 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/gtjNBzAoGgUtYzt0UKXmwG34WWL.png",
-          "priority": 38,
+          "priority": 39,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
@@ -1400,56 +1400,56 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
-          "priority": 3,
+          "priority": 4,
           "note": null
         },
         {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 207,
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/b7uhrYJtAe7b1ieJGg705vTbwrX.png",
-          "priority": 31,
+          "priority": 32,
           "note": null
         },
         {
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/gtjNBzAoGgUtYzt0UKXmwG34WWL.png",
-          "priority": 38,
+          "priority": 39,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
@@ -1472,70 +1472,70 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
-          "priority": 3,
+          "priority": 4,
           "note": null
         },
         {
           "id": 15,
           "name": "Hulu",
           "logo": "https://image.tmdb.org/t/p/original/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
-          "priority": 6,
+          "priority": 7,
           "note": null
         },
         {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/gtjNBzAoGgUtYzt0UKXmwG34WWL.png",
-          "priority": 38,
+          "priority": 39,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/skypuy7SXuugIQeYg0IglmzoKaS.png",
-          "priority": 153,
+          "priority": 154,
           "note": null
         },
         {
           "id": 1963,
           "name": "Xumo Play",
           "logo": "https://image.tmdb.org/t/p/original/n6E9OeoQicCDd43PnLsMpVIVYFK.png",
-          "priority": 168,
+          "priority": 169,
           "note": null
         },
         {
@@ -1558,35 +1558,35 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         }
       ],
@@ -1602,42 +1602,42 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 257,
           "name": "fuboTV",
           "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
-          "priority": 12,
+          "priority": 11,
           "note": null
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         }
       ],
@@ -1653,42 +1653,42 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/skypuy7SXuugIQeYg0IglmzoKaS.png",
-          "priority": 153,
+          "priority": 154,
           "note": null
         }
       ],
@@ -1704,35 +1704,35 @@
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 257,
           "name": "fuboTV",
           "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
-          "priority": 12,
+          "priority": 11,
           "note": null
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
@@ -1755,35 +1755,35 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         }
       ],
@@ -1799,42 +1799,42 @@
           "id": 15,
           "name": "Hulu",
           "logo": "https://image.tmdb.org/t/p/original/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
-          "priority": 6,
+          "priority": 7,
           "note": null
         },
         {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         }
       ],
@@ -1850,63 +1850,63 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
-          "priority": 3,
+          "priority": 4,
           "note": null
         },
         {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/gtjNBzAoGgUtYzt0UKXmwG34WWL.png",
-          "priority": 38,
+          "priority": 39,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 300,
           "name": "Pluto TV",
           "logo": "https://image.tmdb.org/t/p/original/fN4czqaMQNLeF6sSSIjGbAWzvwK.png",
-          "priority": 74,
+          "priority": 75,
           "note": null
         },
         {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/blAEhvx3XX8sV0fFVFk88FFjubs.png",
-          "priority": 126,
+          "priority": 127,
           "note": "rent/buy"
         }
       ],
@@ -1922,14 +1922,14 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/gtjNBzAoGgUtYzt0UKXmwG34WWL.png",
-          "priority": 38,
+          "priority": 39,
           "note": null
         }
       ],
@@ -1953,42 +1953,42 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 207,
           "name": "The Roku Channel",
           "logo": "https://image.tmdb.org/t/p/original/b7uhrYJtAe7b1ieJGg705vTbwrX.png",
-          "priority": 31,
+          "priority": 32,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         }
       ],
@@ -2004,56 +2004,56 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
-          "priority": 3,
+          "priority": 4,
           "note": null
         },
         {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/blAEhvx3XX8sV0fFVFk88FFjubs.png",
-          "priority": 126,
+          "priority": 127,
           "note": "rent/buy"
         },
         {
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/skypuy7SXuugIQeYg0IglmzoKaS.png",
-          "priority": 153,
+          "priority": 154,
           "note": null
         }
       ],
@@ -2069,42 +2069,42 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/gtjNBzAoGgUtYzt0UKXmwG34WWL.png",
-          "priority": 38,
+          "priority": 39,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         }
       ],
@@ -2120,49 +2120,49 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 257,
           "name": "fuboTV",
           "logo": "https://image.tmdb.org/t/p/original/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
-          "priority": 12,
+          "priority": 11,
           "note": null
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 2528,
           "name": "YouTube TV",
           "logo": "https://image.tmdb.org/t/p/original/48bVXEIyCLSL9pZUQ7gB9ToyWto.png",
-          "priority": 40,
+          "priority": 41,
           "note": null
         }
       ],
@@ -2178,35 +2178,35 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         }
       ],
@@ -2222,49 +2222,49 @@
           "id": 9,
           "name": "Amazon Prime Video",
           "logo": "https://image.tmdb.org/t/p/original/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
-          "priority": 3,
+          "priority": 4,
           "note": null
         },
         {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 538,
           "name": "Plex",
           "logo": "https://image.tmdb.org/t/p/original/blAEhvx3XX8sV0fFVFk88FFjubs.png",
-          "priority": 126,
+          "priority": 127,
           "note": "rent/buy"
         }
       ],
@@ -2280,26 +2280,26 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         }
       ],
       "runtime": 103,
-      "rating": 7.5,
+      "rating": 7.9,
       "imdb_url": "https://www.imdb.com/title/tt1756855/"
     },
     {
@@ -2318,42 +2318,42 @@
           "id": 350,
           "name": "Apple TV",
           "logo": "https://image.tmdb.org/t/p/original/9icYBfYFcwgCbky5VdGUIKJ4C5i.png",
-          "priority": 4,
+          "priority": 5,
           "note": null
         },
         {
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         }
       ],
@@ -2369,49 +2369,49 @@
           "id": 10,
           "name": "Amazon Video",
           "logo": "https://image.tmdb.org/t/p/original/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
-          "priority": 10,
+          "priority": 9,
           "note": "rent/buy"
         },
         {
           "id": 2,
           "name": "Apple TV Store",
           "logo": "https://image.tmdb.org/t/p/original/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
-          "priority": 11,
+          "priority": 10,
           "note": "rent/buy"
         },
         {
           "id": 3,
           "name": "Google Play Movies",
           "logo": "https://image.tmdb.org/t/p/original/aZRENwYILujqs0RVOZutTh0BVGV.png",
-          "priority": 22,
+          "priority": 23,
           "note": "rent/buy"
         },
         {
           "id": 192,
           "name": "YouTube",
           "logo": "https://image.tmdb.org/t/p/original/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
-          "priority": 23,
+          "priority": 24,
           "note": "rent/buy"
         },
         {
           "id": 212,
           "name": "Hoopla",
           "logo": "https://image.tmdb.org/t/p/original/gtjNBzAoGgUtYzt0UKXmwG34WWL.png",
-          "priority": 38,
+          "priority": 39,
           "note": null
         },
         {
           "id": 7,
           "name": "Fandango At Home",
           "logo": "https://image.tmdb.org/t/p/original/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
-          "priority": 39,
+          "priority": 40,
           "note": "rent/buy"
         },
         {
           "id": 1899,
           "name": "HBO Max",
           "logo": "https://image.tmdb.org/t/p/original/skypuy7SXuugIQeYg0IglmzoKaS.png",
-          "priority": 153,
+          "priority": 154,
           "note": null
         }
       ],
